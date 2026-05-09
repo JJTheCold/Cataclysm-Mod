@@ -377,9 +377,12 @@
       {
         "type": "RegionPart",
         "suffix": "-spike",
-        "moveX": 13,
+        "moveX": 45,
         "under": true,
-        "moveY": 13,
+        "moveY": 45,
+        "heatColor": "8dbbff",
+          "x": -8,
+          "y": -8,
         "progress": {
           "type": "warmup",
           "op": "blend",
@@ -391,9 +394,10 @@
       {
         "type": "RegionPart",
         "suffix": "-spike",
-        "moveX": 6,
+        "moveX": 25,
         "under": true,
-        "moveY": 6,
+        "moveY": 25,
+        "heatColor": "8dbbff",
           "x": -8,
           "y": 25,
         "progress": {
