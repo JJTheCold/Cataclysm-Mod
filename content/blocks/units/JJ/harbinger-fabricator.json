@@ -11,7 +11,7 @@
 ],
 "requirements": [
     "carborundum/300",
-    "Durunax/250",
+    "Dytrium/250",
     "Gavolite/200"
   ],
 "plans": [
@@ -19,7 +19,7 @@
       "unit": "Quill",
       "requirements": [
         {
-          "item": "Durunax",
+          "item": "Dytrium",
           "amount": 25
         },
         {

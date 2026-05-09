@@ -8,11 +8,11 @@ solid: false
 range: 6
 researchCost: [
   Ordanium/250
-  Durunax/100
+  Dytrium/100
 ]
 speed: 6
 health: 250
 requirements: [
   Ordanium/10
-  Durunax/20
+  Dytrium/20
 ]

@@ -1,0 +1,9 @@
+{
+  "type": "TallBlock",
+  "name": "Neverock Shard",
+  "variants": 2,
+  "clipSize": 120,
+  "shadowOffset": 0,
+  "shadowAlpha": 0,
+  "emitLight": false
+}

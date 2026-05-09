@@ -2,7 +2,7 @@
   "type": "PayloadConveyor",
   "name": "Payload Transporter",
   "requirements": [
-    "Durunax/20",
+    "Dytrium/20",
     "carborundum/5"
   ],
   "moveTime": 45,

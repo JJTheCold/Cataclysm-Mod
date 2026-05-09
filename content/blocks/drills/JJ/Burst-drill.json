@@ -14,7 +14,7 @@
   "hardnessDrillMultiplier": 10,
   "expanded": true,
  "requirements": [
-     "Durunax/15",
+     "Dytrium/15",
      "Ordanium/25"
   ],
    "category": "production",

@@ -6,7 +6,7 @@
   "health": 8550,
   "squareSprite": true,
   "requirements": [
-    "Durunax/54"
+    "Dytrium/54"
   ],
   "research": "large-quartz-wall",
   "category": "defense",

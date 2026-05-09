@@ -15,7 +15,7 @@
   "unitType": "signal",
   "requirements": [
     "carborundum/500",
-    "Durunax/750",
+    "Dytrium/750",
     "Gavolite/500"
   ],
   "category": "effect"

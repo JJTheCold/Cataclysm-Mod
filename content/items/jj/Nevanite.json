@@ -1,0 +1,10 @@
+{
+    "name": "Ordanium",
+    "description": "A metalic stone. Cool to the touch.",
+    "hardness": 1,
+    "cost": 1.5,
+    "alwaysUnlocked": false,
+    "color": "97a5b6",
+    "research": "Ordanium",
+    "hiddenOnPlanets": ["serpulo", "erekir"]
+}

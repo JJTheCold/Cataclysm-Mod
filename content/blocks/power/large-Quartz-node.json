@@ -12,7 +12,7 @@
   "category": "power",
   "research": "Quartz-node",
   "requirements": [
-    "Durunax/30",
+    "Dytrium/30",
     "carborundum/20"
   ]
 }

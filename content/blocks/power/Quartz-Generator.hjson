@@ -7,7 +7,7 @@ minEfficiency: 1
 displayEfficiency: false
 consumes: {
   items: [
-    Durunax/1
+    Dytrium/1
   ]
 }
 ignoreLiquidFullness: true
@@ -40,7 +40,7 @@ powerProduction: 4
 category: power
 research: Cavern-core
 requirements: [
-  Durunax/150
+  Dytrium/150
   Ordanium/100
 ]
 itemCapacity: 25

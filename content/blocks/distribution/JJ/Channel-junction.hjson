@@ -9,11 +9,11 @@ capacity: 12
 range: 6
 researchCost: [
   Ordanium/350
-  Durunax/150
+  Dytrium/150
 ]
 speed: 6
 health: 120
 requirements: [
   Ordanium/5
-  Durunax/10
+  Dytrium/10
 ]

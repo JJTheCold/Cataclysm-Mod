@@ -55,7 +55,7 @@ category: crafting
 research: carborundum-smelter
 requirements: [
   Thaxon/75
-  Durunax/150
+  Dytrium/150
   Gavolite/120
 ]
 itemCapacity: 20

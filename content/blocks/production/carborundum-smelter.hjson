@@ -7,7 +7,7 @@ craftTime: 60
 consumes: {
   items: [
     Gavolite/1
-    Durunax/2
+    Dytrium/2
   ]
 power: 3
 }
@@ -49,6 +49,6 @@ research: Quartz-Generator
 craftEffect: smokeCloud
 requirements: [
   Gavolite/50
-  Durunax/100
+  Dytrium/100
 ]
 itemCapacity: 10

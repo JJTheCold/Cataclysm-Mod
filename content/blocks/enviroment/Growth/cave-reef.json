@@ -1,5 +1,6 @@
 {
   "type": "SeaBush",
   "name": "Cave Reef",
-  "walkSound ": "stepMud"
+  "walkSound ": "stepMud",
+  "clipSize": 120
 }

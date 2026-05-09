@@ -2,7 +2,7 @@
   "type": "PayloadConveyor",
   "name": "Payload Hauler",
   "requirements": [
-    "Durunax/50",
+    "Dytrium/50",
     "Thaxon/20",
     "carborundum/50"
   ],

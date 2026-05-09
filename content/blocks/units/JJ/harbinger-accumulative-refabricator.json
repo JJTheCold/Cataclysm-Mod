@@ -11,7 +11,7 @@
     "Thaxon-Steel/100",
     "Gavolite/250",
     "Thoralius/250",
-    "Durunax/750"
+    "Dytrium/750"
       ],
     "liquid": {
       "liquid": "Thaxus",
@@ -20,7 +20,7 @@
   },
   "requirements": [
     "carborundum/250",
-    "Durunax/750",
+    "Dytrium/750",
     "Thoralius/150",
     "Thaxon-Steel/180",
     "Gavolite/500"

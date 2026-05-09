@@ -16,6 +16,6 @@ type: BeamDrill
     boosted: true
   }
   requirements: [
-  Durunax/100
+  Dytrium/100
   Ordanium/75
   ]

@@ -30,7 +30,7 @@
     "amount": 0.12
   },
   "ammoTypes": {
-    "Durunax": {
+    "Dytrium": {
       "damage": 220,
       "width": 25,
       "ammoMultiplier": 2,
@@ -112,7 +112,7 @@
   "requirements": [
     "carborundum/125",
     "Ordanium/100",
-    "Durunax/200"
+    "Dytrium/200"
   ],
   "category": "turret",
   "research": "blast"
