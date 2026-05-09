@@ -6,7 +6,7 @@ size: 3
 craftTime: 30
 consumes: {
   items: [
-    Tronite/2
+    Durunax/2
     Thaxon/1
   ]
 power: 4.5
@@ -77,7 +77,7 @@ effect: [
 category: crafting
 research: Quartz-Generator
 requirements: [
-Tronite/100
+Durunax/100
 Thaxon/150
 carborundum/150
 ]

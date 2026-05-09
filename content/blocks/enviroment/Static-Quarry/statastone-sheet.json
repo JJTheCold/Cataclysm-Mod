@@ -1,5 +1,6 @@
 {
   "type": "Floor",
   "name": "Statastone Sheet",
+  "blendGroup": "bright-statastone-floor",
   "variants": 4
 }

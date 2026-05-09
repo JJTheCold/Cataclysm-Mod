@@ -6,7 +6,7 @@ alwaysUnlocked: true
 research: Quartz-core
 bridgeReplacement: Channel-bridge
 researchCost: [
-  Tronite/50
+  Durunax/50
 ]
 speed: 6
 health: 125

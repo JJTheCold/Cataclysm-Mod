@@ -6,7 +6,7 @@
   "health": 10800,
   "squareSprite": true,
   "requirements": [
-    "Tronite/72"
+    "Durunax/72"
   ],
   "research": "Large-Ordanium-wall",
   "category": "defense",

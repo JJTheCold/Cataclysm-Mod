@@ -6,7 +6,7 @@ size: 6
 craftTime: 80
 consumes: {
   items: [
-    Tronite/5
+    Durunax/5
     Thaxon/3
     Geosium/1
     Ordanium/5
@@ -65,6 +65,6 @@ Thaxon/200
 Silver/150
 carborundum/250
 Ordanium/5
-Tronite/5
+Durunax/5
 ]
 itemCapacity: 30

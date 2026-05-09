@@ -11,7 +11,7 @@
 ],
 "requirements": [
     "carborundum/300",
-    "Tronite/250",
+    "Durunax/250",
     "Gavolite/200"
   ],
 "plans": [
@@ -19,7 +19,7 @@
       "unit": "Quill",
       "requirements": [
         {
-          "item": "Tronite",
+          "item": "Durunax",
           "amount": 25
         },
         {

@@ -16,7 +16,7 @@
   "shootCone": 3,
   "requirements": [
     "Ordanium/50",
-    "Tronite/100"
+    "Durunax/100"
   ],
   "shoot": {
     "type": "ShootAlternate",
@@ -39,7 +39,7 @@
   },
   "shootSound": "shootAlt",
   "ammoTypes": {
-    "Tronite": {
+    "Durunax": {
       "type": "BasicBulletType",
       "speed": 10,
       "lifetime": 28,

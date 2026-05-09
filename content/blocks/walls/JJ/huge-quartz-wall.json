@@ -6,7 +6,7 @@
   "health": 8550,
   "squareSprite": true,
   "requirements": [
-    "Tronite/54"
+    "Durunax/54"
   ],
   "research": "large-quartz-wall",
   "category": "defense",

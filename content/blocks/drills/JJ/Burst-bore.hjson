@@ -16,6 +16,6 @@ type: BeamDrill
     boosted: true
   }
   requirements: [
-  Tronite/100
+  Durunax/100
   Ordanium/75
   ]

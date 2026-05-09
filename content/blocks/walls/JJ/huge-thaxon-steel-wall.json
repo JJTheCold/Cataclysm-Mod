@@ -7,7 +7,7 @@
   "squareSprite": true,
   "requirements": [
     "Thaxon-Steel/72",
-    "Tronite/108"
+    "Durunax/108"
   ],
   "research": "huge-quartz-wall",
   "category": "defense",

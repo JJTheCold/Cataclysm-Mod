@@ -72,6 +72,6 @@ category: crafting
 research: Quartz-Generator
 requirements: [
   Ordanium/50
-  Tronite/100
+  Durunax/100
 ]
 itemCapacity: 10

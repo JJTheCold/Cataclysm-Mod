@@ -12,7 +12,7 @@
   "category": "power",
   "research": "Quartz-node",
   "requirements": [
-    "Tronite/30",
+    "Durunax/30",
     "carborundum/20"
   ]
 }

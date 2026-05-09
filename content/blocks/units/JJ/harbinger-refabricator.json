@@ -9,13 +9,13 @@
     "power": 1.5,
     "items": [
     "carborundum/60",
-    "Tronite/100",
+    "Durunax/100",
     "Gavolite/40"
       ]
   },
   "requirements": [
     "carborundum/100",
-    "Tronite/250",
+    "Durunax/250",
     "Thaxon/150",
     "Silver/150",
     "Gavolite/100"

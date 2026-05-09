@@ -30,7 +30,7 @@
     "amount": 0.12
   },
   "ammoTypes": {
-    "Tronite": {
+    "Durunax": {
       "damage": 220,
       "width": 25,
       "ammoMultiplier": 2,
@@ -112,7 +112,7 @@
   "requirements": [
     "carborundum/125",
     "Ordanium/100",
-    "Tronite/200"
+    "Durunax/200"
   ],
   "category": "turret",
   "research": "blast"
