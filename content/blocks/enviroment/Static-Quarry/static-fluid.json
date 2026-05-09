@@ -10,7 +10,7 @@
   "albedo": 0.2,
   "status": "electrified",
   "emitLight": true,
-  "lightRadius": 15,
+  "lightRadius": 55,
   "cacheLayer": "cryofluid",
   "liquidDrop": "liquid-staticfluid"
 }
