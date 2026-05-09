@@ -388,7 +388,7 @@
           "type": "warmup",
           "op": "blend",
           "other": "heat",
-          "amount": 0.2
+          "amount": 0.6
         },
         "mirror": true
       },
@@ -406,7 +406,7 @@
           "type": "warmup",
           "op": "blend",
           "other": "heat",
-          "amount": 0.2
+          "amount": 0.8
         },
         "mirror": true
       }
