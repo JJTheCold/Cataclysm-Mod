@@ -8,5 +8,5 @@
   "albedo": 0.5,
   "status": "electrified",
   "cacheLayer": "cryofluid",
-  "liquidDrop": "static-fluid"
+  "liquidDrop": "liquid-staticfluid"
 }
