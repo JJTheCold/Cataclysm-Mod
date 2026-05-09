@@ -397,7 +397,7 @@
         "moveX": 25,
         "under": true,
         "moveY": 25,
-        "moveRot": 4,
+        "moveRot": 20,
         "heatColor": "8dbbff",
           "x": -8,
           "y": 25,
