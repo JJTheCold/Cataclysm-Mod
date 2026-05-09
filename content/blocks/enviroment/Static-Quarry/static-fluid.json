@@ -1,11 +1,11 @@
 {
   "type": "Floor",
-  "speedMultiplier": 0.5,
+  "speedMultiplier": 1.5,
   "variants": 0,
-  "statusDuration": 60,
+  "statusDuration": 230,
   "isLiquid": "true",
-  "temperature": "2",
-  "albedo": 0.5,
+  "temperature": "1.2",
+  "albedo": 0.2,
   "status": "electrified",
   "cacheLayer": "cryofluid",
   "liquidDrop": "liquid-staticfluid"
