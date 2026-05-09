@@ -381,8 +381,8 @@
         "under": true,
         "moveY": 20,
         "moveRot": -20,
-        "heatColor": "8dbbff",
-          "x": -8,
+        "heatColor": "8dbbff", 
+          "x": -4,
           "y": -8,
         "progress": {
           "type": "warmup",
