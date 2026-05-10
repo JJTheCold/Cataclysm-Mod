@@ -1,5 +1,6 @@
 {
   "type": "Floor",
   "name": "Bubbling Pyric Stone Floor",
-  "variants": 4
+  "variants": 4,
+  "blendGroup": "pyric-bubbling-stone-floor"
 }
