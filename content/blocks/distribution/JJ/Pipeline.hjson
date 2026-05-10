@@ -15,6 +15,3 @@ requirements: [
   pane/1
   Thaxon/1
 ]
-lightRadius: 15
-lightColor: BCB6B6FF
-emitLight: true

@@ -1,0 +1,23 @@
+{
+  "type": "SeaBush",
+  "name": "Red Pyrium Crystal",
+  "crushFragile": false,
+  "layer": 74,
+  "solid": true,
+  "instantDeconstruct": false,
+  "placeableOn": false,
+  "clipSize": 300,
+  "lobesMax": "4",
+  "lobesMin": "3",
+  "emitLight": true,
+  "lightAlpha": 0.4,
+  "lightRadius": 150,
+  "albedo": 0.2,
+  "magMin": 0,
+  "magMax": 0,
+  "lightColor": "CBB73840",
+  "unitMoveBreakable": false,
+  "breakable": false,
+  "alwaysReplace": false,
+  "replaceable": false
+}
