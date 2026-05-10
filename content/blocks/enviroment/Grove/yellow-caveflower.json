@@ -3,7 +3,7 @@
   "name": "Yellow Cave Flower",
   "walkSound ": "stepMud",
   "crushFragile": false,
-  "layer": 108,
+  "layer": 62,
   "solid": true,
   "instantDeconstruct": false,
   "placeableOn": false,

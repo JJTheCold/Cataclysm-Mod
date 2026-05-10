@@ -1,6 +1,6 @@
 {
   "name": "Gacrux",
-  "description": "UNIT INDENTIFICATION:[#3192ff]EXOGENESIS[]   Fires piercing cold energy bolts.",
+  "description": "[UNIT INDENTIFICATION:[#3192ff]EXOGENESIS[]]      Fires piercing cold energy bolts.",
   "details": "Another machine that emerged from the rift. The ones who constructed it go by 'Genesux'. It seemlessly adaped to the cave environment, despite usually flying at high altitudes.",
   "type": "flying",
   "lowAltitude": true,
