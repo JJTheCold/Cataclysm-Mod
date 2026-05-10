@@ -1,7 +1,7 @@
 {
   "type": "Floor",
   "localizedName": "Orange Pyrus",
-  "lightColor": "CC803990",
+  "lightColor": "CC80399E",
   "speedMultiplier": 0.5,
   "variants": 0,
   "statusDuration": 250,
