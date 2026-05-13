@@ -2,7 +2,7 @@
   "localizedName": "Burning Pyrus",
   "description": "Used for more advanced Hadean tech. Still extreamly hot.",
   "temperature": 1,
-  "flammability": 2,
+  "flammability": 0,
   "capPuddles": true,
   "explosiveness": 0.8,
   "color": "ff900f",
