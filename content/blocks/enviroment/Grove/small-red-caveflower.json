@@ -11,7 +11,7 @@
   "lobesMax": "5",
   "lobesMin": "5",
   "emitLight": true,
-  "lightRadius": 150,
+  "lightRadius": 200,
   "lightColor": "FF2B0061",
   "unitMoveBreakable": false,
   "breakable": false,
