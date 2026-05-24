@@ -37,7 +37,7 @@ category: crafting
 research: Quartz-Generator
 requirements: [
   Geosium/100
-  carborundum/100
+  Tronian-Silicon/100
   Thaxium/75
   Thoralius/50
 ]

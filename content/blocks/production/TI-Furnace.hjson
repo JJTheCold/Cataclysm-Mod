@@ -52,7 +52,7 @@ outputLiquids: [
   Thaxus/0.3
 ]
 category: crafting
-research: carborundum-smelter
+research: Tronian-Silicon-smelter
 requirements: [
   Thaxon/75
   Dytrium/150

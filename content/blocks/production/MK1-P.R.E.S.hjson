@@ -1,7 +1,7 @@
 
 type: GenericCrafter
 name: Mass Press
-description: Produces Carborundum and Gavolite at a very fast rate.
+description: Produces Tronian-Silicon and Gavolite at a very fast rate.
 size: 6
 craftTime: 80
 consumes: {
@@ -55,7 +55,7 @@ drawers: [
 ]
 }
 outputItems: [
-  carborundum/10
+  Tronian-Silicon/10
   Gavolite/10
 ]
 category: crafting
@@ -63,7 +63,7 @@ research: Quartz-Generator
 requirements: [
 Thaxon/200
 Silver/150
-carborundum/250
+Tronian-Silicon/250
 Ordanium/5
 Dytrium/5
 ]

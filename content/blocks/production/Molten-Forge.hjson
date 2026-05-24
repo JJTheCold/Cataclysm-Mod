@@ -7,7 +7,7 @@ craftTime: 50
 consumes: {
   items: [
     Thaxium/2
-    carborundum/2
+    Tronian-Silicon/2
     Thoralius/2
     Gavolite/4
   ]
@@ -83,7 +83,7 @@ outputItems: [
 category: crafting
 research: Cell-Fuser
 requirements: [
-  carborundum/400
+  Tronian-Silicon/400
   Thaxium/200
   Gavolite/520
   Thoralius/120

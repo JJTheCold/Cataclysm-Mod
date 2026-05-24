@@ -8,13 +8,13 @@
   "consumes": {
     "power": 1.5,
     "items": [
-    "carborundum/60",
+    "Tronian-Silicon/60",
     "Dytrium/100",
     "Gavolite/40"
       ]
   },
   "requirements": [
-    "carborundum/100",
+    "Tronian-Silicon/100",
     "Dytrium/250",
     "Thaxon/150",
     "Silver/150",

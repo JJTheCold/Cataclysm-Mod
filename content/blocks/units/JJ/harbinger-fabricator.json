@@ -10,7 +10,7 @@
   "power", 1.5
 ],
 "requirements": [
-    "carborundum/300",
+    "Tronian-Silicon/300",
     "Dytrium/250",
     "Gavolite/200"
   ],
@@ -23,7 +23,7 @@
           "amount": 25
         },
         {
-          "item": "carborundum",
+          "item": "Tronian-Silicon",
           "amount": 20
         }
       ],

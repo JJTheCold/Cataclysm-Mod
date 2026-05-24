@@ -14,7 +14,7 @@
   "researchCostMultiplier": 0.1,
   "unitType": "ram",
   "requirements": [
-    "carborundum/1500",
+    "Tronian-Silicon/1500",
     "Dytrium/750",
     "Gavolite/1500",
     "Thaxon/500",

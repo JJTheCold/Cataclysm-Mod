@@ -7,7 +7,7 @@
   "consumes": {
     "power": 3,
     "items":[
-    "carborundum/225",
+    "Tronian-Silicon/225",
     "Thaxon-Steel/100",
     "Gavolite/250",
     "Thoralius/250",
@@ -19,7 +19,7 @@
     }
   },
   "requirements": [
-    "carborundum/250",
+    "Tronian-Silicon/250",
     "Dytrium/750",
     "Thoralius/150",
     "Thaxon-Steel/180",

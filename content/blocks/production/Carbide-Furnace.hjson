@@ -6,7 +6,7 @@ size: 7
 craftTime: 150
 consumes: {
   items: [
-    carborundum/4
+    Tronian-Silicon/4
     Gavolite/8
   ]
 power: 2
@@ -37,7 +37,7 @@ outputItems: [
 category: crafting
 research: Quartz-Generator
 requirements: [
-  carborundum/350
+  Tronian-Silicon/350
   Ordanium/400
   Thaxium/250
   Geode-catalyst/275

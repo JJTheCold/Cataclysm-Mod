@@ -1,7 +1,7 @@
 
 type: GenericCrafter
-name: Carborundum Smelter
-description: Produces carborundum.
+name: Silicon Smelter
+description: Produces Tronian-Silicon.
 size: 3
 craftTime: 60
 consumes: {
@@ -42,7 +42,7 @@ drawers: [
 ]
 }
 outputItems: [
-  carborundum/3
+  Tronian-Silicon/3
 ]
 category: crafting
 research: Quartz-Generator

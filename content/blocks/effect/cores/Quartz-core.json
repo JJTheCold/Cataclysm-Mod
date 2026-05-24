@@ -14,7 +14,7 @@
   "researchCostMultiplier": 0.1,
   "unitType": "signal",
   "requirements": [
-    "carborundum/500",
+    "Tronian-Silicon/500",
     "Dytrium/750",
     "Gavolite/500"
   ],

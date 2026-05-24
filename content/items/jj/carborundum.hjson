@@ -1,8 +1,0 @@
-name: carborundum
-description: Vital for most structures
-hardness: 2
-cost: 0.5
-alwaysUnlocked: true
-color: 628b9d
-research: item-SurgeQuartz
-hiddenOnPlanets: [serpulo]

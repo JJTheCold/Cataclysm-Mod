@@ -110,7 +110,7 @@
   }
   },
   "requirements": [
-    "carborundum/125",
+    "Tronian-Silicon/125",
     "Ordanium/100",
     "Dytrium/200"
   ],
