@@ -1,7 +1,7 @@
 
 type: GenericCrafter
-name: Silicon Smelter
-description: Produces Tronian-Silicon.
+name: Silicide Smelter
+description: Produces Silicide.
 size: 3
 craftTime: 60
 consumes: {
@@ -42,7 +42,7 @@ drawers: [
 ]
 }
 outputItems: [
-  Tronian-Silicon/3
+  Silicide/3
 ]
 category: crafting
 research: Quartz-Generator

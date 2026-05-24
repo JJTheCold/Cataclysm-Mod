@@ -10,7 +10,7 @@
   "power", 1.5
 ],
 "requirements": [
-    "Tronian-Silicon/300",
+    "Silicide/300",
     "Dytrium/250",
     "Gavolite/200"
   ],
@@ -23,7 +23,7 @@
           "amount": 25
         },
         {
-          "item": "Tronian-Silicon",
+          "item": "Silicide",
           "amount": 20
         }
       ],

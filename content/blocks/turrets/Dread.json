@@ -17,7 +17,7 @@
   "shake": 3,
   "requirements": [
   "Silver/1250",
-  "Tronian-Silicon/750",
+  "Silicide/750",
   "Thoralius/800",
   "Ordanium/300",
   "MagmaCell/50",

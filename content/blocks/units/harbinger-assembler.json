@@ -1,7 +1,7 @@
 {
   "researchCostMultiplier": 0.5,
   "type": "UnitAssembler",
-  "name": "Titan Mech Assembler",
+  "name": "Harbinger Assembler",
   "description": "Creates Powerful Harbinger units from payloads.",
   "size": 7,
   "category": "units",
@@ -13,7 +13,7 @@
     "Gavolite/3000",
     "Thaxon-Steel/3000",
     "Thoralius/1000",
-    "Tronian-Silicon/1500",
+    "Silicide/1500",
     "Dytrium/500",
     "Thaxium/750"
   ],

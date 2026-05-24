@@ -1,0 +1,10 @@
+{
+    "name": "Graphine",
+    "description": "An exceptionally tough material, used in tough structures and heavy turret amunition.",
+    "hardness": 5,
+    "cost": 3,
+    "alwaysUnlocked": false,
+    "color": "95abd9",
+    "research": "Graphine",
+    "hiddenOnPlanets": ["serpulo", "erekir"]
+}

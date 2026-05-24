@@ -79,6 +79,6 @@ research: Quartz-Generator
 requirements: [
 Dytrium/100
 Thaxon/150
-Tronian-Silicon/150
+Silicide/150
 ]
 itemCapacity: 20

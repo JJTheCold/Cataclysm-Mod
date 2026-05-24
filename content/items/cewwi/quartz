@@ -1,8 +1,0 @@
-name: Quartz
-description: a hard, translucent crystal used in power-related blocks.
-hardness: 1
-cost: 0.5
-alwaysUnlocked: true
-color: dbdbdb
-research: isocite
-hiddenOnPlanets: [serpulo, erekir]

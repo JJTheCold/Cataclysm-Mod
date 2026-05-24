@@ -110,7 +110,7 @@
   }
   },
   "requirements": [
-    "Tronian-Silicon/125",
+    "Silicide/125",
     "Ordanium/100",
     "Dytrium/200"
   ],

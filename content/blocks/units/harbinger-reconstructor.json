@@ -7,13 +7,13 @@
   "consumes": {
     "power": 2,
     "items":[
-    "Tronian-Silicon/125",
+    "Silicide/125",
     "Thaxium/100",
     "Gavolite/150"
       ]
   },
   "requirements": [
-    "Tronian-Silicon/50",
+    "Silicide/50",
     "Dytrium/750",
     "Thoralius/150",
     "Thaxium/100",

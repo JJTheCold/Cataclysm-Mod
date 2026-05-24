@@ -14,7 +14,7 @@
   "requiresCoreZone": true,
   "unitType": "shatter-point",
   "requirements": [
-    "Tronian-Silicon/5000",
+    "Silicide/5000",
     "Gavolite/8500",
     "Dytrium/15700",
     "Geosium/4000",

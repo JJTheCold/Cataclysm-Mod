@@ -1,12 +1,12 @@
 {
-    "name": "Silicon",
+    "name": "Silicide",
     "description": "Used for complex technology on Tronoe, and homing turret amunition. May explode under pressure, so handle it with care",
     "hardness": 2,
     "cost": 3,
     "alwaysUnlocked": false,
     "explosiveness": 0.4,
     "color": "767a84",
-    "research": "Gravolite",
+    "research": "Graphine",
     "flammability": 0.2,
     "hiddenOnPlanets": ["serpulo", "erekir"]
 }

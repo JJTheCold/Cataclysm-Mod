@@ -1,8 +1,0 @@
-name: Flouride
-description: a fragile and malleable material. Used in the production of alloys and glass.
-hardness: 1
-cost: 0.5
-alwaysUnlocked: true
-color: 133a3d
-research: isocite
-hiddenOnPlanets: [serpulo, erekir]
