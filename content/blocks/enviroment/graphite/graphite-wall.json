@@ -2,6 +2,6 @@
   "type": "StaticWall",
   "name": "Graphite wall",
   "variants": 4,
-  "playerUnmineable": false,
+  "playerUnmineable": true,
   "itemDrop": "graphite"
 }
