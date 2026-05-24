@@ -12,7 +12,7 @@
   "lobesMin": "5",
   "emitLight": true,
   "lightRadius": 250,
-  "lightColor": "c42430",
+  "lightColor": "FF2B0098",
   "unitMoveBreakable": false,
   "breakable": false,
   "alwaysReplace": false,

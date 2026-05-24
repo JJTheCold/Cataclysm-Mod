@@ -6,7 +6,7 @@
   "capPuddles": true,
   "explosiveness": 1.2,
   "color": "ff0000",
-  "lightColor": "FF00008B",
+  "lightColor": "FF00004B",
   "effect": "melting",
   "viscosity": 0.8
 }

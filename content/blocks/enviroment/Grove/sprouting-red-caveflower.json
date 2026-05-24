@@ -7,6 +7,6 @@
   "lobesMax": "5",
   "lobesMin": "5",
   "emitLight": true,
-  "lightRadius": 50,
-  "lightColor": "c42430"
+  "lightRadius": 100,
+  "lightColor": "FF2B0035"
 }
