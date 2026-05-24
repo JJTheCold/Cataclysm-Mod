@@ -7,15 +7,13 @@
 "research": "Channel-bridge",
 "bridgeReplacement": "Channel-bridge",
 "capacity": 10,
-"buildCostMultiplier": 10,
+"buildCostMultiplier": 3,
 "researchCost": [
-  "pane/250,",
-  "Thaxon/120",
-  "Dytrium/100"
+  "Ordanium/120",
+  "Gavolite/100"
 ],
 "health": 150,
 "requirements": [
-  "Ordanium/1",
-  "Thaxon/1"
+  "Ordanium/4"
 ]
 }

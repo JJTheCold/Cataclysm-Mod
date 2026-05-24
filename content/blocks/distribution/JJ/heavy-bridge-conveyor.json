@@ -1,24 +1,23 @@
 {
 "type": "BufferedItemBridge",
 "name": "Heavy Bridge Conveyor",
-"description": "Allows two conveyors to pass through each other",
+"description": "Transports items over terrain.",
 "category": "distribution",
 "alwaysUnlocked": false,
 "research": "conveyor-belt",
 "capacity": 10,
 "range": 6,
-"buildCostMultiplier": 10,
 "crushFragile": true,
 "speed": 50,
 "arrowSpacing": 4,
+"buildCostMultiplier": 2,
 "researchCost": [
-  "pane/250,",
-  "Thaxon/120",
-  "Dytrium/100"
+  "Ordanium/120",
+  "Gavolite/100"
 ],
 "health": 100,
 "requirements": [
-  "Ordanium/1",
-  "Ordanium/1"
+  "Ordanium/10",
+  "Gavolite/6"
 ]
 }
