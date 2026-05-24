@@ -9,6 +9,8 @@
 "range": 6,
 "crushFragile": true,
 "speed": 50,
+"fadeIn": false,
+"moveArrows": false,
 "arrowSpacing": 4,
 "buildCostMultiplier": 2,
 "researchCost": [
