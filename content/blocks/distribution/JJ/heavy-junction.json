@@ -1,0 +1,21 @@
+{
+"type": "Junction",
+"name": "Heavy Junction",
+"description": "Allows two conveyors to pass through each other",
+"category": "distribution",
+"alwaysUnlocked": false,
+"research": "Channel-bridge",
+"bridgeReplacement": "Channel-bridge",
+"capacity": 10,
+"buildCostMultiplier": 10,
+"researchCost": [
+  "pane/250,",
+  "Thaxon/120",
+  "Dytrium/100"
+],
+"health": 150,
+"requirements": [
+  "Ordanium/1",
+  "Thaxon/1"
+]
+}

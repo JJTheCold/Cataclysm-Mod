@@ -1,11 +1,13 @@
 {
 "type": "Conveyor",
-"name": "Conveyor Belt",
+"name": "Heavy Conveyor",
 "description": "Transports items.",
 "category": "distribution",
 "research": "Quartz-core",
-"bridgeReplacement": "Channel-bridge",
+"bridgeReplacement": "heavy-junction",
+"alwaysUnlocked": false,
 "displayedSpeed": 9,
+"junctionReplacement": "heavy-Junction",
 "speed": 0.065,
 "researchCost": [
   "Ordanium/10"
