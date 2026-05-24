@@ -1,7 +1,7 @@
 
 type: GenericCrafter
-name: Gavolite Smelter
-description: Produces Gavolite.
+name: Graphic Kiln
+description: Produces Graphite from coal.
 size: 3
 craftTime: 80
 consumes: {

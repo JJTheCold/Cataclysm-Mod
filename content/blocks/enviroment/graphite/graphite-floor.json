@@ -1,0 +1,7 @@
+{
+  "type": "Floor",
+  "name": "Lurking Orostone Floor",
+  "variants": 4,
+  "playerUnmineable": false,
+  "itemDrop": "graphite"
+}
