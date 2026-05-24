@@ -7,17 +7,17 @@
   "consumes": {
     "power": 2,
     "items":[
-    "Silicide/125",
+    "Silikide/125",
     "Thaxium/100",
-    "Gavolite/150"
+    "Graphine/150"
       ]
   },
   "requirements": [
-    "Silicide/50",
+    "Silikide/50",
     "Dytrium/750",
     "Thoralius/150",
     "Thaxium/100",
-    "Gavolite/250"
+    "Graphine/250"
   ],
   "upgrades": [
     [

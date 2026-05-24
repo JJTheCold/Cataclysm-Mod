@@ -17,7 +17,7 @@
  "requirements": [
      "Dytrium/125",
      "Ordanium/50",
-     "Silicide/50"
+     "Silikide/50"
   ],
    "category": "production",
   "research": "Burst-drill"

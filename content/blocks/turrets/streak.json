@@ -16,7 +16,7 @@
   "shootCone": 3,
   "requirements": [
     "Ordanium/350",
-    "Silicide/250",
+    "Silikide/250",
     "static-crystal/325"
   ],
   "size": 4,

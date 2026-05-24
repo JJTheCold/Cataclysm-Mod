@@ -15,11 +15,11 @@
 "buildCostMultiplier": 2,
 "researchCost": [
   "Ordanium/120",
-  "Gavolite/100"
+  "Graphine/100"
 ],
 "health": 100,
 "requirements": [
   "Ordanium/10",
-  "Gavolite/6"
+  "Graphine/6"
 ]
 }

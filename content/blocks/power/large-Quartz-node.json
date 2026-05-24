@@ -13,6 +13,6 @@
   "research": "Quartz-node",
   "requirements": [
     "Dytrium/30",
-    "Silicide/20"
+    "Silikide/20"
   ]
 }

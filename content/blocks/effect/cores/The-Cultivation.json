@@ -14,8 +14,8 @@
   "requiresCoreZone": true,
   "unitType": "shatter-point",
   "requirements": [
-    "Silicide/5000",
-    "Gavolite/8500",
+    "Silikide/5000",
+    "Graphine/8500",
     "Dytrium/15700",
     "Geosium/4000",
     "Thaxon-Steel/1500"

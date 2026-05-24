@@ -14,9 +14,9 @@
   "researchCostMultiplier": 0.1,
   "unitType": "signal",
   "requirements": [
-    "Silicide/500",
+    "Silikide/500",
     "Dytrium/750",
-    "Gavolite/500"
+    "Graphine/500"
   ],
   "category": "effect"
 }

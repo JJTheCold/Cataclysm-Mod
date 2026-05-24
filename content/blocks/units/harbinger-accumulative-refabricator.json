@@ -7,9 +7,9 @@
   "consumes": {
     "power": 3,
     "items":[
-    "Silicide/225",
+    "Silikide/225",
     "Thaxon-Steel/100",
-    "Gavolite/250",
+    "Graphine/250",
     "Thoralius/250",
     "Dytrium/750"
       ],
@@ -19,11 +19,11 @@
     }
   },
   "requirements": [
-    "Silicide/250",
+    "Silikide/250",
     "Dytrium/750",
     "Thoralius/150",
     "Thaxon-Steel/180",
-    "Gavolite/500"
+    "Graphine/500"
   ],
   "upgrades": [
     [

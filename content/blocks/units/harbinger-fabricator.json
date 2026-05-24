@@ -10,9 +10,9 @@
   "power", 1.5
 ],
 "requirements": [
-    "Silicide/300",
+    "Silikide/300",
     "Dytrium/250",
-    "Gavolite/200"
+    "Graphine/200"
   ],
 "plans": [
     {
@@ -23,7 +23,7 @@
           "amount": 25
         },
         {
-          "item": "Silicide",
+          "item": "Silikide",
           "amount": 20
         }
       ],

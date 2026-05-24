@@ -10,10 +10,10 @@
   "droneConstructTime": 80,
   "research": "mech-assembler",
   "requirements": [
-    "Gavolite/3000",
+    "Graphine/3000",
     "Thaxon-Steel/3000",
     "Thoralius/1000",
-    "Silicide/1500",
+    "Silikide/1500",
     "Dytrium/500",
     "Thaxium/750"
   ],

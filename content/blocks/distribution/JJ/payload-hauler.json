@@ -4,7 +4,7 @@
   "requirements": [
     "Dytrium/50",
     "Thaxon/20",
-    "Silicide/50"
+    "Silikide/50"
   ],
   "moveTime": 80,
   "category": "units",

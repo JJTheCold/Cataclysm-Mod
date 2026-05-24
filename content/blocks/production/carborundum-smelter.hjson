@@ -1,12 +1,12 @@
 
 type: GenericCrafter
-name: Silicide Smelter
-description: Produces Silicide.
+name: Silikide Smelter
+description: Produces Silikide.
 size: 3
 craftTime: 60
 consumes: {
   items: [
-    Gavolite/1
+    Graphine/1
     Dytrium/2
   ]
 power: 3
@@ -42,13 +42,13 @@ drawers: [
 ]
 }
 outputItems: [
-  Silicide/3
+  Silikide/3
 ]
 category: crafting
 research: Quartz-Generator
 craftEffect: smokeCloud
 requirements: [
-  Gavolite/50
+  Graphine/50
   Dytrium/100
 ]
 itemCapacity: 10

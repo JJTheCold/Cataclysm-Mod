@@ -7,9 +7,9 @@ craftTime: 50
 consumes: {
   items: [
     Thaxium/2
-    Silicide/2
+    Silikide/2
     Thoralius/2
-    Gavolite/4
+    Graphine/4
   ]
     liquids: [
     slag/0.25
@@ -83,9 +83,9 @@ outputItems: [
 category: crafting
 research: Cell-Fuser
 requirements: [
-  Silicide/400
+  Silikide/400
   Thaxium/200
-  Gavolite/520
+  Graphine/520
   Thoralius/120
   MagmaCell/50
 ]

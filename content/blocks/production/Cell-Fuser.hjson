@@ -7,7 +7,7 @@ craftTime: 50
 consumes: {
   items: [
     Thaxium/1
-    Silicide/1
+    Silikide/1
     Magma-stone/5
     Thoralius/1
   ]
@@ -44,9 +44,9 @@ outputItems: [
 category: crafting
 research: Quartz-Generator
 requirements: [
-  Silicide/200
+  Silikide/200
   Thaxium/100
-  Gavolite/230
+  Graphine/230
   Thoralius/120
   Magma-stone/200
 ]

@@ -52,11 +52,11 @@ outputLiquids: [
   Thaxus/0.3
 ]
 category: crafting
-research: Silicide-smelter
+research: Silikide-smelter
 requirements: [
   Thaxon/75
   Dytrium/150
-  Gavolite/120
+  Graphine/120
 ]
 itemCapacity: 20
 liquidCapacity: 60

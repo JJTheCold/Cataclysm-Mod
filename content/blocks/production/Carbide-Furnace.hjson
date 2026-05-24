@@ -6,8 +6,8 @@ size: 7
 craftTime: 150
 consumes: {
   items: [
-    Silicide/4
-    Gavolite/8
+    Silikide/4
+    Graphine/8
   ]
 power: 2
 }
@@ -37,7 +37,7 @@ outputItems: [
 category: crafting
 research: Quartz-Generator
 requirements: [
-  Silicide/350
+  Silikide/350
   Ordanium/400
   Thaxium/250
   Geode-catalyst/275

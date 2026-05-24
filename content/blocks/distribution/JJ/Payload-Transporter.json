@@ -3,7 +3,7 @@
   "name": "Payload Transporter",
   "requirements": [
     "Dytrium/20",
-    "Silicide/5"
+    "Silikide/5"
   ],
   "moveTime": 45,
   "category": "units",
