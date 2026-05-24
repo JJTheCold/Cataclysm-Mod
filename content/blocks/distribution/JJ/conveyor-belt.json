@@ -6,6 +6,7 @@
 "research": "Quartz-core",
 "bridgeReplacement": "Channel-bridge",
 "displayedSpeed": 8,
+"speed": 0.6,
 "researchCost": [
   "Ordanium/10"
 ],
