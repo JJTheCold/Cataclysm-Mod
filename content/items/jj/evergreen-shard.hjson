@@ -1,8 +1,0 @@
-name: Albino Alloy
-description: "Seems to never loose it's color, even after being reduced down to a gass."
-hardness: 2
-cost: 0.5
-alwaysUnlocked: false
-color: 78e08c
-research: item-SurgeQuartz
-hiddenOnPlanets: [serpulo]

@@ -1,8 +1,0 @@
-name: Stone
-description: It's a stone. What more do you want for me?
-hardness: 2
-cost: 0.5
-alwaysUnlocked: false
-color: 7c8283
-research: item-SurgeQuartz
-hiddenOnPlanets: [serpulo]

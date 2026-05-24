@@ -3,10 +3,10 @@ description: An ancient rune with power beyond comprehension. Handling this reso
 hardness: 40
 cost: 8.5
 alwaysUnlocked: false
-radioactivity: 500
-explosiveness: 500
-flammability: 500
-charge: 0
+radioactivity: 5000
+explosiveness: 5000
+flammability: 5000
+charge: 5000
 color: 5e3732
 research: item-SurgeQuartz
 hiddenOnPlanets: [serpulo]

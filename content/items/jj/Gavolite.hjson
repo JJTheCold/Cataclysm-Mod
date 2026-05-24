@@ -4,5 +4,5 @@ hardness: 2
 cost: 0.5
 alwaysUnlocked: false
 color: BAC5DEFF
-research: item-SurgeQuartz
-hiddenOnPlanets: [serpulo]
+research: Ordanium
+hiddenOnPlanets: [serpulo, erekir]

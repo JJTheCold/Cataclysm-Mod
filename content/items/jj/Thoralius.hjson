@@ -4,5 +4,7 @@ hardness: 2
 cost: 0.5
 alwaysUnlocked: false
 color: e397ca
+radioactivity: 1
+explosiveness: 0.4,
 research: item-SurgeQuartz
 hiddenOnPlanets: [serpulo]
