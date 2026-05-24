@@ -3,7 +3,7 @@ type: DuctBridge
 description: Carries items through low terrain.
 category: distribution
 alwaysUnlocked: false
-research: Channel-router
+research: armored-conveyor-router
 solid: false
 range: 6
 researchCost: [

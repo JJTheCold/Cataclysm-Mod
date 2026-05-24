@@ -1,0 +1,16 @@
+{
+"type": "Conveyor",
+"name": "Conveyor Belt",
+"description": "Transports items.",
+"category": "distribution",
+"research": "Quartz-core",
+"bridgeReplacement": "Channel-bridge",
+"displayedSpeed": 8,
+"researchCost": [
+  "Ordanium/10"
+],
+"health": 150,
+"requirements": [
+  "Ordanium/1"
+]
+}

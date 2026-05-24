@@ -3,7 +3,7 @@ name: Channel Junction
 description: Creates a path between 2 Channels.
 category: distribution
 alwaysUnlocked: false
-research: Channel-bridge
+research: armored-conveyor-bridge
 solid: false
 capacity: 12
 range: 6

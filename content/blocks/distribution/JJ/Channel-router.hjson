@@ -4,7 +4,7 @@ description: distributes items in equal directions.
 category: distribution
 alwaysUnlocked: false
 squareSprite: false
-research: Channel
+research: armored-conveyor
 solid: false
 researchCost: [
   Ordanium/25
