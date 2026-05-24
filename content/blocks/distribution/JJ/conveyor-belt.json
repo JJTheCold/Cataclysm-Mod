@@ -5,7 +5,7 @@
 "category": "distribution",
 "research": "Quartz-core",
 "bridgeReplacement": "Channel-bridge",
-"displayedSpeed": 8,
+"displayedSpeed": 9,
 "speed": 0.065,
 "researchCost": [
   "Ordanium/10"
