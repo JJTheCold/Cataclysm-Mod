@@ -1,6 +1,6 @@
 {
 "type": "BufferedItemBridge",
-"name": "Heavy Junction",
+"name": "Heavy Bridge Conveyor",
 "description": "Allows two conveyors to pass through each other",
 "category": "distribution",
 "alwaysUnlocked": false,
