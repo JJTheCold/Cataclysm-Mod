@@ -18,6 +18,7 @@
 ],
 "health": 100,
 "requirements": [
+  "Ordanium/1",
   "Ordanium/1"
 ]
 }
