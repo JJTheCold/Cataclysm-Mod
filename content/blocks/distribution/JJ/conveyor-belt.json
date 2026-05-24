@@ -4,10 +4,10 @@
 "description": "Transports items.",
 "category": "distribution",
 "research": "Quartz-core",
-"bridgeReplacement": "heavy-junction",
+"bridgeReplacement": "heavy-bridge-conveyor",
 "alwaysUnlocked": false,
 "displayedSpeed": 9,
-"junctionReplacement": "heavy-Junction",
+"junctionReplacement": "heavy-junction",
 "speed": 0.065,
 "researchCost": [
   "Ordanium/10"

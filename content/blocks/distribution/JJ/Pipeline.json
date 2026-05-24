@@ -5,7 +5,7 @@
   "category": "liquid",
   "alwaysUnlocked": true,
   "research": "Quartz-core",
-  "bridgeReplacement": "Channel-bridge",
+  "bridgeReplacement": "heavy-bridge-conveyor",
   "liquidCapacity": 25,
   "researchCost": [
     "pane/250",
