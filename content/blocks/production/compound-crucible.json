@@ -26,11 +26,11 @@
 {
 "type": "DrawFlame",
 "color": "ff8e7f",
-"flameRadiusScl": 1.5,
-"flameRadiusMag": 0.5, 
-"flameRadiusInMag": 0.5,
-"flameRadiusIn": 5,
-"flameRadius": 2
+"flameRadiusScl": 0,
+"flameRadiusMag": 0, 
+"flameRadiusInMag": 0,
+"flameRadiusIn": 0,
+"flameRadius": 0
 }
 ]
 },
