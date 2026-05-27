@@ -43,8 +43,6 @@
 "type": "multiEffect",
 "effects": [
 {
-"type": "RadialEffect",
-"effect": {
 "type": "multiEffect",
 "effects": [
     {
@@ -57,8 +55,8 @@
         "lifetime": 70,
         "interp": "exp10Out",
         "sizeInterp": "pow5In",
-        "colorFrom": "ffa675",
-        "colorTo": "c6292990"
+        "colorFrom": "ffa166",
+        "colorTo": "ffa16690"
     },
     {
         "type": "ParticleEffect",
@@ -70,8 +68,8 @@
         "lifetime": 65,
         "interp": "exp10Out",
         "sizeInterp": "pow5In",
-        "colorFrom": "ffa675",
-        "colorTo": "c6292990"
+        "colorFrom": "ffa166",
+        "colorTo": "ffa16690"
     },
     {
         "type": "ParticleEffect",
@@ -83,8 +81,8 @@
         "lifetime": 45,
         "interp": "exp10Out",
         "sizeInterp": "pow5In",
-        "colorFrom": "ffa675",
-        "colorTo": "c6292990"
+        "colorFrom": "ffa166",
+        "colorTo": "ffa16690"
     },
     {
         "type": "ParticleEffect",
@@ -96,8 +94,8 @@
         "lifetime": 34,
         "interp": "exp10Out",
         "sizeInterp": "pow5In",
-        "colorFrom": "ffa675",
-        "colorTo": "c6292990"
+        "colorFrom": "ffa166",
+        "colorTo": "ffa16690"
     },
     {
         "type": "ParticleEffect",
@@ -111,11 +109,18 @@
         "lenFrom": 7,
         "lenTo": 0,
         "colorFrom": "ffa675",
-        "colorTo": "c62929"
+        "colorTo": "ffa16690"
     }
 ]
 },
-"lengthOffset": 10,
+{
+"type": "RadialEffect",
+"effect": {
+"type": "multiEffect",
+"effects": ["surgeCruciSmoke"]
+},
+"rotationOffset": -25,
+"lengthOffset": 19,
 "amount": 8
 },
 {
