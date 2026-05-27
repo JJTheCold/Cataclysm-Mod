@@ -124,7 +124,7 @@
 "type": "multiEffect",
 "effects": ["surgeCruciSmoke"]
 },
-"rotationOffset": 45,
+"rotationOffset": 25,
 "lengthOffset": 19,
 "amount": 8
 }
