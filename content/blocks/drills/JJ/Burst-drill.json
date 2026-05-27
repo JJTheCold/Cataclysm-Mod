@@ -15,7 +15,7 @@
   "expanded": true,
  "requirements": [
      "Dytrium/15",
-     "Urbanide/25"
+     "Urbium/25"
   ],
    "category": "production",
   "research": "Quartz-core"

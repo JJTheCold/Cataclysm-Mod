@@ -1,12 +1,12 @@
 type: Wall
-name: Large Urbanide Wall
+name: Large Urbium Wall
 description: Protects structures from incoming fire.
 size: 2
 health: 4800
 squareSprite: false
 requirements: [
-  Urbanide/32
+  Urbium/32
 ]
-research: Urbanide-wall
+research: Urbium-wall
 category: defense
 researchCostMultiplier: 2.5

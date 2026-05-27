@@ -1,11 +1,11 @@
 type: Wall
-name: Urbanide Wall
+name: Urbium Wall
 description: Stronger than a Quartz wall, but takes longer to make.
 size: 1
 health: 1200
 squareSprite: false
 requirements: [
-  Urbanide/8
+  Urbium/8
 ]
 research: T-quartz-wall
 category: defense

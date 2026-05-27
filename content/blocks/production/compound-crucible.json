@@ -1,6 +1,6 @@
 {
 "name": "Compound Crucible",
-"description": "A large crucible that fuses Sparking Pyrus, Tungesten, and Urbanide into Pyral Compound",
+"description": "A large crucible that fuses Sparking Pyrus, Tungesten, and Urbium into Pyral Compound",
 "type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopSmelter",
@@ -144,13 +144,13 @@
 "burning-pyrus/0.2"
 ],
 "items": [
-"Urbanide/2",
+"Urbium/2",
 "tungsten/4"
 ]
 },
 "requirements": [
 "tungsten/100",
-"Urbanide/100",
+"Urbium/100",
 "silicon/100",
 "tungsten/100"
 ],

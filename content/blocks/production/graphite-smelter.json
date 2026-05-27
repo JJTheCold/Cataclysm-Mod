@@ -1,0 +1,78 @@
+{
+  "type": "GenericCrafter",
+  "name": "Graphite Smelter",
+  "description": "Produces Graphite from pulverizing and rebuilding Urbium.",
+  "size": 3,
+  "craftTime": 80,
+  "consumes": {
+    "items": [
+      "Urbium/4"
+    ],
+    "power": 2
+  },
+  "ignoreLiquidFullness": true,
+  "ambientSound": "smelter",
+  "researchCostMultiplier": 0.5,
+  "ambientSoundVolume": 0.3,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "craftEffect": {
+    "type": "RadialEffect",
+    "rotationOffset": 45,
+    "lengthOffset": 8,
+    "effect": [
+      {
+        "type": "ParticleEffect",
+        "particles": 10,
+        "length": 5,
+        "baseLength": 1,
+        "lifetime": 75,
+        "interp": "circleOut",
+        "cone": 80,
+        "sides": 4,
+        "offset": 0,
+        "lightColor": "A9D8FFFF",
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "A9D8FFFF",
+        "sizeFrom": 4,
+        "sizeTo": 0
+      },
+      {
+        "type": "ParticleEffect",
+        "particles": 15,
+        "length": 20,
+        "baseLength": 0,
+        "lifetime": 120,
+        "interp": "circleOut",
+        "cone": 20,
+        "sides": 4,
+        "offset": 0,
+        "lightColor": "A9D8FFFF",
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "A9D8FFFF",
+        "sizeFrom": 3,
+        "sizeTo": 0
+      }
+    ]
+  },
+  "outputItems": [
+    "graphite/2"
+  ],
+  "category": "crafting",
+  "research": "Quartz-Generator",
+  "requirements": [
+    "Urbium/50",
+    "tugsten/100"
+  ],
+  "itemCapacity": 10
+}

@@ -6,6 +6,6 @@
     "alwaysUnlocked": false,
     "explosiveness": 0.2,
     "color": "ffffff",
-    "research": "Urbanide",
+    "research": "Urbium",
     "hiddenOnPlanets": ["serpulo", "erekir"]
 }

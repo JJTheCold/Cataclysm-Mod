@@ -14,12 +14,12 @@
 "arrowSpacing": 4,
 "buildCostMultiplier": 2,
 "researchCost": [
-  "Urbanide/120",
+  "Urbium/120",
   "Graphine/100"
 ],
 "health": 100,
 "requirements": [
-  "Urbanide/10",
+  "Urbium/10",
   "Graphine/6"
 ]
 }

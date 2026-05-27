@@ -13,7 +13,7 @@
   "category": "turret",
   "requirements": [
   "Magma-stone/75",
-  "Urbanide/120"
+  "Urbium/120"
   ],
   "shoot": {
         "type": "shootPattern",

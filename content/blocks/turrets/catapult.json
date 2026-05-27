@@ -56,7 +56,7 @@
         "colorTo": "E5E5E5FF"
       }
     },
-    "Urbanide": {
+    "Urbium": {
       "damage": 180,
       "width": 25,
       "ammoMultiplier": 2,
@@ -111,7 +111,7 @@
   },
   "requirements": [
     "Silikide/125",
-    "Urbanide/100",
+    "Urbium/100",
     "Dytrium/200"
   ],
   "category": "turret",

@@ -1,10 +1,11 @@
 {
     "name": "Osmite",
-    "description": "A common, natual metal found within tronoe.",
-    "hardness": 1,
-    "cost": 1.5,
+    "description": "A dense metal, harboring large amounts of charge.",
+    "hardness": 3,
+    "cost": 2.5,
     "alwaysUnlocked": false,
     "color": "5c5d59",
+    "charge": 2.5,
     "research": "none",
     "hiddenOnPlanets": ["serpulo", "erekir"]
 }

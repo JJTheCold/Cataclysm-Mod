@@ -17,5 +17,5 @@ type: BeamDrill
   }
   requirements: [
   Dytrium/100
-  Urbanide/75
+  Urbium/75
   ]

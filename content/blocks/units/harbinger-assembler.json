@@ -22,7 +22,7 @@
       "type": "AssemblerUnitPlan",
       "unit": "gash",
       "requirements": [
-        "cataclysm-Large-Urbanide-wall/25",
+        "cataclysm-Large-Urbium-wall/25",
         "cataclysm-blast/12",
         "cataclysm-thorn/8",
         "cataclysm-spear/4"

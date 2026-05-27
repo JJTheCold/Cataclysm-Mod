@@ -14,7 +14,7 @@
 ],
 "health": 150,
 "requirements": [
-  "Urbanide/1",
+  "Urbium/1",
   "Thaxon/1"
 ]
 }

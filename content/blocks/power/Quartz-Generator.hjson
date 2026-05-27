@@ -41,6 +41,6 @@ category: power
 research: Cavern-core
 requirements: [
   Dytrium/150
-  Urbanide/100
+  Urbium/100
 ]
 itemCapacity: 25
