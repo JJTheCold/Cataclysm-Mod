@@ -53,11 +53,11 @@
         "sizeFrom": 4,
         "sizeTo": 0,
         "length": 10,
-        "cone": -40,
+        "cone": -360,
         "lifetime": 70,
         "interp": "exp10Out",
         "sizeInterp": "pow5In",
-        "colorFrom": "ff694e",
+        "colorFrom": "ffa675",
         "colorTo": "c6292990"
     },
     {
@@ -66,11 +66,11 @@
         "sizeFrom": 3,
         "sizeTo": 0,
         "length": 15,
-        "cone": -40,
+        "cone": -360,
         "lifetime": 65,
         "interp": "exp10Out",
         "sizeInterp": "pow5In",
-        "colorFrom": "ff694e",
+        "colorFrom": "ffa675",
         "colorTo": "c6292990"
     },
     {
@@ -79,11 +79,11 @@
         "sizeFrom": 3,
         "sizeTo": 0,
         "length": 15,
-        "cone": -40,
+        "cone": -360,
         "lifetime": 45,
         "interp": "exp10Out",
         "sizeInterp": "pow5In",
-        "colorFrom": "ff694e",
+        "colorFrom": "ffa675",
         "colorTo": "c6292990"
     },
     {
@@ -92,11 +92,11 @@
         "sizeFrom": 6,
         "sizeTo": 0,
         "length": 20,
-        "cone": -40,
+        "cone": -360,
         "lifetime": 34,
         "interp": "exp10Out",
         "sizeInterp": "pow5In",
-        "colorFrom": "ff694e",
+        "colorFrom": "ffa675",
         "colorTo": "c6292990"
     },
     {
@@ -107,10 +107,10 @@
         "interp": "circleOut",
         "sizeInterp": "pow5In",
         "length": 55,
-        "cone": -20,
+        "cone": -360,
         "lenFrom": 7,
         "lenTo": 0,
-        "colorFrom": "ff694e",
+        "colorFrom": "ffa675",
         "colorTo": "c62929"
     }
 ]
@@ -126,7 +126,7 @@
 },
 "rotationOffset": 45,
 "lengthOffset": 19,
-"amount": 4
+"amount": 8
 }
 ]
 },
@@ -134,21 +134,12 @@
 "heatRequirement": 25,
 "consumes": {
 "power": 6,
-"liquids": [
-"hydrogen/0.05",
-"slag/0.6"
-],
 "items": [
-"sand/6",
-"thorium/1",
-"surge-alloy/1"
+"sand/6"
 ]
 },
 "requirements": [
-"surge-alloy/100",
-"tungsten/1000",
-"silicon/200",
-"thorium/300"
+"surge-alloy/100"
 ],
 "category": "crafting",
 "research": {
