@@ -141,7 +141,7 @@
 "consumes": {
 "power": 8,
 "liquids": [
-"burning-pyrus/0.05"
+"burning-pyrus/0.2"
 ],
 "items": [
 "Urbanide/2",
