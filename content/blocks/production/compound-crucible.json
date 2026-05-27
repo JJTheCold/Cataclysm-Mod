@@ -38,6 +38,8 @@
 "hasPower": true,
 "hasItems": true,
 "itemCapacity": 40,
+"hasLiquids": true,
+"liquidCapacity": 200,
 "craftTime": 60,
 "craftEffect": {
 "type": "multiEffect",
@@ -138,6 +140,9 @@
 "updateEffect": "none",
 "consumes": {
 "power": 8,
+"liquids": [
+"burning-pyrus/0.05"
+],
 "items": [
 "Urbanide/2",
 "tungsten/4"
