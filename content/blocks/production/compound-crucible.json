@@ -1,8 +1,10 @@
 {
 "name": "Compound Crucible",
 "description": "A large crucible that fuses pyrium and",
-"type": "HeatCrafter",
+"type": "GenericCrafter",
 "squareSprite": false,
+"ambientSound": "loopSmelter",
+"ambientSoundVolume": "4",
 "drawer": {
 "type": "DrawMulti",
 "drawers": [
@@ -24,11 +26,11 @@
 {
 "type": "DrawFlame",
 "color": "ff8e7f",
-"flameRadiusScl": 0,
-"flameRadiusMag": 0, 
-"flameRadiusInMag": 0,
-"flameRadiusIn": 0,
-"flameRadius": 0
+"flameRadiusScl": 1.5,
+"flameRadiusMag": 2, 
+"flameRadiusInMag": 1,
+"flameRadiusIn": 5,
+"flameRadius": 6
 }
 ]
 },
@@ -120,7 +122,7 @@
 "effects": ["surgeCruciSmoke"]
 },
 "rotationOffset": -25,
-"lengthOffset": 19,
+"lengthOffset": 18,
 "amount": 8
 },
 {
@@ -130,13 +132,12 @@
 "effects": ["surgeCruciSmoke"]
 },
 "rotationOffset": 25,
-"lengthOffset": 19,
+"lengthOffset": 18,
 "amount": 8
 }
 ]
 },
 "updateEffect": "none",
-"heatRequirement": 25,
 "consumes": {
 "power": 6,
 "items": [
