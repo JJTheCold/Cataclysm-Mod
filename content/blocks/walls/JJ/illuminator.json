@@ -14,7 +14,7 @@
         "power": 0.5
     },
     "requirements": [
-        "Ordanium/10",
+        "Urbanide/10",
         "Dytrium/10",
         "Graphine/5"
     ]

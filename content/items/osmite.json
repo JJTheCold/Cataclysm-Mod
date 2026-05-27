@@ -1,10 +1,10 @@
 {
-    "name": "Nevenite",
-    "description": "A metalic stone. Cool to the touch.",
+    "name": "Osmite",
+    "description": "A common, natual metal found within tronoe.",
     "hardness": 1,
     "cost": 1.5,
     "alwaysUnlocked": false,
-    "color": "97a5b6",
+    "color": "5c5d59",
     "research": "none",
     "hiddenOnPlanets": ["serpulo", "erekir"]
 }

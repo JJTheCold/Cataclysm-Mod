@@ -1,6 +1,6 @@
 {
   "type": "Wall",
-  "name": "Huge Ordanium Quartz wall",
+  "name": "Huge Urbanide Quartz wall",
   "description": "Protects structures from incoming fire",
   "size": 3,
   "health": 10800,
@@ -8,7 +8,7 @@
   "requirements": [
     "Dytrium/72"
   ],
-  "research": "Large-Ordanium-wall",
+  "research": "Large-Urbanide-wall",
   "category": "defense",
   "researchCostMultiplier": 2.5
 }

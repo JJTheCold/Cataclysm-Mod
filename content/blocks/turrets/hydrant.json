@@ -6,9 +6,22 @@
     "pane/125",
     "Thaxon/100",
     "Dytrium/50",
-    "Ordanium/75"
+    "Urbanide/75"
   ],
   "ammoTypes": {
+    "water": {
+      "type": "LiquidBulletType",
+      "liquid": "water",
+      "lifetime": 50,
+      "speed": 5.0,
+      "knockback": 3,
+      "puddleSize": 3.0,
+      "orbSize": 5.0,
+      "drag": 0.001,
+      "ammoMultiplier": 0.5,
+      "statusDuration": 350,
+      "damage": 0.2
+    },
     "Thaxus": {
       "type": "LiquidBulletType",
       "liquid": "Thaxus",
@@ -16,11 +29,11 @@
       "speed": 5.0,
       "knockback": 3,
       "puddleSize": 9.0,
-      "orbSize": 3.0,
+      "orbSize": 5.0,
       "drag": 0.001,
       "ammoMultiplier": 0.5,
       "statusDuration": 300,
-      "damage": 0.2
+      "damage": 0.4
     },
     "slag": {
       "liquid": "slag",
@@ -29,7 +42,7 @@
       "speed": 5.0,
       "knockback": 1.5,
       "puddleSize": 8.0,
-      "orbSize": 3.0,
+      "orbSize": 5.0,
       "drag": 0.001,
       "ammoMultiplier": 0.5,
       "statusDuration": 325,
@@ -45,7 +58,7 @@
     "type": "drawTurret",
     "basePrefix": "Quartz-"
   },
-  "velocityRnd": 1,
+  "velocityRnd": 0.3,
   "inaccuracy": 6.0,
   "recoil": 1.0,
   "shootCone": 45.0,

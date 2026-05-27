@@ -16,7 +16,7 @@
   "researchCostMultiplier": 5,
  "requirements": [
      "Dytrium/125",
-     "Ordanium/50",
+     "Urbanide/50",
      "Silikide/50"
   ],
    "category": "production",

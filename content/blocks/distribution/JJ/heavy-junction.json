@@ -9,11 +9,11 @@
 "capacity": 10,
 "buildCostMultiplier": 3,
 "researchCost": [
-  "Ordanium/120",
+  "Urbanide/120",
   "Graphine/100"
 ],
 "health": 150,
 "requirements": [
-  "Ordanium/4"
+  "Urbanide/4"
 ]
 }

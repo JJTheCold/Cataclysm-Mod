@@ -9,7 +9,7 @@ consumes: {
     Dytrium/5
     Thaxon/3
     Geosium/1
-    Ordanium/5
+    Urbanide/5
   ]
 power: 4.5
 }
@@ -64,7 +64,7 @@ requirements: [
 Thaxon/200
 Silver/150
 Silikide/250
-Ordanium/5
+Urbanide/5
 Dytrium/5
 ]
 itemCapacity: 30

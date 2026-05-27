@@ -7,13 +7,13 @@ squareSprite: false
 research: armored-conveyor
 solid: false
 researchCost: [
-  Ordanium/25
+  Urbanide/25
   Dytrium/50
 ]
 speed: 6
 health: 150
 requirements: [
-  Ordanium/5
+  Urbanide/5
   Dytrium/10
 ]
   

@@ -22,7 +22,7 @@
       "type": "AssemblerUnitPlan",
       "unit": "annihilate",
       "requirements": [
-        "cataclysm-Large-Ordanium-wall/95",
+        "cataclysm-Large-Urbanide-wall/95",
         "cataclysm-large-quartz-wall/95",
         "cataclysm-spear/12",
         "cataclysm-lance/8"

@@ -15,7 +15,7 @@
   "shootY": -1,
   "shootCone": 3,
   "requirements": [
-    "Ordanium/50",
+    "Urbanide/50",
     "Dytrium/100"
   ],
   "shoot": {
@@ -60,7 +60,7 @@
       "despawnEffect": "hitBulletColor",
       "buildingDamageMultiplier": 0.5
     },
-    "Ordanium": {
+    "Urbanide": {
       "type": "BasicBulletType",
       "speed": 10,
       "lifetime": 28,

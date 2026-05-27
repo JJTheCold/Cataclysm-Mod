@@ -10,10 +10,10 @@
 "junctionReplacement": "heavy-junction",
 "speed": 0.065,
 "researchCost": [
-  "Ordanium/10"
+  "Urbanide/10"
 ],
 "health": 150,
 "requirements": [
-  "Ordanium/1"
+  "Urbanide/1"
 ]
 }

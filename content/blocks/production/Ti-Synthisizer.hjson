@@ -6,7 +6,7 @@ size: 4
 craftTime: 150
 consumes: {
   items: [
-    Ordanium/1
+    Urbanide/1
     Thaxon/1
   ]
 power: 4
@@ -63,7 +63,7 @@ research: Quartz-Generator
 requirements: [
 Thaxon/200
 Dytrium/150
-Ordanium/50
+Urbanide/50
 Silikide/50
 ]
 itemCapacity: 20

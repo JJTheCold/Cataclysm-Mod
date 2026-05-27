@@ -1,6 +1,6 @@
 {
 "name": "Compound Crucible",
-"description": "A large crucible that fuses pyrium and",
+"description": "A large crucible that fuses Sparking Pyrus, Tungesten, and Urbanide into Pyral Compound",
 "type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopSmelter",
@@ -137,13 +137,17 @@
 },
 "updateEffect": "none",
 "consumes": {
-"power": 6,
+"power": 8,
 "items": [
-"sand/6"
+"Urbanide/2",
+"tungsten/4"
 ]
 },
 "requirements": [
-"surge-alloy/100"
+"tungsten/100",
+"Urbanide/100",
+"silicon/100",
+"tungsten/100"
 ],
 "category": "crafting",
 "research": {
@@ -154,7 +158,7 @@
 "slag-heater"
 ]
 },
-"outputItems": ["tungsten/2", "silicon/2"],
+"outputItems": ["pyral-compound/2"],
 "envEnabled": -1,
 "envDisabled": 4
 }

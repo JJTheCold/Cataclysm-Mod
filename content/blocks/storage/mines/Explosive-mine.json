@@ -20,7 +20,7 @@
   "health": 100,
   "destroySound": "boom-mine",
   "requirements": [
-    "Ordanium/5",
+    "Urbanide/5",
     "Magma-stone/5"
   ],
   "bullet": {

@@ -1,11 +1,11 @@
 type: Wall
-name: Ordanium Wall
+name: Urbanide Wall
 description: Stronger than a Quartz wall, but takes longer to make.
 size: 1
 health: 1200
 squareSprite: false
 requirements: [
-  Ordanium/8
+  Urbanide/8
 ]
 research: T-quartz-wall
 category: defense

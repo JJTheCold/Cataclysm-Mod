@@ -1,10 +1,10 @@
 {
-    "name": "Ordanium",
-    "description": "A dark, metalic stone.",
+    "name": "Urbanide",
+    "description": "A common, natual metal found within tronoe.",
     "hardness": 1,
     "cost": 1.5,
     "alwaysUnlocked": false,
     "color": "5c5d59",
-    "research": "Quartz-core",
+    "research": "none",
     "hiddenOnPlanets": ["serpulo", "erekir"]
 }

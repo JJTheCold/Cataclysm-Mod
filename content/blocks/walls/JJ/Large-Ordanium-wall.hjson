@@ -1,12 +1,12 @@
 type: Wall
-name: Large Ordanium Wall
+name: Large Urbanide Wall
 description: Protects structures from incoming fire.
 size: 2
 health: 4800
 squareSprite: false
 requirements: [
-  Ordanium/32
+  Urbanide/32
 ]
-research: Ordanium-wall
+research: Urbanide-wall
 category: defense
 researchCostMultiplier: 2.5

@@ -15,7 +15,7 @@
   "shootY": 3,
   "shootCone": 3,
   "requirements": [
-    "Ordanium/350",
+    "Urbanide/350",
     "Silikide/250",
     "static-crystal/325"
   ],

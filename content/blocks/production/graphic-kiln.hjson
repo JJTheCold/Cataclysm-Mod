@@ -6,7 +6,7 @@ size: 3
 craftTime: 80
 consumes: {
   items: [
-    Ordanium/4
+    Urbanide/4
   ]
 power: 2
 }
@@ -71,7 +71,7 @@ outputItems: [
 category: crafting
 research: Quartz-Generator
 requirements: [
-  Ordanium/50
+  Urbanide/50
   Dytrium/100
 ]
 itemCapacity: 10
