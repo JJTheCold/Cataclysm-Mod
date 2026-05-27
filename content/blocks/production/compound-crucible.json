@@ -27,20 +27,18 @@
 "type": "DrawFlame",
 "color": "ff8e7f",
 "flameRadiusScl": 1.5,
-"flameRadiusMag": 2, 
-"flameRadiusInMag": 1,
+"flameRadiusMag": 0.5, 
+"flameRadiusInMag": 0.5,
 "flameRadiusIn": 5,
-"flameRadius": 6
+"flameRadius": 2
 }
 ]
 },
 "size": 6,
 "hasPower": true,
-"hasLiquids": true,
-"liquidCapacity": 200,
 "hasItems": true,
 "itemCapacity": 40,
-"craftTime": 250,
+"craftTime": 60,
 "craftEffect": {
 "type": "multiEffect",
 "effects": [
