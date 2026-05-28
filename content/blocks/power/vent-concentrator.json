@@ -6,8 +6,12 @@
   "minEfficiency": 1,
   "displayEfficiency": false,
   "ignoreLiquidFullness": true,
-  "ambientSound": "hum",
+  "ambientSound": "loopHum",
   "researchCostMultiplier": 0.5,
+  "attribute": "steam",
+  "generateEffect": "turbinegenerate",
+  "effectChance": 0.05,
+  "group": "liquids",
   "ambientSoundVolume": 1,
   "drawer": [
     {
