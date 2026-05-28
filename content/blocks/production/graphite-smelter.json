@@ -22,14 +22,14 @@
       },
       {
         "type": "DrawGlowRegion",
-        "color": "3b52a0",
+        "color": "A9D8FFFF",
         "glowScale": 17,
         "glowIntensity": 0.3,
         "suffix": "-top"
       },
       {
         "type": "DrawGlowRegion",
-        "color": "3b52a0",
+        "color": "A9D8FFFF",
         "suffix": "-glow"
       }
     ]
