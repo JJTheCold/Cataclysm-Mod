@@ -4,7 +4,7 @@
   "description": "Directs imput items to the output.",
   "category": "liquid",
   "alwaysUnlocked": true,
-  "research": "Quartz-core",
+  "research": "origin",
   "bridgeReplacement": "heavy-bridge-conveyor",
   "liquidCapacity": 25,
   "researchCost": [

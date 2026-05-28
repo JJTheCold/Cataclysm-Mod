@@ -1,8 +1,8 @@
 {
-  "localizedName": "Core: Quartz",
+  "localizedName": "Core: Origin",
   "type": "CoreBlock",
-  "description": "Commonly constructed core for short term fortresses on tronoe",
-  "details": "Peace was no longer an option.",
+  "description": "A basic core for a basic factory. Defend it at all costs.",
+  "details": "How did we get here?",
   "health": 5850,
   "squareSprite": false,
   "size": 4,
@@ -14,9 +14,9 @@
   "researchCostMultiplier": 0.1,
   "unitType": "signal",
   "requirements": [
-    "Silikide/500",
-    "Harbinger-Remnats/750",
-    "graphite/500"
+    "silicon/500",
+    "Tungesten/750",
+    "Urbium/500"
   ],
   "category": "effect",
   "research": {

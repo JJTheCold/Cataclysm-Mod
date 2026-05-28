@@ -1,7 +1,7 @@
 {
 "localizedName": "Harbinger Fabricator",
 "description": "Builds T1 Harbinger units.",
-"research": "Quartz-core",
+"research": "origin",
 "category": "units",
 "type": "UnitFactory",
   "researchCostMultiplier": 0.3,

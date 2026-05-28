@@ -119,7 +119,7 @@
   "clearSectorOnLose": true,
   "allowWaves": true,
   "prebuildBase": false,
-  "defaultCore": "Quartz-core",
+  "defaultCore": "origin",
   "parent": "sun",
   "solarSystem": "sun",
   "launchCandidates": [],

@@ -86,6 +86,6 @@
     }
   },
   "research": {
-    "parent": "Quartz-core"
+    "parent": "origin"
   }
 }

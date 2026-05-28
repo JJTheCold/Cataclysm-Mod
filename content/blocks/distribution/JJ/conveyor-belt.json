@@ -3,7 +3,7 @@
 "name": "Heavy Conveyor",
 "description": "Transports items.",
 "category": "distribution",
-"research": "Quartz-core",
+"research": "origin",
 "bridgeReplacement": "heavy-bridge-conveyor",
 "alwaysUnlocked": false,
 "displayedSpeed": 9,
