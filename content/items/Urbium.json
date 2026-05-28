@@ -1,6 +1,6 @@
 {
     "name": "Urbium",
-    "description": "A common, natual metal found within tronoe.",
+    "description": "A common, natual metal found within tronoe. Contains carbon.",
     "hardness": 1,
     "cost": 1.5,
     "alwaysUnlocked": false,
