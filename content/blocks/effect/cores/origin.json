@@ -8,6 +8,7 @@
   "size": 4,
   "armor": 20,
   "itemCapacity": 3500,
+  "alwaysUnlocked": true,
   "buildCostMultiplier": 0.7,
   "unitCapModifier": 10,
   "requiresCoreZone": true,
@@ -15,7 +16,7 @@
   "unitType": "signal",
   "requirements": [
     "silicon/500",
-    "Tungesten/750",
+    "tungesten/750",
     "Urbium/500"
   ],
   "category": "effect",
