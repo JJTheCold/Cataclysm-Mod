@@ -16,7 +16,7 @@
   "unitType": "signal",
   "requirements": [
     "silicon/500",
-    "tungesten/750",
+    "tungsten/750",
     "Urbium/500"
   ],
   "category": "effect",
