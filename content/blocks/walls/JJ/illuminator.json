@@ -15,7 +15,7 @@
     },
     "requirements": [
         "Urbium/10",
-        "Dytrium/10",
-        "Graphine/5"
+        "Harbinger-Remnats/10",
+        "graphite/5"
     ]
 }

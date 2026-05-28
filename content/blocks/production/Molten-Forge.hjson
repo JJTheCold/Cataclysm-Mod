@@ -9,7 +9,7 @@ consumes: {
     Thaxium/2
     Silikide/2
     Thoralius/2
-    Graphine/4
+    graphite/4
   ]
     liquids: [
     slag/0.25
@@ -85,7 +85,7 @@ research: Cell-Fuser
 requirements: [
   Silikide/400
   Thaxium/200
-  Graphine/520
+  graphite/520
   Thoralius/120
   MagmaCell/50
 ]

@@ -15,8 +15,8 @@
   "unitType": "Harbinger-sentinel",
   "requirements": [
     "Silikide/5000",
-    "Graphine/8500",
-    "Dytrium/15700",
+    "graphite/8500",
+    "Harbinger-Remnats/15700",
     "Geosium/4000",
     "Thaxon-Steel/1500"
   ],

@@ -6,7 +6,7 @@
     "alwaysUnlocked": false,
     "explosiveness": 0.4,
     "color": "767a84",
-    "research": "Graphine",
+    "research": "graphite",
     "flammability": 0.2,
     "hiddenOnPlanets": ["serpulo", "erekir"]
 }

@@ -124,14 +124,8 @@
   "solarSystem": "sun",
   "launchCandidates": [],
   "itemWhitelist": [
-    "Dytrium",
-    "evergreen-shard",
+    "Harbinger-Remnats",
     "Silikide",
-    "Graphine",
-    "Geosium",
-    "Charged-crystal",
-    "Charged-Alloy",
-    "Tronian-Carbide",
     "Thaxon-Steel",
     "Thaxium",
     "Thoralius",
@@ -140,8 +134,13 @@
     "Urbium",
     "MagmaCell",
     "Magma-stone",
-    "Geode-catalyst",
     "Cataclyst",
-    "static-crystal"
+    "static-crystal",
+
+
+
+    "silicon",
+    "graphite",
+    "tungsten"
   ]
 }

@@ -10,7 +10,7 @@
 "buildCostMultiplier": 3,
 "researchCost": [
   "Urbium/120",
-  "Graphine/100"
+  "graphite/100"
 ],
 "health": 150,
 "requirements": [

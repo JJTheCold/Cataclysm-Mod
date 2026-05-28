@@ -6,7 +6,7 @@
   "health": 10800,
   "squareSprite": true,
   "requirements": [
-    "Dytrium/72"
+    "Harbinger-Remnats/72"
   ],
   "research": "Large-Urbium-wall",
   "category": "defense",

@@ -15,8 +15,8 @@
   "unitType": "ram",
   "requirements": [
     "Silikide/1500",
-    "Dytrium/750",
-    "Graphine/1500",
+    "Harbinger-Remnats/750",
+    "graphite/1500",
     "Thaxon/500",
     "Silver/450"
   ],

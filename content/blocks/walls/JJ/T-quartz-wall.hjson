@@ -5,7 +5,7 @@ size: 1
 health: 950
 squareSprite: false
 requirements: [
-  Dytrium/6
+  Harbinger-Remnats/6
 ]
 research: Caven-core
 category: defense

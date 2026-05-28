@@ -11,15 +11,15 @@
 ],
 "requirements": [
     "Silikide/300",
-    "Dytrium/250",
-    "Graphine/200"
+    "Harbinger-Remnats/250",
+    "graphite/200"
   ],
 "plans": [
     {
       "unit": "Quill",
       "requirements": [
         {
-          "item": "Dytrium",
+          "item": "Harbinger-Remnats",
           "amount": 25
         },
         {

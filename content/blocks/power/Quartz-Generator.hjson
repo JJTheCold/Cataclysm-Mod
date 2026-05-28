@@ -7,7 +7,7 @@ minEfficiency: 1
 displayEfficiency: false
 consumes: {
   items: [
-    Dytrium/1
+    Harbinger-Remnats/1
   ]
 }
 ignoreLiquidFullness: true
@@ -40,7 +40,7 @@ powerProduction: 4
 category: power
 research: Cavern-core
 requirements: [
-  Dytrium/150
+  Harbinger-Remnats/150
   Urbium/100
 ]
 itemCapacity: 25

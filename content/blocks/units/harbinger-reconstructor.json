@@ -9,15 +9,15 @@
     "items":[
     "Silikide/125",
     "Thaxium/100",
-    "Graphine/150"
+    "graphite/150"
       ]
   },
   "requirements": [
     "Silikide/50",
-    "Dytrium/750",
+    "Harbinger-Remnats/750",
     "Thoralius/150",
     "Thaxium/100",
-    "Graphine/250"
+    "graphite/250"
   ],
   "upgrades": [
     [

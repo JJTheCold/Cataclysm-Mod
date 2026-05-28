@@ -46,7 +46,7 @@ research: Quartz-Generator
 requirements: [
   Silikide/200
   Thaxium/100
-  Graphine/230
+  graphite/230
   Thoralius/120
   Magma-stone/200
 ]

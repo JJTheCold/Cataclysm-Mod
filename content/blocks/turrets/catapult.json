@@ -30,7 +30,7 @@
     "amount": 0.12
   },
   "ammoTypes": {
-    "Dytrium": {
+    "Harbinger-Remnats": {
       "damage": 220,
       "width": 25,
       "ammoMultiplier": 2,
@@ -112,7 +112,7 @@
   "requirements": [
     "Silikide/125",
     "Urbium/100",
-    "Dytrium/200"
+    "Harbinger-Remnats/200"
   ],
   "category": "turret",
   "research": "blast"

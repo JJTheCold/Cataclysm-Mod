@@ -16,6 +16,6 @@ type: BeamDrill
     boosted: true
   }
   requirements: [
-  Dytrium/100
+  Harbinger-Remnats/100
   Urbium/75
   ]

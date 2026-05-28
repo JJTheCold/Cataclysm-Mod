@@ -4,7 +4,7 @@
 "type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopSmelter",
-"ambientSoundVolume": "4",
+"ambientSoundVolume": "6",
 "drawer": {
 "type": "DrawMulti",
 "drawers": [
@@ -139,7 +139,7 @@
 },
 "updateEffect": "none",
 "consumes": {
-"power": 8,
+"power": 9,
 "liquids": [
 "burning-pyrus/0.2"
 ],

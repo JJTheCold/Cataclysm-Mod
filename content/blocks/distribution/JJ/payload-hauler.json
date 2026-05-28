@@ -2,7 +2,7 @@
   "type": "PayloadConveyor",
   "name": "Payload Hauler",
   "requirements": [
-    "Dytrium/50",
+    "Harbinger-Remnats/50",
     "Thaxon/20",
     "Silikide/50"
   ],

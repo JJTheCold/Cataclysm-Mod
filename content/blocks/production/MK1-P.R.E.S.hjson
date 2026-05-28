@@ -1,12 +1,12 @@
 
 type: GenericCrafter
 name: Mass Press
-description: Produces Silikide and Graphine at a very fast rate.
+description: Produces Silikide and graphite at a very fast rate.
 size: 6
 craftTime: 80
 consumes: {
   items: [
-    Dytrium/5
+    Harbinger-Remnats/5
     Thaxon/3
     Geosium/1
     Urbium/5
@@ -56,7 +56,7 @@ drawers: [
 }
 outputItems: [
   Silikide/10
-  Graphine/10
+  graphite/10
 ]
 category: crafting
 research: Quartz-Generator
@@ -65,6 +65,6 @@ Thaxon/200
 Silver/150
 Silikide/250
 Urbium/5
-Dytrium/5
+Harbinger-Remnats/5
 ]
 itemCapacity: 30

@@ -9,9 +9,9 @@
     "items":[
     "Silikide/225",
     "Thaxon-Steel/100",
-    "Graphine/250",
+    "graphite/250",
     "Thoralius/250",
-    "Dytrium/750"
+    "Harbinger-Remnats/750"
       ],
     "liquid": {
       "liquid": "Thaxus",
@@ -20,10 +20,10 @@
   },
   "requirements": [
     "Silikide/250",
-    "Dytrium/750",
+    "Harbinger-Remnats/750",
     "Thoralius/150",
     "Thaxon-Steel/180",
-    "Graphine/500"
+    "graphite/500"
   ],
   "upgrades": [
     [

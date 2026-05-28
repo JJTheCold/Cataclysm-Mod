@@ -9,16 +9,16 @@
     "power": 1.5,
     "items": [
     "Silikide/60",
-    "Dytrium/100",
-    "Graphine/40"
+    "Harbinger-Remnats/100",
+    "graphite/40"
       ]
   },
   "requirements": [
     "Silikide/100",
-    "Dytrium/250",
+    "Harbinger-Remnats/250",
     "Thaxon/150",
     "Silver/150",
-    "Graphine/100"
+    "graphite/100"
   ],
   "upgrades": [
     [

@@ -1,5 +1,6 @@
 {
   "type": "StaticWall",
   "name": "Growth Wall",
-  "variants": 2
+  "variants": 2,
+  "layer": 33
 }

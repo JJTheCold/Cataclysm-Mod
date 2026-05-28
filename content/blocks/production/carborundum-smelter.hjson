@@ -6,8 +6,8 @@ size: 3
 craftTime: 60
 consumes: {
   items: [
-    Graphine/1
-    Dytrium/2
+    graphite/1
+    Harbinger-Remnats/2
   ]
 power: 3
 }
@@ -48,7 +48,7 @@ category: crafting
 research: Quartz-Generator
 craftEffect: smokeCloud
 requirements: [
-  Graphine/50
-  Dytrium/100
+  graphite/50
+  Harbinger-Remnats/100
 ]
 itemCapacity: 10

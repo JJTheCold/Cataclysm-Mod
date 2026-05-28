@@ -7,6 +7,6 @@
     "explosiveness": 1.8,
     "flammability": 0.6,
     "color": "c64b4b",
-    "research": "Graphine",
+    "research": "graphite",
     "hiddenOnPlanets": ["serpulo", "erekir"]
 }

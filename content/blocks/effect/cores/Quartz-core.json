@@ -15,8 +15,13 @@
   "unitType": "signal",
   "requirements": [
     "Silikide/500",
-    "Dytrium/750",
-    "Graphine/500"
+    "Harbinger-Remnats/750",
+    "graphite/500"
   ],
-  "category": "effect"
+  "category": "effect",
+  "research": {
+    "root": true,
+    "name": "[#ffc500]Tronoe",
+    "requiresUnlock": false
+  }
 }
