@@ -8,12 +8,12 @@ research: armored-conveyor
 solid: false
 researchCost: [
   Urbium/25
-  Harbinger-Remnats/50
+  Harbinger-Remnants/50
 ]
 speed: 6
 health: 150
 requirements: [
   Urbium/5
-  Harbinger-Remnats/10
+  Harbinger-Remnants/10
 ]
   

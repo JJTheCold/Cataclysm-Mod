@@ -6,7 +6,7 @@ size: 6
 craftTime: 80
 consumes: {
   items: [
-    Harbinger-Remnats/5
+    Harbinger-Remnants/5
     Thaxon/3
     Geosium/1
     Urbium/5
@@ -65,6 +65,6 @@ Thaxon/200
 Silver/150
 Silikide/250
 Urbium/5
-Harbinger-Remnats/5
+Harbinger-Remnants/5
 ]
 itemCapacity: 30

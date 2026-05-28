@@ -7,7 +7,7 @@ craftTime: 60
 consumes: {
   items: [
     graphite/1
-    Harbinger-Remnats/2
+    Harbinger-Remnants/2
   ]
 power: 3
 }
@@ -49,6 +49,6 @@ research: Quartz-Generator
 craftEffect: smokeCloud
 requirements: [
   graphite/50
-  Harbinger-Remnats/100
+  Harbinger-Remnants/100
 ]
 itemCapacity: 10

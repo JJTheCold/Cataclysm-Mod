@@ -55,7 +55,7 @@ category: crafting
 research: Silikide-smelter
 requirements: [
   Thaxon/75
-  Harbinger-Remnats/150
+  Harbinger-Remnants/150
   graphite/120
 ]
 itemCapacity: 20

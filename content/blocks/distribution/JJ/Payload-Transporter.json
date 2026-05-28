@@ -2,7 +2,7 @@
   "type": "PayloadConveyor",
   "name": "Payload Transporter",
   "requirements": [
-    "Harbinger-Remnats/20",
+    "Harbinger-Remnants/20",
     "Silikide/5"
   ],
   "moveTime": 45,

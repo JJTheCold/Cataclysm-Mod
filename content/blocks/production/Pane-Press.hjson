@@ -6,7 +6,7 @@ size: 3
 craftTime: 30
 consumes: {
   items: [
-    Harbinger-Remnats/2
+    Harbinger-Remnants/2
     Thaxon/1
   ]
 power: 4.5
@@ -77,7 +77,7 @@ effect: [
 category: crafting
 research: Quartz-Generator
 requirements: [
-Harbinger-Remnats/100
+Harbinger-Remnants/100
 Thaxon/150
 Silikide/150
 ]

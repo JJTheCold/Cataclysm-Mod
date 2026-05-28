@@ -1,6 +1,6 @@
 {
   "type": "PowerNode",
-  "name": "Large Quartz Node",
+  "name": "Harbinger Terminal",
   "size": 6,
   "health": 1250,
   "laserRange": 100,
@@ -12,7 +12,7 @@
   "category": "power",
   "research": "large-Quartz-node",
   "requirements": [
-    "Harbinger-Remnats/500",
+    "Harbinger-Remnants/500",
     "Silikide/220",
     "Thaxon-Steel/75",
     "Thaxon/300"

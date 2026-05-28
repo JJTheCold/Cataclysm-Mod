@@ -5,7 +5,7 @@ size: 2
 health: 3800
 squareSprite: true
 requirements: [
-  Harbinger-Remnats/24
+  Harbinger-Remnants/24
 ]
 research: T-quartz-wall
 category: defense

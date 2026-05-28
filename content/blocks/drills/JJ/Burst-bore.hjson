@@ -16,6 +16,6 @@ type: BeamDrill
     boosted: true
   }
   requirements: [
-  Harbinger-Remnats/100
+  Harbinger-Remnants/100
   Urbium/75
   ]

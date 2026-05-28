@@ -11,7 +11,7 @@
 ],
 "requirements": [
     "Silikide/300",
-    "Harbinger-Remnats/250",
+    "Harbinger-Remnants/250",
     "graphite/200"
   ],
 "plans": [
@@ -19,7 +19,7 @@
       "unit": "Quill",
       "requirements": [
         {
-          "item": "Harbinger-Remnats",
+          "item": "Harbinger-Remnants",
           "amount": 25
         },
         {

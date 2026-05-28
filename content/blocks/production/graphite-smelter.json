@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Graphite Smelter",
-  "description": "Produces Graphite from pulverizing and rebuilding Urbium.",
+  "description": "Produces Graphite from pulverizing and rebuilding Urbium, expelling the excess out via side vents.",
   "size": 3,
   "craftTime": 80,
   "consumes": {

@@ -15,7 +15,7 @@
     },
     "requirements": [
         "Urbium/10",
-        "Harbinger-Remnats/10",
+        "Harbinger-Remnants/10",
         "graphite/5"
     ]
 }

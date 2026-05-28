@@ -11,7 +11,7 @@
     "Thaxon-Steel/100",
     "graphite/250",
     "Thoralius/250",
-    "Harbinger-Remnats/750"
+    "Harbinger-Remnants/750"
       ],
     "liquid": {
       "liquid": "Thaxus",
@@ -20,7 +20,7 @@
   },
   "requirements": [
     "Silikide/250",
-    "Harbinger-Remnats/750",
+    "Harbinger-Remnants/750",
     "Thoralius/150",
     "Thaxon-Steel/180",
     "graphite/500"

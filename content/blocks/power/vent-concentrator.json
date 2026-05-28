@@ -1,0 +1,38 @@
+{
+  "type": "ThermalGenerator",
+  "name": "Vent Concentrator",
+  "description": "Extracts power from vents, similar to the vent condenser.",
+  "size": 3,
+  "minEfficiency": 1,
+  "displayEfficiency": false,
+  "ignoreLiquidFullness": true,
+  "ambientSound": "hum",
+  "researchCostMultiplier": 0.5,
+  "ambientSoundVolume": 1,
+  "drawer": [
+    {
+      "type": "DrawDefault"
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-rot",
+      "rotateSpeed": 3
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-rot",
+      "rotateSpeed": -3
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-top"
+    }
+  ],
+  "powerProduction": 4,
+  "category": "power",
+  "research": "origin",
+  "requirements": [
+    "tungsten/20",
+    "Urbium/60"
+  ]
+}

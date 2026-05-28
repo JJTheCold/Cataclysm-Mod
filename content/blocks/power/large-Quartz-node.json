@@ -12,7 +12,7 @@
   "category": "power",
   "research": "Quartz-node",
   "requirements": [
-    "Harbinger-Remnats/30",
+    "Harbinger-Remnants/30",
     "Silikide/20"
   ]
 }

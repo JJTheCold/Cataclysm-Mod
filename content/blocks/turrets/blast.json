@@ -16,7 +16,7 @@
   "shootCone": 3,
   "requirements": [
     "Urbium/50",
-    "Harbinger-Remnats/100"
+    "Harbinger-Remnants/100"
   ],
   "shoot": {
     "type": "ShootAlternate",
@@ -39,7 +39,7 @@
   },
   "shootSound": "shootAlt",
   "ammoTypes": {
-    "Harbinger-Remnats": {
+    "Harbinger-Remnants": {
       "type": "BasicBulletType",
       "speed": 10,
       "lifetime": 28,
