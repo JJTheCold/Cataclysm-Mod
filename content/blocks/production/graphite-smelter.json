@@ -18,11 +18,19 @@
     "type": "DrawMulti",
     "drawers": [
       {
-        "type": "DrawRegion",
-        "suffix": "-bottom"
+        "type": "DrawDefault"
       },
       {
-        "type": "DrawDefault"
+        "type": "DrawGlowRegion",
+        "color": "3b52a0",
+        "glowScale": 17,
+        "glowIntensity": 0.3,
+        "suffix": "-top"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "color": "3b52a0",
+        "suffix": "-glow"
       }
     ]
   },
