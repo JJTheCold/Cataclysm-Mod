@@ -31,6 +31,10 @@
         "type": "DrawGlowRegion",
         "color": "A9D8FFFF",
         "suffix": "-glow"
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "A9D8FFFF"
       }
     ]
   },

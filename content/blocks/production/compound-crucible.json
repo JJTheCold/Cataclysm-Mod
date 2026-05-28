@@ -22,15 +22,6 @@
 "type": "DrawGlowRegion",
 "color": "ff724f",
 "suffix": "-glow"
-},
-{
-"type": "DrawFlame",
-"color": "ff8e7f",
-"flameRadiusScl": 0,
-"flameRadiusMag": 0, 
-"flameRadiusInMag": 0,
-"flameRadiusIn": 0,
-"flameRadius": 0
 }
 ]
 },
