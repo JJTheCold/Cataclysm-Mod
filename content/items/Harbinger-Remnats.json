@@ -3,7 +3,7 @@
     "description": "Scrap metal found in harbinger ruins. used to create most of the Harbinger's ancient tech.",
     "hardness": 2,
     "cost": 2,
-    "alwaysUnlocked": false,
+    "alwaysUnlocked": true,
     "explosiveness": 0.2,
     "color": "ffffff",
     "research": "Urbium",

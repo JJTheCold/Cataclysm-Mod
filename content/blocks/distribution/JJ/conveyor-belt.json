@@ -5,7 +5,7 @@
 "category": "distribution",
 "research": "origin",
 "bridgeReplacement": "heavy-bridge-conveyor",
-"alwaysUnlocked": false,
+"alwaysUnlocked": true,
 "displayedSpeed": 9,
 "junctionReplacement": "heavy-junction",
 "speed": 0.065,

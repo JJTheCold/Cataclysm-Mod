@@ -3,7 +3,7 @@
 "name": "Heavy Junction",
 "description": "Allows two conveyors to pass through each other",
 "category": "distribution",
-"alwaysUnlocked": false,
+"alwaysUnlocked": true,
 "research": "Channel-bridge",
 "bridgeReplacement": "Channel-bridge",
 "capacity": 10,

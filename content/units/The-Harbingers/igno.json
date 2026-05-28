@@ -23,7 +23,7 @@
   "groundLayer": 75,
   "drag": 0.4,
   "outlineColor": "12131f",
-  "alwaysUnlocked": false,
+  "alwaysUnlocked": true,
   "weapons": [
     {
     "name": "gem-point-def",

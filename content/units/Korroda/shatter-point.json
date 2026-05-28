@@ -32,7 +32,7 @@
   "stepSoundVolume": 1.5,
   "stepSound": "walkerStep",
   "outlineColor": "12131f",
-  "alwaysUnlocked": false,
+  "alwaysUnlocked": true,
   "rotateSpeed": 2.25,
   "floorMultiplier": 0,
   "mineSpeed": 13.5,

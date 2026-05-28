@@ -3,7 +3,7 @@
     "description": "Highly volitile. Used in bombs and explosive amunition.",
     "hardness": 2,
     "cost": 2,
-    "alwaysUnlocked": false,
+    "alwaysUnlocked": true,
     "explosiveness": 1.8,
     "flammability": 0.6,
     "color": "c64b4b",

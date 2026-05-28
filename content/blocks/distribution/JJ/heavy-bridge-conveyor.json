@@ -3,7 +3,7 @@
 "name": "Heavy Bridge Conveyor",
 "description": "Transports items over terrain.",
 "category": "distribution",
-"alwaysUnlocked": false,
+"alwaysUnlocked": true,
 "research": "conveyor-belt",
 "capacity": 10,
 "range": 6,

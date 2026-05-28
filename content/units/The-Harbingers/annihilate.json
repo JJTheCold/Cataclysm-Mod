@@ -27,7 +27,7 @@
 "targetAir": true,
 "tankMoveSound": "tankMoveHeavy",
 "rotateSpeed": 0.6,
-"alwaysUnlocked": false,
+"alwaysUnlocked": true,
   "immunities": [
     "tarred",
     "melting",

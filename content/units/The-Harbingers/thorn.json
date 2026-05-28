@@ -21,7 +21,7 @@
 "flying": false,
 "targetAir": true,
 "rotateSpeed": 1.75,
-"alwaysUnlocked": false,
+"alwaysUnlocked": true,
 "weapons": [
 {
 "name": "thorn-cannon",

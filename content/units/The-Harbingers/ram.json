@@ -31,7 +31,7 @@
   "groundLayer": 75,
   "drag": 0.4,
   "itemCapacity": 90,
-  "alwaysUnlocked": false,
+  "alwaysUnlocked": true,
   "outlineColor": "12131f",
   "abilities": [
     {

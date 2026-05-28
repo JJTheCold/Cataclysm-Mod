@@ -3,7 +3,7 @@
     "description": "A dense metal, harboring large amounts of charge.",
     "hardness": 3,
     "cost": 2.5,
-    "alwaysUnlocked": false,
+    "alwaysUnlocked": true,
     "color": "5c5d59",
     "charge": 2.5,
     "research": "none",

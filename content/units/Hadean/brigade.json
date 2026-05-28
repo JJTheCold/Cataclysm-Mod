@@ -10,7 +10,7 @@
 "outlineColor": "12131f",
 "rotateSpeed": 3,
 "mechLegColor": "12131f",
-  "alwaysUnlocked": false,
+  "alwaysUnlocked": true,
  "immunities": [
     "melting",
     "freezing",

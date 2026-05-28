@@ -18,7 +18,7 @@
   "armor": 1,
   "buildSpeed": 0.2,
   "health": 920,
-  "alwaysUnlocked": false,
+  "alwaysUnlocked": true,
   "parts": [
     {
       "type": "HoverPart",

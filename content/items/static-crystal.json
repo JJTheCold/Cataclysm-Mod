@@ -3,7 +3,7 @@
     "description": "Bustling with energy.",
     "hardness": 2,
     "cost": 1,
-    "alwaysUnlocked": false,
+    "alwaysUnlocked": true,
     "explosiveness": 0.2,
     "charge": 1,
     "color": "d2eadd",

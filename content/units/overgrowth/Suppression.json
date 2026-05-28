@@ -31,7 +31,7 @@
   "maxRange": 2000,
   "flying": false,
   "rotateSpeed": 1.5,
-  "alwaysUnlocked": false,
+  "alwaysUnlocked": true,
   "parts": [
     {
       "type": "RegionPart",

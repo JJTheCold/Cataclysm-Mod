@@ -3,7 +3,7 @@
     "description": "A common, natual metal found within tronoe. Contains carbon.",
     "hardness": 1,
     "cost": 1.5,
-    "alwaysUnlocked": false,
+    "alwaysUnlocked": true,
     "color": "5c5d59",
     "research": "none",
     "hiddenOnPlanets": ["serpulo", "erekir"]

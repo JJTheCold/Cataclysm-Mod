@@ -21,7 +21,7 @@
   "health": 2720,
   "itemCapacity": 20,
   "mineTier": 2,
-  "alwaysUnlocked": false,
+  "alwaysUnlocked": true,
   "useEngineElevation": false,
   "lowAltitude": false,
   "parts": [
