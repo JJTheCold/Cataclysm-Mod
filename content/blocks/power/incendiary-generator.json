@@ -19,23 +19,23 @@
       "suffix": "-bottom"
     },
     {
-      "type": "DrawRegion",
+      "type": "DrawGlowRegion",
       "suffix": "-rimGlow"
     },
     {
       "type": "DrawDefault"
     },
     {
-      "type": "DrawRegion",
+      "type": "DrawGlowRegion",
       "suffix": "-glow"
     },
     {
       "type": "DrawParticles",
       "color": "ff9851",
-      "alpha": 1.5,
+      "alpha": 0.6,
       "sides": 4,
       "blending": "additive",
-      "particleSize": 5,
+      "particleSize": 4,
       "reverse": false,
       "particleRad": 20,
       "particles": 30,
@@ -47,7 +47,7 @@
       "type": "DrawParticles",
       "color": "ff9851",
       "alpha": 0.5,
-      "sides": 4,
+      "sides": 3,
       "blending": "additive",
       "particleSize": 4,
       "reverse": false,
