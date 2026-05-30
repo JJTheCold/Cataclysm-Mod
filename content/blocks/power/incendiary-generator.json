@@ -11,7 +11,6 @@
   "effectChance": 0.05,
   "group": "liquids",
   "ambientSoundVolume": 0.05,
-  "generateEffect": "generateEffect",
   "drawer": [
     {
       "type": "DrawRegion",
@@ -20,7 +19,7 @@
     {
       "type": "DrawParticles",
       "color": "ffd37f",
-      "alpha": 0.3,
+      "alpha": 0.7,
       "sides": 4,
       "blending": "additive",
       "particleSize": 5,
@@ -30,6 +29,20 @@
       "fadeMargin": 1,
       "rotateScl": 30,
       "particleLife": 40
+    },
+    {
+      "type": "DrawParticles",
+      "color": "ffd37f",
+      "alpha": 0.3,
+      "sides": 4,
+      "blending": "additive",
+      "particleSize": 4,
+      "reverse": false,
+      "particleRad": 20,
+      "particles": 20,
+      "fadeMargin": 1,
+      "rotateScl": 120,
+      "particleLife": 80
     },
     {
       "type": "DrawRegion",
