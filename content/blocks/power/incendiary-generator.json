@@ -1,0 +1,63 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Incendiary Generator",
+  "description": "Extracts power from vents, similar to the vent condenser.",
+  "size": 3,
+  "displayEfficiency": false,
+  "ignoreLiquidFullness": true,
+  "ambientSound": "generateEffect",
+  "researchCostMultiplier": 0.5,
+  "attribute": "steam",
+  "effectChance": 0.05,
+  "group": "liquids",
+  "ambientSoundVolume": 0.05,
+  "generateEffect": "generateEffect",
+  "drawer": [
+    {
+      "type": "DrawRegion",
+      "suffix": "-bottom"
+    },
+    {
+      "type": "DrawParticles",
+      "color": "ffd37f",
+      "alpha": 0.3,
+      "sides": 4,
+      "blending": "additive",
+      "particleSize": 5,
+      "reverse": false,
+      "particleRad": 20,
+      "particles": 30,
+      "fadeMargin": 1,
+      "rotateScl": 30,
+      "particleLife": 40
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-rimGlow"
+    },
+    {
+      "type": "DrawDefault"
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-glow"
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-rot"
+    }
+  ],
+"consumes": {
+"items": [
+"Urbium/1"
+]
+},
+"itemDuration": 50,
+  "powerProduction": 8,
+  "category": "power",
+  "research": "origin",
+  "requirements": [
+    "tungsten/20",
+    "Urbium/60"
+  ]
+}
