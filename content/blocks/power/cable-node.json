@@ -1,15 +1,17 @@
 {
   "type": "PowerNode",
   "name": "Cable Node",
+  "description": "Provides power to nearby structures. Can be placed over liquids.",
   "size": 1,
   "health": 120,
   "laserRange": 3,
   "maxNodes": 2,
   "hasPower": true,
   "placeableLiquid": "true",
-  "laserColor1": "ffffff",
-  "laserColor2": "d2e4ff",
-  "consumePowerBuffered": 200,
+  "outputsPower": "true",
+  "consumesPower": "true",
+  "laserColor1": "232535",
+  "laserColor2": "5f6372",
   "consumes": {
       "power": {
           "buffered": true,
