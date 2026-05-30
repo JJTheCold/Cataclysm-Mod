@@ -19,7 +19,7 @@
 ],
 "health": 100,
 "requirements": [
-  "Urbium/10",
-  "graphite/6"
+  "Urbium/20",
+  "graphite/15"
 ]
 }
