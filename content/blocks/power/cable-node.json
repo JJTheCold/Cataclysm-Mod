@@ -7,7 +7,15 @@
   "maxNodes": 2,
   "hasPower": true,
   "placeableLiquid": "true",
-  "laserColor": "d2e4ff",
+  "laserColor1": "ffffff",
+  "laserColor2": "d2e4ff",
+  "consumePowerBuffered": 200,
+  "consumes": {
+      "power": {
+          "buffered": true,
+          "capacity": 100
+      }
+  },
   "category": "power",
   "research": "incendiary-generator",
   "requirements": [
