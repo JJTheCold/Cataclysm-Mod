@@ -5,13 +5,13 @@
   "size": 1,
   "health": 120,
   "laserRange": 3,
-  "maxNodes": 2,
+  "maxNodes": 4,
   "hasPower": true,
   "placeableLiquid": "true",
   "outputsPower": "true",
   "consumesPower": "true",
   "laserColor1": "232535",
-  "laserColor2": "5f6372",
+  "laserColor2": "a0b0c8",
   "consumes": {
       "power": {
           "buffered": true,
