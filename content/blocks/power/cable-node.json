@@ -1,7 +1,7 @@
 {
   "type": "PowerNode",
   "name": "Cable Node",
-  "description": "Provides power to nearby structures. Can be placed over liquids.",
+  "description": "Provides power to nearby structures. Can be placed over liquids. Stores a small amount of power.",
   "size": 1,
   "health": 120,
   "laserRange": 3,
@@ -21,6 +21,7 @@
   "category": "power",
   "research": "incendiary-generator",
   "requirements": [
-    "tungsten/10"
+    "tungsten/5",
+    "Urbium/3"
   ]
 }
