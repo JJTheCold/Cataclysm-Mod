@@ -1,11 +1,11 @@
 {
   "type": "ConsumeGenerator",
   "name": "Incendiary Generator",
-  "description": "Extracts power from vents, similar to the vent condenser.",
+  "description": "used.",
   "size": 3,
   "displayEfficiency": false,
   "ignoreLiquidFullness": true,
-  "ambientSound": "generateEffect",
+  "ambientSound": "loopSmelter",
   "researchCostMultiplier": 0.5,
   "attribute": "steam",
   "effectChance": 0.05,
