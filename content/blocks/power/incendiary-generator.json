@@ -20,6 +20,9 @@
     },
     {
       "type": "DrawGlowRegion",
+      "color": "f2ddc6",
+      "glowScale": 17,
+      "glowIntensity": 0.2,
       "suffix": "-rimGlow"
     },
     {
@@ -27,6 +30,9 @@
     },
     {
       "type": "DrawGlowRegion",
+      "color": "f2ddc6",
+      "glowScale": 17,
+      "glowIntensity": 0.2,
       "suffix": "-glow"
     },
     {
