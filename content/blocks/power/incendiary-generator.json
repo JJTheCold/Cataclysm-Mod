@@ -26,7 +26,7 @@
       "particleSize": 7,
       "reverse": false,
       "particleRad": 10,
-      "particles": 4,
+      "particles": 40,
       "fadeMargin": 1,
       "rotateScl": 120,
       "particleLife": 80
