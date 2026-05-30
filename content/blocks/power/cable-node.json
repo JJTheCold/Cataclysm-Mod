@@ -1,14 +1,13 @@
 {
   "type": "PowerNode",
-  "name": "Quartz Node",
+  "name": "Cable Node",
   "size": 1,
   "health": 120,
   "laserRange": 3,
   "maxNodes": 2,
   "hasPower": true,
   "placeableLiquid": "true",
-  "laserColor1": "FFFFFFFF",
-  "laserColor2": "BCB6B6FF",
+  "laserColor": "d2e4ff",
   "category": "power",
   "research": "incendiary-generator",
   "requirements": [
