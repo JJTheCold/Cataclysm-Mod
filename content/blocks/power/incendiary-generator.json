@@ -19,6 +19,19 @@
       "suffix": "-bottom"
     },
     {
+      "type": "DrawParticles",
+      "color": "ff9851",
+      "alpha": 0.6,
+      "blending": "additive",
+      "particleSize": 7,
+      "reverse": false,
+      "particleRad": 10,
+      "particles": 4,
+      "fadeMargin": 1,
+      "rotateScl": 120,
+      "particleLife": 80
+    },
+    {
       "type": "DrawGlowRegion",
       "color": "f2ddc6",
       "glowScale": 17,
@@ -38,13 +51,12 @@
     {
       "type": "DrawParticles",
       "color": "a0b0c8",
-      "alpha": 0.6,
-      "sides": 4,
+      "alpha": 0.4,
       "blending": "additive",
       "particleSize": 4,
       "reverse": true,
       "particleRad": 40,
-      "particles": 40,
+      "particles": 50,
       "fadeMargin": 1,
       "rotateScl": 30,
       "particleLife": 80
@@ -57,7 +69,7 @@
       "particleSize": 5,
       "reverse": true,
       "particleRad": 20,
-      "particles": 40,
+      "particles": 20,
       "fadeMargin": 1,
       "rotateScl": 120,
       "particleLife": 80
