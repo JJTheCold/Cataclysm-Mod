@@ -3,15 +3,15 @@
   "name": "Quartz Node",
   "size": 1,
   "health": 120,
-  "laserRange": 10,
-  "maxNodes": 5,
+  "laserRange": 3,
+  "maxNodes": 2,
   "hasPower": true,
   "placeableLiquid": "true",
   "laserColor1": "FFFFFFFF",
   "laserColor2": "BCB6B6FF",
   "category": "power",
-  "research": "Quartz-Generator",
+  "research": "incendiary-generator",
   "requirements": [
-    "Harbinger-Remnants/10"
+    "tungsten/10"
   ]
 }

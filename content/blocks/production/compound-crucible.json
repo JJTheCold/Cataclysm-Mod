@@ -15,12 +15,13 @@
 "type": "DrawGlowRegion",
 "color": "ff724f",
 "glowScale": 17,
-"glowIntensity": 0.3,
+"glowIntensity": 0.6,
 "suffix": "-top"
 },
 {
 "type": "DrawGlowRegion",
 "color": "ff724f",
+"glowIntensity": 0.3,
 "suffix": "-glow"
 }
 ]
