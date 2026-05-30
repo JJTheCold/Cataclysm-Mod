@@ -44,7 +44,7 @@
       "particleSize": 4,
       "reverse": true,
       "particleRad": 40,
-      "particles": 30,
+      "particles": 40,
       "fadeMargin": 1,
       "rotateScl": 30,
       "particleLife": 80
@@ -54,10 +54,10 @@
       "color": "ff9851",
       "alpha": 0.75,
       "blending": "additive",
-      "particleSize": 7,
-      "reverse": false,
+      "particleSize": 5,
+      "reverse": true,
       "particleRad": 20,
-      "particles": 50,
+      "particles": 40,
       "fadeMargin": 1,
       "rotateScl": 120,
       "particleLife": 80
