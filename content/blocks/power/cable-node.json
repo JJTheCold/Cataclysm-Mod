@@ -8,9 +8,11 @@
   "underBullets": true,
   "crushFragile": true,
   "maxNodes": 4,
-  "placeableLiquid": "true",
-  "outputsPower": "true",
-  "consumesPower": "true",
+  "drawDisabled": false,
+  "placeableLiquid": true,
+  "canOverdrive": false,
+  "outputsPower": true,
+  "consumesPower": true,
   "consumes": {
       "power": {
           "buffered": true,
