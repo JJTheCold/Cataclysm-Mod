@@ -1,0 +1,28 @@
+{
+  "type": "PowerNode",
+  "name": "Cable Tower",
+  "description": "Provides power to nearby structures over a greater distance. Can be placed over liquids. Stores a moderate amount of power.",
+  "size": 2,
+  "health": 500,
+  "laserRange": 10,
+  "underBullets": true,
+  "crushFragile": true,
+  "maxNodes": 6,
+  "drawDisabled": false,
+  "placeableLiquid": true,
+  "canOverdrive": false,
+  "consumes": {
+      "power": {
+          "buffered": true,
+          "capacity": 500
+      }
+  },
+  "category": "power",
+  "research": "cable-node",
+  "requirements": [
+    "tungsten/25",
+    "Urbium/20",
+    "silicon/15",
+    "Thaxon/10"
+  ]
+}
