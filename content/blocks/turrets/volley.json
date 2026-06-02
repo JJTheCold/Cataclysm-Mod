@@ -1,0 +1,123 @@
+{
+  "type": "ItemTurret",
+  "coolantMultiplier": 10,
+  "name": "Volley",
+  "description": "Fires volleys of bullets at enemies.",
+  "ammoPerShot": 3,
+  "reload": 50,
+  "range": 232,
+  "outlineColor": "232535",
+  "recoil": 1,
+  "shake": 1,
+  "inaccuracy": 5,
+  "category": "turret",
+  "targetUnderBlocks": false,
+  "shootY": 3,
+  "shootCone": 20,
+  "requirements": [
+    "Urbium/50",
+    "Harbinger-Remnants/100"
+  ],
+  "shoot": {
+    "type": "ShootAlternate",
+    "barrels": 3,
+    "spread": 0,
+    "shotDelay": 2,
+    "shots": 3
+  },
+  "size": 2,
+  "health": 600,
+  "armor": 10,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "tronoe-",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-wing",
+        "under": true,
+        "alternate": false,
+        "moveRot": -15,
+        "moveX": 0.75,
+        "progress": {
+          "type": "recoil",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-cannon",
+        "under": true,
+        "alternate": false,
+        "moveY": -4,
+        "progress": {
+          "type": "recoil",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2
+        },
+        "mirror": false
+      }
+    ]
+  },
+  "coolant": {
+    "type": "ConsumeLiquid",
+    "liquid": "water",
+    "amount": 0.1
+  },
+  "shootSound": "shootAlt",
+  "ammoTypes": {
+    "tungsten": {
+      "type": "BasicBulletType",
+      "speed": 10,
+      "lifetime": 28,
+      "height": 9,
+      "width": 12,
+      "hitSize": 7,
+      "pierceCap": 2,
+      "pierce": true,
+      "pierceBuilding": false,
+      "damage": 75,
+      "smokeEffect": "shootBigSmoke",
+      "trailColor": "a0b0c8",
+      "backColor": "a0b0c8",
+      "hitColor": "a0b0c8",
+      "frontColor": "FFFFFF",
+      "trailWidth": 2.1,
+      "trailLength": 4,
+      "hitEffect": "hitBulletColor",
+      "despawnEffect": "hitBulletColor",
+      "buildingDamageMultiplier": 0.5
+    },
+    "Urbium": {
+      "type": "BasicBulletType",
+      "speed": 10,
+      "lifetime": 28,
+      "height": 9,
+      "width": 12,
+      "hitSize": 7,
+      "damage": 45,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "ammoMultiplier": 2,
+      "pierceCap": 3,
+      "pierce": true,
+      "pierceBuilding": false,
+      "trailColor": "444759",
+      "backColor": "5f6372",
+      "hitColor": "5f6372",
+      "frontColor": "FFFFFF",
+      "trailWidth": 2.1,
+      "trailLength": 5,
+      "hitEffect": "hitBulletColor",
+      "despawnEffect": "hitBulletColor",
+      "buildingDamageMultiplier": 0.7
+    }
+  },
+  "research": {
+    "parent": "origin"
+  }
+}
