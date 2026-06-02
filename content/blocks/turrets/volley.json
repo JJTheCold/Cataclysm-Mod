@@ -4,15 +4,16 @@
   "name": "Volley",
   "description": "Fires volleys of bullets at enemies.",
   "ammoPerShot": 3,
-  "reload": 50,
-  "range": 232,
+  "reload": 30,
+  "range": 245,
   "outlineColor": "232535",
   "recoil": 1,
   "shake": 1,
   "inaccuracy": 5,
   "category": "turret",
+  "ammoUseEffect": "casing2",
   "targetUnderBlocks": false,
-  "shootY": 3,
+  "shootY": 6,
   "shootCone": 20,
   "requirements": [
     "Urbium/50",
@@ -22,7 +23,7 @@
     "type": "ShootAlternate",
     "barrels": 3,
     "spread": 0,
-    "shotDelay": 2,
+    "shotDelay": 3,
     "shots": 3
   },
   "size": 2,
@@ -35,9 +36,9 @@
       {
         "type": "RegionPart",
         "suffix": "-wing",
-        "under": true,
+        "under": false,
         "alternate": false,
-        "moveRot": -15,
+        "moveRot": -17,
         "moveX": 0.75,
         "progress": {
           "type": "recoil",
@@ -51,12 +52,10 @@
         "type": "RegionPart",
         "suffix": "-cannon",
         "under": true,
-        "alternate": false,
-        "moveY": -4,
+        "moveY": -5,
         "progress": {
           "type": "recoil",
           "op": "blend",
-          "other": "heat",
           "amount": 0.2
         },
         "mirror": false
@@ -68,38 +67,38 @@
     "liquid": "water",
     "amount": 0.1
   },
-  "shootSound": "shootAlt",
+  "shootSound": "shootSalvo",
   "ammoTypes": {
     "tungsten": {
       "type": "BasicBulletType",
-      "speed": 10,
+      "speed": 12,
       "lifetime": 28,
-      "height": 9,
-      "width": 12,
+      "height": 12,
+      "width": 5,
       "hitSize": 7,
       "pierceCap": 2,
       "pierce": true,
       "pierceBuilding": false,
-      "damage": 75,
+      "damage": 45,
       "smokeEffect": "shootBigSmoke",
       "trailColor": "a0b0c8",
       "backColor": "a0b0c8",
       "hitColor": "a0b0c8",
       "frontColor": "FFFFFF",
-      "trailWidth": 2.1,
+      "trailWidth": 1.5,
       "trailLength": 4,
       "hitEffect": "hitBulletColor",
       "despawnEffect": "hitBulletColor",
-      "buildingDamageMultiplier": 0.5
+      "buildingDamageMultiplier": 0.2
     },
     "Urbium": {
       "type": "BasicBulletType",
-      "speed": 10,
+      "speed": 8,
       "lifetime": 28,
-      "height": 9,
-      "width": 12,
+      "height": 12,
+      "width": 5,
       "hitSize": 7,
-      "damage": 45,
+      "damage": 16.5,
       "shootEffect": "shootBig",
       "smokeEffect": "shootBigSmoke",
       "ammoMultiplier": 2,
@@ -110,11 +109,11 @@
       "backColor": "5f6372",
       "hitColor": "5f6372",
       "frontColor": "FFFFFF",
-      "trailWidth": 2.1,
+      "trailWidth": 1.5,
       "trailLength": 5,
       "hitEffect": "hitBulletColor",
       "despawnEffect": "hitBulletColor",
-      "buildingDamageMultiplier": 0.7
+      "buildingDamageMultiplier": 0.5
     }
   },
   "research": {
