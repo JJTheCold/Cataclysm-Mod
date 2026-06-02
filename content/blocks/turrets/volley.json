@@ -27,7 +27,7 @@
     "shots": 3
   },
   "size": 2,
-  "health": 600,
+  "health": 900,
   "armor": 10,
   "drawer": {
     "type": "drawTurret",
@@ -52,10 +52,12 @@
         "type": "RegionPart",
         "suffix": "-cannon",
         "under": true,
-        "moveY": -5,
+        "alternate": false,
+        "moveY": -4,
         "progress": {
           "type": "recoil",
           "op": "blend",
+          "other": "heat",
           "amount": 0.2
         },
         "mirror": false
