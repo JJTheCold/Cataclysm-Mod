@@ -74,10 +74,10 @@
   "ammoTypes": {
     "tungsten": {
       "type": "BasicBulletType",
-      "speed": 12,
+      "speed": 10,
       "lifetime": 28,
-      "height": 12,
-      "width": 5,
+      "height": 19,
+      "width": 10,
       "hitSize": 7,
       "pierceCap": 2,
       "pierce": true,
@@ -96,10 +96,10 @@
     },
     "Urbium": {
       "type": "BasicBulletType",
-      "speed": 8,
+      "speed": 9,
       "lifetime": 28,
-      "height": 12,
-      "width": 5,
+      "height": 17,
+      "width": 12,
       "hitSize": 7,
       "damage": 16.5,
       "shootEffect": "shootBig",
