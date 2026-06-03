@@ -150,9 +150,7 @@
 "research": {
 "parent": "kiloton-forge",
 "objectives": [
-"carbide-crucible",
-"surge-crucible",
-"slag-heater"
+"carbide-crucible"
 ]
 },
 "outputItems": ["Pyral-Compound/2"],

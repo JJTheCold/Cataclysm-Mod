@@ -3,9 +3,9 @@
   "coolantMultiplier": 10,
   "name": "Volley",
   "description": "Fires volleys of bullets at enemies.",
-  "details": "You recognize these schematics, as if you yourself have seen them before. But that was a long time ago.",
+  "details": "You recognize these schematics, from wars you once fought. But that was a long time ago.",
   "ammoPerShot": 3,
-  "reload": 30,
+  "reload": 50,
   "range": 245,
   "outlineColor": "232535",
   "recoil": 1,
@@ -90,7 +90,7 @@
       "frontColor": "FFFFFF",
       "trailWidth": 1,
       "trailLength": 4,
-      "hitEffect": "hitScepterSecondary",
+      "hitEffect": "hitBulletColor",
       "despawnEffect": "hitBulletColor",
       "buildingDamageMultiplier": 0.2
     },
@@ -113,7 +113,7 @@
       "frontColor": "FFFFFF",
       "trailWidth": 1,
       "trailLength": 5,
-      "hitEffect": "hitScepterSecondary",
+      "hitEffect": "hitBulletColor",
       "despawnEffect": "hitBulletColor",
       "buildingDamageMultiplier": 0.5
     },
@@ -137,7 +137,7 @@
       "frontColor": "FFFFFF",
       "trailWidth": 1,
       "trailLength": 5,
-      "hitEffect": "hitScepterSecondary",
+      "hitEffect": "hitBulletColor",
       "despawnEffect": "hitBulletColor",
       "buildingDamageMultiplier": 0.5
     }
