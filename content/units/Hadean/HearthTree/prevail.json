@@ -40,10 +40,11 @@
     },
     {
       "type": "EnergyFieldAbility",
-      "color": "12131f",
+      "color": "feb380",
       "maxTargets": 25,
       "damage": 75,
       "healPercent": 1.75,
+      "y": 5,
       "range": 160,
       "under": true,
       "status": "burning",
