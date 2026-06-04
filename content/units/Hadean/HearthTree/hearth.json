@@ -12,7 +12,7 @@
   "rotateSpeed": 1.5,
   "fogRadius": 30,
   "legContinuousMove": true,
-  "hovering": false,
+  "hovering": true,
   "lightColor": "ff4f00",
   "lightRadius": 150,
   "faceTarget": true,

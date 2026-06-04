@@ -1,21 +1,20 @@
 {
   "type": "legs",
   "legCount": 4,
-  "legLength": 65,
+  "legLength": 55,
   "legSpeed": 0.5,
-  "legBaseLength": 1,
   "legExtension": -25,
   "legForwardScl": 0.2,
   "envDisabled": 0,
-  "legBaseOffset": 15,
+  "legBaseOffset": 25,
   "legMoveSpace": 1,
   "legPairOffset": 2,
   "rotateSpeed": 1.5,
   "fogRadius": 30,
   "legContinuousMove": true,
-  "hovering": false,
+  "hovering": true,
   "lightColor": "ff4f00",
-  "lightRadius": 150,
+  "lightRadius": 300,
   "faceTarget": true,
   "name": "Prevail",
   "description": "Fires smt, idk yet.",
@@ -35,7 +34,7 @@
       "amount": 50,
       "max": 2000,
       "reload": 80,
-      "range": 150
+      "range": 450
     }
   ],
   "immunities": [

@@ -11,7 +11,7 @@
   "legMoveSpace": 0.9,
   "legPairOffset": 2,
   "fogRadius": 45,
-  "hovering": false,
+  "hovering": true,
   "faceTarget": true,
   "legContinuousMove": true,
   "targetPriority": -2,
