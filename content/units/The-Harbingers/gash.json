@@ -242,7 +242,6 @@
         "type": "BasicBulletType",
         "sprite": "missile-large",
         "removeAfterPierce": false,
-        
         "height": 63,
         "hitColor": "62A0FCFF",
         "splashDamage": 450,
