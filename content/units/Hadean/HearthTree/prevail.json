@@ -65,9 +65,41 @@
       {
         "type": "RegionPart",
         "suffix": "-wing",
-        "under": false,
-        "alternate": false,
-        "moveRot": -17,
+        "under": true,
+        "alternate": true,
+        "y": -6,
+        "moveRot": 37,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-wing",
+        "under": true,
+        "alternate": true,
+        "moveRot": 50,
+        "x": 3,
+        "y": -3,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-wing",
+        "under": true,
+        "x": 6,
+        "alternate": true,
+        "moveRot": 90,
         "progress": {
           "type": "warmup",
           "op": "blend",
