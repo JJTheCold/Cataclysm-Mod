@@ -16,6 +16,7 @@
   "legContinuousMove": true,
   "drownTimeMultiplier": 3,
   "hovering": true,
+  "shadowElevation": 1.25,
   "lightColor": "ff4f00",
   "lightRadius": 300,
   "faceTarget": true,
@@ -72,7 +73,7 @@
         "y": -6,
         "moveRot": 37,
         "progress": {
-          "type": "recoil",
+          "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": -0.2
@@ -90,7 +91,7 @@
         "x": 6,
         "y": -3,
         "progress": {
-          "type": "recoil",
+          "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": -0.1
@@ -107,7 +108,59 @@
         "alternate": true,
         "moveRot": 90,
         "progress": {
-          "type": "recoil",
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-wing-heat",
+      "layerOffset": -0.00001,
+        "under": true,
+        "moveX": 4,
+        "alternate": true,
+        "y": -6,
+        "moveRot": 37,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": -0.2
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-wing-heat",
+      "layerOffset": -0.00001,
+        "under": true,
+        "moveX": 7,
+        "alternate": true,
+        "moveRot": 50,
+        "x": 6,
+        "y": -3,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": -0.1
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-wing-heat",
+      "layerOffset": -0.00001,
+        "under": true,
+        "moveX": 10,
+        "x": 12,
+        "alternate": true,
+        "moveRot": 90,
+        "progress": {
+          "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": 0
@@ -407,15 +460,16 @@
     },
     {
       "name": "hearth-cannon",
-      "x": 7,
-      "y": 5,
+      "x": 16,
+      "y": 8,
       "rotateSpeed": 1.5,
       "mirror": true,
       "rotate": false,
       "shootY": 10,
       "shootCone": 20,
       "inaccuracy": 5,
-      "reload": 8,
+      "layerOffset": -0.00001,
+      "reload": 6,
       "alternate": true,
       "shootSound": "shootScepter",
       "rotationLimit": 30,
@@ -424,13 +478,13 @@
         "type": "BasicBulletType",
         "ammoMultiplier": 2,
         "height": 35,
-        "width": 6,
+        "width": 8,
         "status": "melting",
         "statusDuration": 800,
         "pierce": false,
         "lifetime": 20,
-        "damage": 35,
-        "splashDamage": 10,
+        "damage": 50,
+        "splashDamage": 14,
         "splashDamageRadius": 10,
         "despawnSound": "explosion",
         "hitSound": "explosion",

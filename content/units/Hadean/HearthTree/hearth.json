@@ -8,6 +8,7 @@
   "envDisabled": 0,
   "legBaseOffset": 1,
   "legMoveSpace": 1,
+  "shadowElevation": 0.5,
   "legPairOffset": 2,
   "rotateSpeed": 1.5,
   "fogRadius": 30,
