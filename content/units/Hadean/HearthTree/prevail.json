@@ -61,14 +61,31 @@
     "melting",
     "burning"
   ],
-  "weapons": [{
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-wing",
+        "under": false,
+        "alternate": false,
+        "moveRot": -17,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2
+        },
+        "mirror": true
+      }
+    ],
+  "weapons": [
+    {
       "name": "prevail-cannon",
-      "x": 25,
+      "x": 30,
       "y": 0,
       "rotateSpeed": 1.5,
       "mirror": true,
       "rotate": false,
-      "shootY": 10,
+      "shootY": 15,
       "layerOffset": -0.00001,
       "shootCone": 20,
       "inaccuracy": 5,
