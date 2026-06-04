@@ -3,7 +3,7 @@
   "legCount": 6,
   "legLength": 75,
   "legSpeed": 0.5,
-  "legExtension": -8,
+  "legExtension": -18,
   "legForwardScl": 0.2,
   "envDisabled": 0,
   "legBaseOffset": 10,
