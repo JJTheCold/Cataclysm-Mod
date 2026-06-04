@@ -7,7 +7,7 @@
   "legExtension": -5,
   "legForwardScl": 0.2,
   "envDisabled": 0,
-  "legBaseOffset": 12,
+  "legBaseOffset": -22,
   "legMoveSpace": 1,
   "legPairOffset": 2,
   "rotateSpeed": 1.5,
@@ -29,165 +29,19 @@
   "itemCapacity": 90,
   "alwaysUnlocked": true,
   "outlineColor": "12131f",
+  "abilities": [
+    {
+      "type": "ShieldRegenFieldAbility",
+      "amount": 50,
+      "max": 2000,
+      "reload": 80,
+      "range": 150
+    }
+  ],
   "immunities": [
     "melting",
     "burning"
   ],
   "weapons": [
-    {
-      "name": "hearth-cannon",
-      "x": 16,
-      "y": 0,
-      "rotateSpeed": 1.5,
-      "mirror": true,
-      "rotate": false,
-      "shootY": 10,
-      "shootCone": 20,
-      "inaccuracy": 5,
-      "reload": 6,
-      "alternate": true,
-      "shootSound": "shootScepter",
-      "rotationLimit": 30,
-      "ejectEffect": "casing2",
-      "bullet": {
-        "type": "BasicBulletType",
-        "ammoMultiplier": 2,
-        "height": 35,
-        "width": 6,
-        "status": "melting",
-        "statusDuration": 800,
-        "pierce": false,
-        "lifetime": 20,
-        "damage": 35,
-        "splashDamage": 10,
-        "splashDamageRadius": 10,
-        "despawnSound": "explosion",
-        "hitSound": "explosion",
-        "hitEffect": {
-          "type": "multiEffect",
-          "effects": [
-            {
-              "type": "ParticleEffect",
-              "line": true,
-              "particles": 5,
-              "lifetime": 25,
-              "interp": "circleOut",
-              "offset": 30,
-              "length": 75,
-              "baseLength": 10,
-              "cone": 30,
-              "lightColor": "FFB570FF",
-              "strokeFrom": 6,
-              "strokeTo": 0,
-              "lenFrom": 15,
-              "lenTo": 3,
-              "colorFrom": "FFB570FF",
-              "colorTo": "FFB570FF"
-            },
-            {
-              "type": "ParticleEffect",
-              "particles": 5,
-              "lifetime": 25,
-              "length": 50,
-              "baseLength": 5,
-              "lightColor": "FFB570FF",
-              "interp": "circleOut",
-              "cone": 50,
-              "colorFrom": "FFB570FF",
-              "colorTo": "ff4f00",
-              "sizeFrom": 7,
-              "sizeTo": 0
-            }
-          ]
-        },
-        "speed": 16,
-        "lightColor": "FFB570FF",
-        "lightOpacity": 0.7,
-        "lightRadius": 12,
-        "trailColor": "FFB570FF",
-        "frontColor": "ffffff",
-        "backColor": "FFB570FF",
-        "trailLength": 4,
-        "trailWidth": 1.25
-      }
-    },
-    {
-      "name": "hearth-cannon",
-      "x": 7,
-      "y": 2,
-      "rotateSpeed": 1.5,
-      "mirror": true,
-      "rotate": false,
-      "shootY": 10,
-      "shootCone": 20,
-      "inaccuracy": 5,
-      "layerOffset": -0.00001,
-      "reload": 8,
-      "alternate": true,
-      "shootSound": "shootScepter",
-      "rotationLimit": 30,
-      "ejectEffect": "casing2",
-      "bullet": {
-        "type": "BasicBulletType",
-        "ammoMultiplier": 2,
-        "height": 35,
-        "width": 6,
-        "status": "melting",
-        "statusDuration": 800,
-        "pierce": false,
-        "lifetime": 20,
-        "damage": 35,
-        "splashDamage": 10,
-        "splashDamageRadius": 10,
-        "despawnSound": "explosion",
-        "hitSound": "explosion",
-        "hitEffect": {
-          "type": "multiEffect",
-          "effects": [
-            {
-              "type": "ParticleEffect",
-              "line": true,
-              "particles": 5,
-              "lifetime": 25,
-              "interp": "circleOut",
-              "offset": 30,
-              "length": 75,
-              "baseLength": 10,
-              "cone": 30,
-              "lightColor": "FFB570FF",
-              "strokeFrom": 6,
-              "strokeTo": 0,
-              "lenFrom": 15,
-              "lenTo": 3,
-              "colorFrom": "FFB570FF",
-              "colorTo": "FFB570FF"
-            },
-            {
-              "type": "ParticleEffect",
-              "particles": 5,
-              "lifetime": 25,
-              "length": 50,
-              "baseLength": 5,
-              "lightColor": "FFB570FF",
-              "interp": "circleOut",
-              "cone": 50,
-              "colorFrom": "FFB570FF",
-              "colorTo": "ff4f00",
-              "sizeFrom": 7,
-              "sizeTo": 0
-            }
-          ]
-        },
-        "speed": 16,
-        "lightColor": "FFB570FF",
-        "lightOpacity": 0.7,
-        "lightRadius": 12,
-        "trailColor": "FFB570FF",
-        "frontColor": "ffffff",
-        "backColor": "FFB570FF",
-        "trailLength": 4,
-        "trailWidth": 1.25
-      }
-    }
   ]
 }
