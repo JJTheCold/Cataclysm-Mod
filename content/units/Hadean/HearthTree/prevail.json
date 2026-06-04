@@ -72,10 +72,10 @@
         "y": -6,
         "moveRot": 37,
         "progress": {
-          "type": "warmup",
+          "type": "recoil",
           "op": "blend",
           "other": "heat",
-          "amount": 0.2
+          "amount": -0.2
         },
         "mirror": true
       },
@@ -90,10 +90,10 @@
         "x": 6,
         "y": -3,
         "progress": {
-          "type": "warmup",
+          "type": "recoil",
           "op": "blend",
           "other": "heat",
-          "amount": 0.1
+          "amount": -0.1
         },
         "mirror": true
       },
@@ -107,7 +107,7 @@
         "alternate": true,
         "moveRot": 90,
         "progress": {
-          "type": "warmup",
+          "type": "recoil",
           "op": "blend",
           "other": "heat",
           "amount": 0
