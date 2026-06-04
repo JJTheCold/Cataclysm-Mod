@@ -66,7 +66,7 @@
       {
         "type": "RegionPart",
         "suffix": "-wing",
-      "layerOffset": -0.00001,
+        "layerOffset": -0.00001,
         "under": true,
         "moveX": 4,
         "alternate": true,
@@ -83,7 +83,7 @@
       {
         "type": "RegionPart",
         "suffix": "-wing",
-      "layerOffset": -0.00001,
+        "layerOffset": -0.00001,
         "under": true,
         "moveX": 7,
         "alternate": true,
@@ -101,7 +101,7 @@
       {
         "type": "RegionPart",
         "suffix": "-wing",
-      "layerOffset": -0.00001,
+        "layerOffset": -0.00001,
         "under": true,
         "moveX": 10,
         "x": 12,
@@ -118,8 +118,9 @@
       {
         "type": "RegionPart",
         "suffix": "-wing-heat",
-      "layerOffset": -0.00001,
+        "layerOffset": -0.00001,
         "under": true,
+        "color": "ff4f00",
         "moveX": 4,
         "alternate": true,
         "y": -6,
@@ -135,8 +136,9 @@
       {
         "type": "RegionPart",
         "suffix": "-wing-heat",
-      "layerOffset": -0.00001,
+        "layerOffset": -0.00001,
         "under": true,
+        "color": "ff4f00",
         "moveX": 7,
         "alternate": true,
         "moveRot": 50,
@@ -153,8 +155,9 @@
       {
         "type": "RegionPart",
         "suffix": "-wing-heat",
-      "layerOffset": -0.00001,
+        "layerOffset": -0.00001,
         "under": true,
+        "color": "ff4f00",
         "moveX": 10,
         "x": 12,
         "alternate": true,

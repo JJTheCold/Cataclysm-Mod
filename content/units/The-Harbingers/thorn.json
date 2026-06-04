@@ -1,7 +1,7 @@
 {
 "localizedName": "Thorn",
 "description": "Fires shells at enemy targets. Losses it's shock aura.",
-"details": "'They dare strike at us? At such a moment?'.",
+"details": "'This tank is the only one of it's kind able to fire a shell that passes through enemy blocks. Use this to your advantage'.",
 "faceTarget": false,
 "squareShape": true,
 "type": "tank",
