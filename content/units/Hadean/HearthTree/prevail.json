@@ -168,7 +168,7 @@
         "progress": {
           "type": "warmup",
           "op": "blend",
-          "other": "none",
+          "other": "heat",
           "amount": 0
         },
         "mirror": true
