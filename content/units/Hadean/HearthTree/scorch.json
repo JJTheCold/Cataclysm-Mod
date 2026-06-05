@@ -164,7 +164,7 @@
         },
         "pierce": true,
         "pierceBuilding": true,
-        "incendAmount": 3
+        "incendAmount": 0.2
       }
     }
   ]
