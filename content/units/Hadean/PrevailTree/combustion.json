@@ -128,7 +128,7 @@
             }
           ]
         },
-        "rangeOverride": 40,
+        "rangeOverride": 10,
         "hitEffect": "pulverize",
         "speed": 0,
         "splashDamageRadius": 60,
