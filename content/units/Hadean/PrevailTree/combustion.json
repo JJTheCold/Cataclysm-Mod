@@ -15,7 +15,7 @@
   "hovering": true,
   "lightColor": "ff4f00",
   "range": 40,
-  "aiController": "SuicideAI",
+  "defaultController": "SuicideAI",
   "lightRadius": 75,
   "faceTarget": true,
   "name": "Heat",
