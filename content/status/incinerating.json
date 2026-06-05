@@ -3,12 +3,11 @@
   "name": "Disintegrating",
   "reloadMultiplier": 0.75,
   "speedMultiplier": 0.75,
-  "damage": 5,
-  "transitionDamage": 66,
+  "damage": 3,
+  "transitionDamage": 120,
   "affinities": [
     "tarred",
-    "melting",
-    "exogenesis-molten1"
+    "melting"
   ],
   "effect": {
     "type": "ParticleEffect",

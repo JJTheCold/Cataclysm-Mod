@@ -21,7 +21,8 @@
   "lightRadius": 300,
   "faceTarget": true,
   "name": "Prevail",
-  "description": "Fires smt, idk yet.",
+  "description": "Spews large flames at enemy targets. Fires 2 rapid bursts of bullets. Equiped with a large aura that zaps enemy targets until they begin to burn.",
+  "details": "The people of Hadean fought with their dying breath against Korroda's Hivemind, but it was unfortunately not enough. Hadean was no more, and the Cultivation no longer had any competition, compelting it's main directive.",
   "health": 46000,
   "armor": 23,
   "speed": 0.45,
@@ -168,7 +169,7 @@
               "sizeInterp": "pow5In",
               "lightColor": "FFB570FF",
               "colorFrom": "ff4f00",
-              "colorTo": "3f3f3fff",
+              "colorTo": "FFB570FF",
               "cone": 8
             },
             {
