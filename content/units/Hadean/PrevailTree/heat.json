@@ -14,7 +14,7 @@
   "legContinuousMove": true,
   "hovering": true,
   "lightColor": "ff4f00",
-  "lightRadius": 75,
+  "lightRadius": 50,
   "faceTarget": true,
   "name": "Heat",
   "description": "Rapidly fires piercing shells at enemies, setting them ablaze.",
@@ -33,8 +33,8 @@
   ],
   "weapons": [
     {
-      "name": "hearth-cannon",
-      "x": 16,
+      "name": "heat-cannon",
+      "x": 9,
       "y": 0,
       "rotateSpeed": 1.5,
       "mirror": true,
@@ -50,7 +50,7 @@
       "bullet": {
         "type": "ArtilleryBulletType",
         "ammoMultiplier": 2,
-        "height": 12,
+        "height": 16,
         "width": 12,
         "maxRange": 200,
         "knockback": 0.5,
@@ -100,7 +100,7 @@
             }
           ]
         },
-        "speed": 16,
+        "speed": 2,
         "lightColor": "FFB570FF",
         "lightOpacity": 0.7,
         "lightRadius": 12,

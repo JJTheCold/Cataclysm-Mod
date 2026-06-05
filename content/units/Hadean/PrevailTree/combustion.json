@@ -16,7 +16,7 @@
   "lightColor": "ff4f00",
   "range": 40,
   "defaultController": "SuicideAI",
-  "lightRadius": 75,
+  "lightRadius": 25,
   "faceTarget": true,
   "name": "Heat",
   "description": "Rapidly fires piercing shells at enemies, setting them ablaze.",
@@ -127,10 +127,11 @@
             }
           ]
         },
-        "rangeOverride": 25,
+        "rangeOverride": 40,
         "hitEffect": "pulverize",
         "speed": 0,
         "splashDamageRadius": 60,
+        "splashDamage": 120,
         "instantDisappear": true,
         "buildingDamageMultiplier": 0.5,
         "killShooter": true,
