@@ -127,124 +127,8 @@
       "shootY": 25,
       "layerOffset": -0.00001,
       "shootCone": 20,
-      "inaccuracy": 5,
-      "reload": 10,
+      "reload": 5,
       "alternate": false,
-      "shootSound": "shootConquer",
-      "rotationLimit": 30,
-      "ejectEffect": "casing2",
-      "shoot": {
-        "type": "ShootAlternate",
-        "barrels": 4,
-        "spread": 5,
-        "shots": 2
-        },
-      "bullet": {
-        "type": "BasicBulletType",
-        "ammoMultiplier": 2,
-        "height": 50,
-        "width": 20,
-        "status": "melting",
-        "statusDuration": 1200,
-        "pierce": false,
-        "lifetime": 20,
-        "damage": 140,
-        "splashDamage": 60,
-        "splashDamageRadius": 10,
-        "despawnSound": "explosion",
-        "hitSound": "explosion",
-        "shootEffect": {
-          "type": "multiEffect",
-          "effects": [
-            {
-              "type": "ParticleEffect",
-              "particles": 25,
-              "length": 75,
-              "lifetime": 40,
-              "lightColor": "FFB570FF",
-              "cone": 80,
-              "colorFrom": "FFB570FF",
-              "colorTo": "ff4f00",
-              "sizeFrom": 6,
-              "sizeTo": 0
-            },
-            {
-              "type": "ParticleEffect",
-              "line": true,
-              "particles": 25,
-              "length": 75,
-              "lifetime": 40,
-              "lightColor": "FFB570FF",
-              "cone": 30,
-              "colorFrom": "FFB570FF",
-              "colorTo": "ff4f00",
-              "lenFrom": 10,
-              "lenTo": 6,
-              "strokeFrom": 6,
-              "strokeTo": 0
-            }
-          ]
-        },
-        "hitEffect": {
-          "type": "multiEffect",
-          "effects": [
-            {
-              "type": "ParticleEffect",
-              "line": true,
-              "particles": 5,
-              "lifetime": 25,
-              "interp": "circleOut",
-              "offset": 30,
-              "length": 75,
-              "baseLength": 10,
-              "cone": 30,
-              "lightColor": "FFB570FF",
-              "strokeFrom": 6,
-              "strokeTo": 0,
-              "lenFrom": 15,
-              "lenTo": 3,
-              "colorFrom": "FFB570FF",
-              "colorTo": "FFB570FF"
-            },
-            {
-              "type": "ParticleEffect",
-              "particles": 5,
-              "lifetime": 25,
-              "length": 50,
-              "baseLength": 5,
-              "lightColor": "FFB570FF",
-              "interp": "circleOut",
-              "cone": 50,
-              "colorFrom": "FFB570FF",
-              "colorTo": "ff4f00",
-              "sizeFrom": 7,
-              "sizeTo": 0
-            }
-          ]
-        },
-        "speed": 16,
-        "lightColor": "FFB570FF",
-        "lightOpacity": 0.7,
-        "lightRadius": 12,
-        "trailColor": "FFB570FF",
-        "frontColor": "ffffff",
-        "backColor": "FFB570FF",
-        "trailLength": 5,
-        "trailWidth": 4
-      }
-    },
-    {
-      "name": "hearth-cannon",
-      "x": 16,
-      "y": 8,
-      "rotateSpeed": 1.5,
-      "mirror": true,
-      "rotate": false,
-      "shootY": 15,
-      "shootCone": 20,
-      "layerOffset": -0.00001,
-      "reload": 30,
-      "alternate": true,
       "rotationLimit": 30,
       "ejectEffect": "casing2",
       "shake": 2,
@@ -252,7 +136,7 @@
         "shots": 5
       },
       "inaccuracy": 4,
-      "shootSound": "flame",
+      "shootSound": "shootFlame",
       "cooldownTime": 70,
       "bullet": {
         "type": "BasicBulletType",
@@ -380,7 +264,92 @@
         },
         "pierce": true,
         "pierceBuilding": true,
-        "incendAmount": 5
+        "incendAmount": 15
+      }
+    },
+    {
+      "name": "hearth-cannon",
+      "x": 16,
+      "y": 8,
+      "rotateSpeed": 1.5,
+      "mirror": true,
+      "rotate": false,
+      "shootY": 10,
+      "shootCone": 20,
+      "inaccuracy": 5,
+      "layerOffset": -0.00001,
+      "reload": 30,
+      "alternate": true,
+      "shootSound": "shootScepter",
+      "rotationLimit": 30,
+      "ejectEffect": "casing2",
+  "shoot": {
+    "type": "ShootAlternate",
+    "barrels": 3,
+    "spread": 0,
+    "shotDelay": 3,
+    "shots": 5
+  },
+      "bullet": {
+        "type": "BasicBulletType",
+        "ammoMultiplier": 2,
+        "height": 35,
+        "width": 8,
+        "status": "melting",
+        "statusDuration": 800,
+        "pierce": false,
+        "lifetime": 20,
+        "damage": 50,
+        "splashDamage": 14,
+        "splashDamageRadius": 10,
+        "despawnSound": "explosion",
+        "hitSound": "explosion",
+        "hitEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "particles": 5,
+              "lifetime": 25,
+              "interp": "circleOut",
+              "offset": 30,
+              "length": 75,
+              "baseLength": 10,
+              "cone": 30,
+              "lightColor": "FFB570FF",
+              "strokeFrom": 6,
+              "strokeTo": 0,
+              "lenFrom": 15,
+              "lenTo": 3,
+              "colorFrom": "FFB570FF",
+              "colorTo": "FFB570FF"
+            },
+            {
+              "type": "ParticleEffect",
+              "particles": 5,
+              "lifetime": 25,
+              "length": 50,
+              "baseLength": 5,
+              "lightColor": "FFB570FF",
+              "interp": "circleOut",
+              "cone": 50,
+              "colorFrom": "FFB570FF",
+              "colorTo": "ff4f00",
+              "sizeFrom": 7,
+              "sizeTo": 0
+            }
+          ]
+        },
+        "speed": 16,
+        "lightColor": "FFB570FF",
+        "lightOpacity": 0.7,
+        "lightRadius": 12,
+        "trailColor": "FFB570FF",
+        "frontColor": "ffffff",
+        "backColor": "FFB570FF",
+        "trailLength": 4,
+        "trailWidth": 1.25
       }
     },
     {
