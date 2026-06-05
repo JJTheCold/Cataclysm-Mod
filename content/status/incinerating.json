@@ -4,6 +4,12 @@
   "reloadMultiplier": 0.75,
   "speedMultiplier": 0.75,
   "damage": 5,
+  "transitionDamage": 66,
+  "affinities": [
+    "tarred",
+    "melting",
+    "exogenesis-molten1"
+  ],
   "effect": {
     "type": "ParticleEffect",
     "particles": 5,
