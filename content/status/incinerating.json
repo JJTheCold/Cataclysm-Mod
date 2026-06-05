@@ -10,12 +10,12 @@
     "length": 15,
     "baseLength": 5,
     "lifetime": 125,
-    "lightColor": "ff4f26",
+    "lightColor": "feb380",
     "interp": "circleOut",
     "cone": 360,
-    "colorFrom": "ff4f26",
+    "colorFrom": "feb380",
     "colorTo": "4a4a4a",
-    "sizeFrom": 10,
+    "sizeFrom": 4,
     "sizeTo": 0
     }
 }

@@ -137,7 +137,6 @@
       "reload": 3,
       "alternate": false,
       "rotationLimit": 30,
-      "ejectEffect": "casing2",
       "shake": 2,
       "shoot": {
         "shots": 5
