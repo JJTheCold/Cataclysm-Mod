@@ -1,0 +1,172 @@
+{
+  "type": "legs",
+  "legCount": 4,
+  "legLength": 15,
+  "legExtension": -5,
+  "legForwardScl": 0.2,
+  "envDisabled": 0,
+  "legBaseOffset": 5,
+  "legMoveSpace": 2,
+  "legPairOffset": 2,
+  "rotateSpeed": 2,
+  "fogRadius": 20,
+  "legContinuousMove": true,
+  "drownTimeMultiplier": 3,
+  "hovering": true,
+  "shadowElevation": 0.2,
+  "lightColor": "ff4f00",
+  "lightRadius": 75,
+  "faceTarget": true,
+  "name": "Scorch",
+  "description": "Spews flames at enemies, setting them ablaze.",
+  "details": "It has a respectable amount of armor for it's small size.",
+  "health": 4800,
+  "armor": 6,
+  "speed": 1.2,
+  "hitSize": 15,
+  "isEnemy": true,
+  "drag": 0.6,
+  "itemCapacity": 60,
+  "alwaysUnlocked": true,
+  "outlineColor": "12131f",
+  "immunities": [
+    "melting",
+    "burning"
+  ],
+  "weapons": [
+    {
+      "name": "scorch-cannon",
+      "x": 12,
+      "y": 0,
+      "rotateSpeed": 1.5,
+      "mirror": true,
+      "rotate": false,
+      "shootY": 8,
+      "shootCone": 40,
+      "reload": 3,
+      "alternate": false,
+      "layerOffset": -0.00001,
+      "rotationLimit": 30,
+      "shoot": {
+        "shots": 3
+      },
+      "inaccuracy": 4,
+      "shootSound": "shootFlame",
+      "cooldownTime": 70,
+      "bullet": {
+        "type": "BasicBulletType",
+        "collidesAir": true,
+        "status": "melting",
+        "statusDuration": 80,
+        "speed": 3,
+        "damage": 20,
+        "width": 0.1,
+        "height": 0.1,
+        "shootEffect": {
+          "type": "multiEffect",
+          "layer": 110,
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 2,
+              "sizeFrom": 4,
+              "sizeTo": 0,
+              "length": 80,
+              "lifetime": 40,
+              "interp": "circleOut",
+              "sizeInterp": "pow5In",
+              "lightColor": "FF5845FF",
+              "colorFrom": "FFDCD8FF",
+              "colorTo": "ff4f00",
+              "cone": 10
+            },
+            {
+              "type": "ParticleEffect",
+              "particles": 2,
+              "sizeFrom": 4,
+              "sizeTo": 0,
+              "length": 80,
+              "lifetime": 45,
+              "interp": "fastSlow",
+              "lightColor": "FFB570FF",
+              "colorFrom": "FFB570FF",
+              "colorTo": "ff4f00",
+              "cone": 10
+            },
+            {
+              "type": "ParticleEffect",
+              "particles": 3,
+              "sizeFrom": 4,
+              "sizeTo": 0,
+              "length": 80,
+              "lifetime": 50,
+              "interp": "fastSlow",
+              "lightColor": "FFB570FF",
+              "colorFrom": "FFB570FF",
+              "colorTo": "ff4f00",
+              "cone": 8
+            }
+          ]
+        },
+        "smokeEffect": {
+          "type": "multiEffect",
+          "layer": 109,
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 4,
+              "sizeFrom": 3,
+              "sizeTo": 0,
+              "layer": 99,
+              "length": 100,
+              "lifetime": 48,
+              "lightOpacity": 0,
+              "interp": "fastSlow",
+              "colorFrom": "FFB570FF",
+              "colorTo": "3f3f3fff",
+              "cone": 13
+            },
+            {
+              "type": "ParticleEffect",
+              "particles": 3,
+              "sizeFrom": 3,
+              "sizeTo": 0,
+              "length": 110,
+              "layer": 99,
+              "lifetime": 59,
+              "lightOpacity": 0,
+              "interp": "circleOut",
+              "sizeInterp": "pow5In",
+              "colorFrom": "FFB570FF",
+              "colorTo": "3f3f3fff",
+              "cone": 10
+            }
+          ]
+        },
+        "lifetime": 25,
+        "despawnEffect": "none",
+        "hittable": false,
+        "reflectable": false,
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 2,
+          "lifetime": 60,
+          "offset": 10,
+          "interp": "circleOut",
+          "length": 40,
+          "cone": -30,
+          "strokeFrom": 4,
+          "strokeTo": 0,
+          "lenFrom": 4,
+          "lenTo": 0,
+          "colorFrom": "FFB570FF",
+          "colorTo": "FFB570FF"
+        },
+        "pierce": true,
+        "pierceBuilding": true,
+        "incendAmount": 0.2
+      }
+    }
+  ]
+}
