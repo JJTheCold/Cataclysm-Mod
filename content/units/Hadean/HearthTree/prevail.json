@@ -60,7 +60,14 @@
   ],
   "immunities": [
     "melting",
-    "burning"
+    "burning",
+    "tarred",
+    "freezing",
+    "corroded",
+    "sapped",
+    "cataclysm-incinerating",
+    "slow",
+    "spore-slowed"
   ],
     "parts": [
       {

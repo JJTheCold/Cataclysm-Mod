@@ -3,7 +3,7 @@
   "name": "Disintegrating",
   "reloadMultiplier": 0.75,
   "speedMultiplier": 0.75,
-  "damage": 3,
+  "damage": 5,
   "effect": {
     "type": "ParticleEffect",
     "particles": 5,

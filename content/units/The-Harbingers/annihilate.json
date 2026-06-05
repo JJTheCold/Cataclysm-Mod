@@ -41,6 +41,8 @@
     "disarmed",
     "shocked",
     "electrified",
+    "cataclysm-ShellShocked",
+    "cataclysm-incinerating",
     "spore-slowed"
   ],
 "weapons": [
