@@ -151,7 +151,7 @@
         "status": "cataclysm-incinerating",
         "statusDuration": 500,
         "speed": 8,
-        "damage": 50,
+        "damage": 42,
         "width": 0.1,
         "height": 0.1,
         "shootEffect": {

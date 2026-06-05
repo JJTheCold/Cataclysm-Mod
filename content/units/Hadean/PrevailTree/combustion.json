@@ -42,6 +42,7 @@
       "ejectEffect": "none",
       "targetUnderBlocks": false,
       "shootSound": "explosionCrawler",
+      "shootCone": 200,
       "mirror": false,
       "bullet": {
         "collidesTiles": false,
