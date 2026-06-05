@@ -150,8 +150,8 @@
         "collidesAir": true,
         "status": "cataclysm-incinerating",
         "statusDuration": 500,
-        "speed": 6,
-        "damage": 80,
+        "speed": 8,
+        "damage": 50,
         "width": 0.1,
         "height": 0.1,
         "shootEffect": {
@@ -168,8 +168,8 @@
               "interp": "circleOut",
               "sizeInterp": "pow5In",
               "lightColor": "FFB570FF",
-              "colorFrom": "ff4f00",
-              "colorTo": "FFB570FF",
+              "colorFrom": "FF5845FF",
+              "colorTo": "ff4f00",
               "cone": 8
             },
             {
