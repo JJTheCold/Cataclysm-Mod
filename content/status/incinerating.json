@@ -1,0 +1,21 @@
+{
+  "description": "You are being reduced to atoms.",
+  "name": "Disintegrating",
+  "reloadMultiplier": 0.75,
+  "speedMultiplier": 0.75,
+  "damage": 3,
+  "effect": {
+    "type": "ParticleEffect",
+    "particles": 5,
+    "length": 15,
+    "baseLength": 5,
+    "lifetime": 125,
+    "lightColor": "ff4f26",
+    "interp": "circleOut",
+    "cone": 360,
+    "colorFrom": "ff4f26",
+    "colorTo": "4a4a4a",
+    "sizeFrom": 10,
+    "sizeTo": 0
+    }
+}
