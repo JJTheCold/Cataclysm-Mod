@@ -3,14 +3,16 @@
 "name": "Urticite Conveyor",
 "description": "Transports items.",
 "category": "distribution",
-"research": "origin",
+"research": "conveyor-belt",
 "bridgeReplacement": "heavy-bridge-conveyor",
 "alwaysUnlocked": true,
 "displayedSpeed": 9,
 "junctionReplacement": "heavy-junction",
 "speed": 0.15,
 "researchCost": [
-  "Urbium/10"
+  "Urticite/150",
+  "titanium/200",
+  "graphite/100"
 ],
 "health": 250,
 "requirements": [
