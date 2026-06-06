@@ -16,7 +16,7 @@
   "liquidBoostIntensity": 1.5,
   "drawRim": false,
   "shake": 4,
-  "itemCapacity": 40,
+  "itemCapacity": 5,
   "hasLiquids": true,
   "hardnessDrillMultiplier": 10,
   "warmupSpeed": 0.09,
