@@ -1,23 +1,20 @@
 {
   "type": "mech",
   "envDisabled": 0,
-  "targetAir": false,
   "fogRadius": 20,
-  "legContinuousMove": true,
-  "hovering": true,
   "lightColor": "ff4f00",
   "range": 40,
   "defaultController": "SuicideAI",
+  "targetAir": false,
   "lightRadius": 25,
   "faceTarget": true,
   "name": "Heat",
-  "description": "Upon creation, these units immediatly seek out any enemy cores.",
+  "description": "Upon creation, these units immediatly seek out and destroy any enemy territory. It's best to keep these units contained until they are needed",
   "health": 250,
   "armor": 9,
   "speed": 1.2,
   "hitSize": 9,
   "isEnemy": true,
-  "groundLayer": 75,
   "drag": 0.5,
   "itemCapacity": 90,
   "alwaysUnlocked": true,
@@ -124,13 +121,13 @@
         "hitEffect": "pulverize",
         "speed": 0,
         "splashDamageRadius": 60,
-        "splashDamage": 120,
+        "splashDamage": 90,
         "instantDisappear": true,
         "buildingDamageMultiplier": 0.5,
         "killShooter": true,
         "hittable": false,
 
-        "collidesAir": true
+        "collidesAir": false
       }
     }
   ]
