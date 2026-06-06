@@ -6,7 +6,7 @@
 "research": "conveyor-belt",
 "bridgeReplacement": "heavy-bridge-conveyor",
 "alwaysUnlocked": true,
-"displayedSpeed": 9,
+"displayedSpeed": 20,
 "junctionReplacement": "heavy-junction",
 "speed": 0.15,
 "researchCost": [

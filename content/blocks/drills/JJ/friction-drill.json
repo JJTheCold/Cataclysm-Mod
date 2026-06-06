@@ -4,7 +4,7 @@
   "name": "Friction Drill",
   "description": "Outputs burst of ore at the cost of power, and hydrogen.",
   "tier": 6,
-  "drillTime": 280,
+  "drillTime": 100,
   "liquidBoostIntensity": 0,
   "drawRim": false,
   "shake": 4,
@@ -13,6 +13,12 @@
   "consumes": {
     "power": 4,
     "liquid": {
+      "liquid": "water",
+      "amount": 0.3,
+      "booster": true,
+      "optional": true
+    },
+    "liquid": {
       "liquid": "hydrogen",
       "amount": 0.2
     }
@@ -20,14 +26,14 @@
   "hasPower": true,
   "hasLiquids": true,
   "hardnessDrillMultiplier": 14,
-  "arrowSpacing": 3,
+  "arrowSpacing": 2,
   "expanded": true,
   "researchCostMultiplier": 5,
  "requirements": [
      "tungsten/125",
      "thorium/50",
      "Urbium/50",
-     "Urticite/50",
+     "Urbium/50",
      "silicon/50"
   ],
   "category": "production",
