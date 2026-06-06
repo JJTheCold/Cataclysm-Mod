@@ -8,7 +8,7 @@
   "consumes": {
     "liquid": {
       "liquid": "water",
-      "amount": 0.01,
+      "amount": 0.1,
       "booster": true,
       "optional": true
     }
@@ -23,9 +23,8 @@
   "rotateSpeed": 4,
   "researchCostMultiplier": 5,
  "requirements": [
-     "tungsten/25",
-     "Urbium/40",
-     "graphite/15"
+     "tungsten/15",
+     "Urbium/20"
   ],
    "category": "production",
   "research": "Blast-Drill"
