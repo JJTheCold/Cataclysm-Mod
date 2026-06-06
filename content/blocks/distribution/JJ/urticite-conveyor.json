@@ -1,7 +1,7 @@
 {
 "type": "Conveyor",
 "name": "Urticite Conveyor",
-"description": "Transports items.",
+"description": "Transports items. Faster and stronger than a heavy conveyor.",
 "category": "distribution",
 "research": "conveyor-belt",
 "bridgeReplacement": "heavy-bridge-conveyor",
