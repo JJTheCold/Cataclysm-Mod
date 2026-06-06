@@ -5,7 +5,7 @@
   "description": "Outputs burst of ore at the cost of power, and hydrogen.",
   "tier": 6,
   "drillTime": 100,
-  "liquidBoostIntensity": 0,
+  "liquidBoostIntensity": 1,
   "drawRim": false,
   "shake": 4,
   "itemCapacity": 40,
@@ -32,8 +32,7 @@
  "requirements": [
      "tungsten/125",
      "thorium/50",
-     "Urbium/50",
-     "Urbium/50",
+     "Urticite/50",
      "silicon/50"
   ],
   "category": "production",
