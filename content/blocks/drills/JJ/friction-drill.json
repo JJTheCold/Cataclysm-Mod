@@ -12,13 +12,13 @@
   "consumes": {
     "power": 4,
     "liquid": {
-      "liquid": "hydrogen",
+      "liquid": "water",
       "amount": 0.3,
       "booster": true,
       "optional": true
     },
     "liquid": {
-      "liquid": "water",
+      "liquid": "hydrogen",
       "amount": 1
     }
 },
