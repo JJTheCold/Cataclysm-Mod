@@ -6,9 +6,12 @@
   "tier": 5,
   "drillTime": 300,
   "consumes": {
-    "liquids": [
-    "water/0.1"
-    ]
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.01,
+      "booster": true,
+      "optional": true
+    }
 },
   "liquidBoostIntensity": 1.5,
   "drawRim": false,
