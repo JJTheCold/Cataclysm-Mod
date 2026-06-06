@@ -1,0 +1,11 @@
+{
+    "name": "Urticite",
+    "description": "Extreamly tough and slightly radioactive. Used in advanced turret ammo, as a stronger thorium substitute, and in moderate structures.",
+    "hardness": 6,
+    "cost": 2,
+    "alwaysUnlocked": true,
+    "color": "6fab93",
+    "radioactivity": 0.5,
+    "research": "origin",
+    "hiddenOnPlanets": ["serpulo", "erekir"]
+}

@@ -1,8 +1,0 @@
-name: Charged Alloy
-description: "An alloy that seems to never run out of power."
-hardness: 2
-cost: 0.5
-alwaysUnlocked: false
-color: D1EFFFFF
-research: item-SurgeQuartz
-hiddenOnPlanets: [serpulo]

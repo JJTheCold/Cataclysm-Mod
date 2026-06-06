@@ -9,7 +9,7 @@ consumes: {
     Thaxium/1
     Silikide/1
     Magma-stone/5
-    Thoralius/1
+    thorium/1
   ]
 power: 2
 }
@@ -47,7 +47,7 @@ requirements: [
   Silikide/200
   Thaxium/100
   graphite/230
-  Thoralius/120
+  thorium/120
   Magma-stone/200
 ]
 itemCapacity: 20

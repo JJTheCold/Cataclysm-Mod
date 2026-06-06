@@ -8,7 +8,7 @@ consumes: {
   items: [
     Thaxium/2
     Silikide/2
-    Thoralius/2
+    thorium/2
     graphite/4
   ]
     liquids: [
@@ -86,7 +86,7 @@ requirements: [
   Silikide/400
   Thaxium/200
   graphite/520
-  Thoralius/120
+  thorium/120
   MagmaCell/50
 ]
 itemCapacity: 20

@@ -10,7 +10,7 @@
     "Silikide/225",
     "Thaxon-Steel/100",
     "graphite/250",
-    "Thoralius/250",
+    "thorium/250",
     "Harbinger-Remnants/750"
       ],
     "liquid": {
@@ -21,7 +21,7 @@
   "requirements": [
     "Silikide/250",
     "Harbinger-Remnants/750",
-    "Thoralius/150",
+    "thorium/150",
     "Thaxon-Steel/180",
     "graphite/500"
   ],

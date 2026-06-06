@@ -15,7 +15,7 @@
   "requirements": [
     "Silikide/50",
     "Harbinger-Remnants/750",
-    "Thoralius/150",
+    "thorium/150",
     "Thaxium/100",
     "graphite/250"
   ],

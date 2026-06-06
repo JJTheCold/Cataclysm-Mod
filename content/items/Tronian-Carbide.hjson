@@ -1,8 +1,0 @@
-name: Tronian Carbide
-description: Shows many similarities to it's erekir counterpart.
-hardness: 2
-cost: 0.5
-alwaysUnlocked: false
-color: C7FA4F5FF
-research: item-SurgeQuartz
-hiddenOnPlanets: [serpulo]

@@ -6,7 +6,7 @@ craftTime: 120
 consumes: {
   items: [
     Geosium/1
-    Thoralius/4
+    thorium/4
   ]
 power: 2
 }
@@ -39,6 +39,6 @@ requirements: [
   Geosium/100
   Silikide/100
   Thaxium/75
-  Thoralius/50
+  thorium/50
 ]
 itemCapacity: 12

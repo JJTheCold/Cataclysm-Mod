@@ -6,7 +6,7 @@ size: 4
 craftTime: 100
 consumes: {
   items: [
-    Thoralius/1
+    thorium/1
     Thaxium/1
     Harbinger-Remnants/2
   ]
@@ -73,7 +73,7 @@ category: crafting
 research: Quartz-Generator
 requirements: [
 Thaxium/200
-Thoralius/100
+thorium/100
 Silver/150
 Silikide/250
 ]
