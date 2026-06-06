@@ -22,7 +22,7 @@
       "amount": 1
     }
 },
-  "hasPower": false,
+  "hasPower": true,
   "hasLiquids": true,
   "hardnessDrillMultiplier": 14,
   "arrowSpacing": 1,
