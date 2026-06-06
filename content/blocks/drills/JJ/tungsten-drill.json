@@ -1,19 +1,23 @@
 {
   "type": "Drill",
-  "size": 3,
+  "size": 2,
   "name": "Tungsten Drill",
   "description": "Basic drill for surface mining",
-  "consumePower": 0.8,
   "tier": 5,
-  "drillTime": 100,
+  "drillTime": 300,
+  "consumes": {
+    "liquids": [
+    "water/0.1"
+    ]
+},
   "liquidBoostIntensity": 1.5,
   "drawRim": false,
   "shake": 4,
   "itemCapacity": 40,
   "hasLiquids": true,
   "hardnessDrillMultiplier": 10,
-  "warmupSpeed": 1.5,
-  "rotateSpeed": 7,
+  "warmupSpeed": 0.4,
+  "rotateSpeed": 4,
   "researchCostMultiplier": 5,
  "requirements": [
      "tungsten/25",
