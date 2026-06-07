@@ -8,6 +8,7 @@
   "size": 5,
   "armor": 20,
   "itemCapacity": 3500,
+  "layer": 30.5,
   "alwaysUnlocked": true,
   "buildCostMultiplier": 0.7,
   "unitCapModifier": 10,
