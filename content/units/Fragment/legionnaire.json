@@ -7,11 +7,15 @@
   "legForwardScl": 0.2,
   "envDisabled": 0,
   "legBaseOffset": 1,
-  "legMoveSpace": 1,
+  "legMoveSpace": 1.8,
   "legPairOffset": 2,
   "fogRadius": 25,
   "legContinuousMove": true,
   "hovering": false,
+  "mineItems": [
+    "Urbium",
+    "Tungsten"
+  ],
   "lightColor": "a5c9ff",
   "lightRadius": 125,
   "faceTarget": true,
