@@ -17,6 +17,7 @@
     "tungsten"
   ],
   "lightColor": "a5c9ff",
+  "blockedItem": "thorium",
   "lightRadius": 125,
   "faceTarget": true,
   "targetPriority": -1,
@@ -31,7 +32,7 @@
   "mineSpeed": 3.5,
   "mineFloor": true,
   "mineWalls": true,
-  "mineTier": 1.5,
+  "mineTier": 3,
   "buildSpeed": 1.2,
   "groundLayer": 75,
   "drag": 0.4,
