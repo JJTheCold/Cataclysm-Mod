@@ -3,7 +3,7 @@
   "legCount": 4,
   "legLength": 18,
   "legSpeed": 0.5,
-  "legExtension": -2,
+  "legExtension": -4,
   "legForwardScl": 0.2,
   "envDisabled": 0,
   "legBaseOffset": 1,
@@ -70,12 +70,10 @@
         "type": "SapBulletType",
         "sapStrength": 0.75,
         "length": 50,
-        "healPercent": 0.25,
         "color": "a5c9ff",
         "damage": 12,
         "despawnEffect": "none",
         "hitColor": "a5c9ff",
-        "healColor": "a5c9ff",
         "lifetime": 25,
         "shootEffect": "shootSmall"
       }
