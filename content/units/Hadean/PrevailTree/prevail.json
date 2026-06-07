@@ -169,7 +169,7 @@
               "sizeInterp": "pow5In",
               "lightColor": "FFB570FF",
               "colorFrom": "FF5845FF",
-              "colorTo": "ff4f00",
+              "colorTo": "ff7862",
               "cone": 8
             },
             {
@@ -183,7 +183,7 @@
               "sizeInterp": "pow5In",
               "lightColor": "FF5845FF",
               "colorFrom": "FFDCD8FF",
-              "colorTo": "ff4f00",
+              "colorTo": "ff7862",
               "cone": 10
             },
             {
@@ -196,7 +196,7 @@
               "interp": "fastSlow",
               "lightColor": "FFB570FF",
               "colorFrom": "FFB570FF",
-              "colorTo": "ff4f00",
+              "colorTo": "ff7862",
               "cone": 10
             },
             {
@@ -209,7 +209,7 @@
               "interp": "fastSlow",
               "lightColor": "FFB570FF",
               "colorFrom": "FFB570FF",
-              "colorTo": "ff4f00",
+              "colorTo": "ff7862",
               "cone": 8
             }
           ]
@@ -342,7 +342,7 @@
               "interp": "circleOut",
               "cone": 50,
               "colorFrom": "FFB570FF",
-              "colorTo": "ff4f00",
+              "colorTo": "ff7862",
               "sizeFrom": 7,
               "sizeTo": 0
             }
@@ -427,7 +427,7 @@
               "interp": "circleOut",
               "cone": 50,
               "colorFrom": "FFB570FF",
-              "colorTo": "ff4f00",
+              "colorTo": "ff7862",
               "sizeFrom": 7,
               "sizeTo": 0
             }

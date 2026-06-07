@@ -51,7 +51,7 @@
               "sizeInterp": "pow5In",
               "lightColor": "FF5845FF",
               "colorFrom": "FFDCD8FF",
-              "colorTo": "ff4f00",
+              "colorTo": "ff7862",
               "cone": 360
             },
             {
@@ -64,7 +64,7 @@
               "interp": "fastSlow",
               "lightColor": "FFB570FF",
               "colorFrom": "FFB570FF",
-              "colorTo": "ff4f00",
+              "colorTo": "ff7862",
               "cone": 360
             },
             {
@@ -77,7 +77,7 @@
               "interp": "fastSlow",
               "lightColor": "FFB570FF",
               "colorFrom": "FFB570FF",
-              "colorTo": "ff4f00",
+              "colorTo": "ff7862",
               "cone": 360
             }
           ]
