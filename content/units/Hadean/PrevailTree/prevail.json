@@ -229,7 +229,7 @@
               "lightOpacity": 0,
               "interp": "fastSlow",
               "colorFrom": "FFB570FF",
-              "colorTo": "3f3f3fff",
+              "colorTo": "8B7E7E03",
               "cone": 13
             },
             {
@@ -244,7 +244,7 @@
               "interp": "circleOut",
               "sizeInterp": "pow5In",
               "colorFrom": "FFB570FF",
-              "colorTo": "3f3f3fff",
+              "colorTo": "8B7E7E03",
               "cone": 10
             }
           ]
