@@ -59,7 +59,7 @@
         "status": "melting",
         "statusDuration": 80,
         "speed": 3,
-        "damage": 20,
+        "damage": 15,
         "width": 0.1,
         "height": 0.1,
         "shootEffect": {
@@ -116,21 +116,21 @@
               "type": "ParticleEffect",
               "particles": 4,
               "sizeFrom": 3,
-              "sizeTo": 0,
+              "sizeTo": 2,
               "layer": 99,
               "length": 100,
               "lifetime": 48,
               "lightOpacity": 0,
               "interp": "fastSlow",
               "colorFrom": "FFB570FF",
-              "colorTo": "3f3f3fff",
+              "colorTo": "8B7E7E03",
               "cone": 13
             },
             {
               "type": "ParticleEffect",
               "particles": 3,
               "sizeFrom": 3,
-              "sizeTo": 0,
+              "sizeTo": 2,
               "length": 110,
               "layer": 99,
               "lifetime": 59,
@@ -138,7 +138,7 @@
               "interp": "circleOut",
               "sizeInterp": "pow5In",
               "colorFrom": "FFB570FF",
-              "colorTo": "3f3f3fff",
+              "colorTo": "8B7E7E03",
               "cone": 10
             }
           ]

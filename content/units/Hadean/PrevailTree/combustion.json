@@ -42,7 +42,7 @@
           "effects": [
             {
               "type": "ParticleEffect",
-              "particles": 6,
+              "particles": 8,
               "sizeFrom": 4,
               "sizeTo": 0,
               "length": 40,
@@ -56,7 +56,7 @@
             },
             {
               "type": "ParticleEffect",
-              "particles": 6,
+              "particles": 8,
               "sizeFrom": 4,
               "sizeTo": 0,
               "length": 40,
@@ -69,7 +69,7 @@
             },
             {
               "type": "ParticleEffect",
-              "particles": 6,
+              "particles": 8,
               "sizeFrom": 4,
               "sizeTo": 0,
               "length": 40,
@@ -88,23 +88,23 @@
           "effects": [
             {
               "type": "ParticleEffect",
-              "particles": 16,
+              "particles": 22,
               "sizeFrom": 3,
-              "sizeTo": 0,
+              "sizeTo": 2,
               "layer": 99,
               "length": 50,
               "lifetime": 48,
               "lightOpacity": 0,
               "interp": "fastSlow",
               "colorFrom": "FFB570FF",
-              "colorTo": "3f3f3fff",
+              "colorTo": "8B7E7E03",
               "cone": 360
             },
             {
               "type": "ParticleEffect",
-              "particles": 12,
+              "particles": 16,
               "sizeFrom": 3,
-              "sizeTo": 0,
+              "sizeTo": 2,
               "length": 55,
               "layer": 99,
               "lifetime": 59,
@@ -112,7 +112,7 @@
               "interp": "circleOut",
               "sizeInterp": "pow5In",
               "colorFrom": "FFB570FF",
-              "colorTo": "3f3f3fff",
+              "colorTo": "8B7E7E03",
               "cone": 360
             }
           ]
