@@ -1,7 +1,7 @@
 {
   "type": "legs",
   "legCount": 6,
-  "legLength": 22,
+  "legLength": 18,
   "legSpeed": 0.5,
   "legExtension": -5,
   "legForwardScl": 0.2,
@@ -54,6 +54,28 @@
   ],
   "weapons": [
     {
+      "x": 5,
+      "y": 5,
+      "mirror": true,
+      "alternate": true,
+      "shootSound": "shootSap",
+      "reload": 10,
+      "ejectEffect": "none",
+      "healColor": "12131f",
+      "bullet": {
+        "type": "SapBulletType",
+        "sapStrength": 0.75,
+        "length": 50,
+        "healPercent": 0.25,
+        "damage": 12,
+        "despawnEffect": "none",
+        "hitColor": "12131f",
+        "healColor": "12131f",
+        "lifetime": 25,
+        "shootEffect": "shootSmall"
+      }
+    },
+    {
       "type": "RepairBeamWeapon",
       "x": 0,
       "y": -3,
@@ -67,8 +89,8 @@
       "repairSpeed": 0.3,
       "fractionRepairSpeed": 0.2,
       "targetBuildings": true,
-      "laserColor": "E5E5E5FF",
-      "healColor": "E5E5E5FF",
+      "laserColor": "12131f",
+      "healColor": "12131f",
       "bullet": {
         "maxRange": 20,
         "speed": 3
