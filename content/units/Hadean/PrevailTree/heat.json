@@ -23,7 +23,6 @@
   "speed": 1.1,
   "hitSize": 10,
   "isEnemy": true,
-  "groundLayer": 75,
   "drag": 0.5,
   "itemCapacity": 90,
   "alwaysUnlocked": true,
