@@ -29,8 +29,8 @@
   "researchCostMultiplier": 5,
  "requirements": [
      "tungsten/125",
-     "thorium/50",
-     "Urticite/50",
+     "thorium/60",
+     "Urbium/75",
      "silicon/50"
   ],
   "category": "production",
