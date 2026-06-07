@@ -1,6 +1,6 @@
 {
   "type": "legs",
-  "legCount": 6,
+  "legCount": 4,
   "legLength": 18,
   "legSpeed": 0.5,
   "legExtension": -5,
@@ -18,7 +18,7 @@
   "targetPriority": -1,
   "name": "legionnaire",
   "description": "A Well rounded Core unit with solid speed, damage, and defense.",
-  "details": "Built most commonly near the end of the Harbinger's demise. Its cheap constructing cost and multi functional load out made it extremely effective for conserving resources.",
+  "details": ".",
   "health": 780,
   "armor": 9,
   "speed": 2,
@@ -33,7 +33,7 @@
   "drag": 0.4,
   "itemCapacity": 90,
   "alwaysUnlocked": true,
-  "outlineColor": "12131f",
+  "outlineColor": "a5c9ff",
   "abilities": [
     {
       "type": "EnergyFieldAbility",
@@ -55,22 +55,23 @@
   "weapons": [
     {
       "x": 5,
-      "y": 5,
+      "y": 2,
       "mirror": true,
       "alternate": true,
       "shootSound": "shootSap",
       "reload": 10,
       "ejectEffect": "none",
-      "healColor": "12131f",
+      "healColor": "a5c9ff",
       "bullet": {
         "type": "SapBulletType",
         "sapStrength": 0.75,
         "length": 50,
         "healPercent": 0.25,
+        "color": "a5c9ff",
         "damage": 12,
         "despawnEffect": "none",
-        "hitColor": "12131f",
-        "healColor": "12131f",
+        "hitColor": "a5c9ff",
+        "healColor": "a5c9ff",
         "lifetime": 25,
         "shootEffect": "shootSmall"
       }
@@ -89,8 +90,8 @@
       "repairSpeed": 0.3,
       "fractionRepairSpeed": 0.2,
       "targetBuildings": true,
-      "laserColor": "12131f",
-      "healColor": "12131f",
+      "laserColor": "a5c9ff",
+      "healColor": "a5c9ff",
       "bullet": {
         "maxRange": 20,
         "speed": 3
