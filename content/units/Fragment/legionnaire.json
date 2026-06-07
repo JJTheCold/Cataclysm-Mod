@@ -33,7 +33,7 @@
   "drag": 0.4,
   "itemCapacity": 90,
   "alwaysUnlocked": true,
-  "outlineColor": "a5c9ff",
+  "outlineColor": "12131f",
   "abilities": [
     {
       "type": "EnergyFieldAbility",
