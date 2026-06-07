@@ -1,9 +1,9 @@
 {
   "type": "legs",
   "legCount": 4,
-  "legLength": 18,
+  "legLength": 14,
   "legSpeed": 0.5,
-  "legExtension": -5,
+  "legExtension": -2,
   "legForwardScl": 0.2,
   "envDisabled": 0,
   "legBaseOffset": 1,
