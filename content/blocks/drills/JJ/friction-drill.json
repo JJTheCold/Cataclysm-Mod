@@ -12,18 +12,16 @@
   "liquidCapacity": 120,
   "consumes": {
     "power": 4,
-    "liquid": [
-      {
+    "liquid": {
       "liquid": "water",
       "amount": 0.1,
       "booster": true,
       "optional": true
     },
-    {
+    "liquid": {
       "liquid": "hydrogen",
       "amount": 0.2
     }
-  ]
   },
   "hasPower": true,
   "hasLiquids": true,
