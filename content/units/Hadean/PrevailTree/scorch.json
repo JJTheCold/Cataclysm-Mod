@@ -164,8 +164,9 @@
           "colorTo": "FFB570FF"
         },
         "pierce": true,
+        "lightOpacity": 0,
         "pierceBuilding": true,
-        "incendAmount": 0.2
+        "incendAmount": 1.5
       }
     }
   ]

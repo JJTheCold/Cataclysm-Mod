@@ -252,6 +252,7 @@
         "lifetime": 25,
         "despawnEffect": "none",
         "hittable": false,
+        "lightOpacity": 0,
         "reflectable": false,
         "hitEffect": {
           "type": "ParticleEffect",
