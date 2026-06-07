@@ -12,7 +12,7 @@
       "booster": true,
       "optional": true
     }
-},
+ },
   "liquidBoostIntensity": 1.5,
   "drawRim": false,
   "shake": 4,
