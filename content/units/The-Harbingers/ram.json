@@ -65,13 +65,6 @@
       "sectorRad": 0.1,
       "effectRadius": 2,
       "reload": 50
-    },
-    {
-      "type": "mindustry.entities.abilities.ForceFieldAbility",
-      "radius": 12,
-      "regen": 0.8,
-      "max": 850,
-      "cooldown": 2550
     }
   ],
   "weapons": [
@@ -97,10 +90,11 @@
         "height": 12,
         "width": 6.5,
         "pierceDamageFactor": 1,
-        "pierceCap": 3,
+        "pierceCap": 2,
+        "buildingDamageMultiplier": 0,
         "pierceBuilding": false,
         "lifetime": 23,
-        "damage": 40,
+        "damage": 20,
         "speed": 8.5,
         "lightColor": "b9b9b9",
         "lightOpacity": 0.7,
