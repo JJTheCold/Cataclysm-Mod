@@ -1,7 +1,7 @@
 {
   "type": "legs",
   "legCount": 4,
-  "legLength": 18,
+  "legLength": 12,
   "legSpeed": 0.5,
   "legExtension": -4,
   "legForwardScl": 0.2,
@@ -60,7 +60,7 @@
   "weapons": [
     {
       "x": 5,
-      "y": 2,
+      "y": 1.5,
       "mirror": true,
       "alternate": true,
       "shootSound": "shootSap",

@@ -5,6 +5,7 @@
   "details": "How did we get here?",
   "health": 5850,
   "squareSprite": false,
+  "thrusterLength": 20,
   "size": 5,
   "armor": 20,
   "itemCapacity": 3500,
