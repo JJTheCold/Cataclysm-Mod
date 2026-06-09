@@ -96,8 +96,8 @@
           "effects": [
             {
               "type": "ParticleEffect",
-              "particles": 12,
-              "length": 20,
+              "particles": 8,
+              "length": 40,
               "baseLength": 5,
               "lifetime": 30,
               "lightColor": "a5c9ff",
@@ -127,15 +127,15 @@
               "lifetime": 20,
               "sizeFrom": 0,
               "sizeTo": 40,
-              "strokeFrom": 4,
-              "strokeTo": 2,
+              "strokeFrom": 2,
+              "strokeTo": 0,
               "colorFrom": "a5c9ff",
               "colorTo": "6e91c7"
             },
             {
               "type": "ParticleEffect",
               "line": true,
-              "length": 20,
+              "length": 40,
               "baseLength": 5,
               "particles": 25,
               "lifetime": 30,
