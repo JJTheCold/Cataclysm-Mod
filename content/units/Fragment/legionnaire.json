@@ -78,11 +78,12 @@
       "shootSound": "shootCleroi",
       "bullet": {
         "type": "BasicBulletType",
-        "removeAfterPierce": false,
-        "ammoMultiplier": 2,
         "height": 12,
         "width": 10,
         "trailEffect": "missileTrail",
+        "trailParam": 1.6,
+        "trailInterval": 9,
+
         "pierce": false,
         "buildingDamageMultiplier": 0.3,
         "lifetime": 30,
@@ -95,9 +96,9 @@
           "effects": [
             {
               "type": "ParticleEffect",
-              "particles": 25,
-              "length": 60,
-              "baseLength": 10,
+              "particles": 12,
+              "length": 20,
+              "baseLength": 5,
               "lifetime": 30,
               "lightColor": "a5c9ff",
               "interp": "circleOut",
@@ -109,17 +110,17 @@
             },
             {
               "type": "ParticleEffect",
-              "particles": 25,
-              "length": 80,
-              "baseLength": 10,
+              "particles": 12,
+              "length": 20,
+              "baseLength": 5,
               "lifetime": 60,
               "lightColor": "FFB570FF",
               "interp": "circleOut",
               "cone": 360,
               "colorFrom": "FFB570FF",
               "colorTo": "8B7E7E03",
-              "sizeFrom": 12,
-              "sizeTo": 8
+              "sizeFrom": 8,
+              "sizeTo": 4
             },
             {
               "type": "WaveEffect",
@@ -134,26 +135,26 @@
             {
               "type": "ParticleEffect",
               "line": true,
+              "length": 20,
+              "baseLength": 5,
               "particles": 25,
               "lifetime": 30,
               "interp": "circleOut",
               "offset": 30,
-              "length": 60,
-              "baseLength": 10,
               "lightColor": "a5c9ff",
               "strokeFrom": 3,
               "strokeTo": 0,
               "lenFrom": 5,
-              "lenTo": 5,
+              "lenTo": 0,
               "colorFrom": "a5c9ff",
               "colorTo": "6e91c7"
             }
           ]
         },
-        "speed": 8,
+        "speed": 5,
         "lightColor": "a5c9ff",
         "lightOpacity": 0.7,
-        "lightRadius": 12,
+        "lightRadius": 26,
         "trailColor": "a5c9ff",
         "frontColor": "ffffff",
         "backColor": "a5c9ff",
