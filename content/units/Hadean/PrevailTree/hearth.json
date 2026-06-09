@@ -4,11 +4,16 @@
   "legLength": 35,
   "legSpeed": 0.5,
   "legExtension": -5,
-  "legForwardScl": 0.2,
+  "legForwardScl": 1,
   "envDisabled": 0,
   "legBaseOffset": 1,
-  "legMoveSpace": 1,
   "shadowElevation": 0.5,
+
+  "legMoveSpace": 1,
+  "legMaxLength": 1.1,
+  "legMinLength": 0.7,
+  "legLengthScl": 0.8,
+
   "rotateSpeed": 1.5,
   "fogRadius": 30,
   "legContinuousMove": true,
