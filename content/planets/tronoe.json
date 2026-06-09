@@ -2,27 +2,8 @@
   "localizedName": "Tronoe",
   "description": "Barren Wasteland.",
   "alwaysUnlocked": true,
-  
-  "mesh": [
-    {
-      "bloom": true,
-      "type": "SunMesh",
-      "planet": "tronoe",
-      "seed": 12,
-      "divisions": 5,
-      "radius": 1.6,
-      "octaves": 3,
-      "persistence": 0.5,
-      "scl": 2,
-      "pow": 2.2,
-      "mag": 3,
-      "colorScale": 1,
-      "colors": [
-        "353535",
-        "757575",
-        "232535FF"
-      ]
-    },
+
+  "cloudMesh": [
     {
       "type": "HexSkyMesh",
       "planet": "tronoe",
@@ -58,6 +39,28 @@
       "persistence": 0.2,
       "scl": 0.4,
       "thresh": 0.7
+    }
+  ],
+
+  "mesh": [
+    {
+      "bloom": true,
+      "type": "SunMesh",
+      "planet": "tronoe",
+      "seed": 12,
+      "divisions": 5,
+      "radius": 1.6,
+      "octaves": 3,
+      "persistence": 0.5,
+      "scl": 2,
+      "pow": 2.2,
+      "mag": 3,
+      "colorScale": 1,
+      "colors": [
+        "353535",
+        "757575",
+        "232535FF"
+      ]
     },
     {
       "type": "NoiseMesh",
