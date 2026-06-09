@@ -24,6 +24,7 @@
   "category": "effect",
   "research": {
     "root": true,
+    "planet": "tronoe",
     "name": "[#ffc500]Tronoe",
     "requiresUnlock": false
   }

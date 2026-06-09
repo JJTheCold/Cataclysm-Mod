@@ -13,8 +13,8 @@
       "color": "82D6FF6B",
       "octaves": 2,
       "persistence": 0.4,
-      "scl": 0.9,
-      "thresh": 0.5
+      "scl": 0.3,
+      "thresh": 0.3
     },
     {
       "type": "HexSkyMesh",
@@ -25,7 +25,7 @@
       "color": "C2FFF89A",
       "octaves": 2,
       "persistence": 0.2,
-      "scl": 0.4,
+      "scl": 0.3,
       "thresh": 0.7
     }
   ],
@@ -56,11 +56,13 @@
       "divisions": 5,
       "seed": 19,
       "radius": 1.2,
-      "color1": "4E505FFF",
-      "color2": "232535FF",
-      "color3": "FFBA8CFF",
+      "colors": [
+        "4E505FFF",
+        "232535FF",
+        "FFBA8CFF"
+      ],
       "octaves": 4.5,
-      "persistence": 1.1
+      "persistence": 0.2
     }
   ],
   "generator": {
@@ -96,7 +98,7 @@
   "sectorSize": 2,
   "startSector": 1,
   "orbitSpacing": 6,
-  "radius": 1,
+  "radius": 1.1,
   "drawOrbit": true,
   "atmosphereRadIn": 0.2,
   "atmosphereRadOut": 0.4,

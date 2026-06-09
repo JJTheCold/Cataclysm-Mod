@@ -27,5 +27,7 @@
      "Urbium/20"
   ],
    "category": "production",
-  "research": "Blast-Drill"
+  "research": {
+    "parent": "origin"
+  }
 }
