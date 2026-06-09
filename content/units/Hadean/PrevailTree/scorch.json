@@ -7,7 +7,6 @@
   "envDisabled": 0,
   "legBaseOffset": 5,
   "legMoveSpace": 2,
-  "legPairOffset": 2,
   "rotateSpeed": 2,
   "fogRadius": 20,
   "legContinuousMove": true,

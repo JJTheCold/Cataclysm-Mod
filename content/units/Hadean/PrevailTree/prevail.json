@@ -8,7 +8,7 @@
   "envDisabled": 0,
   "legBaseOffset": 10,
   "legMoveSpace": 1,
-  "legPairOffset": 2,
+  "legPairOffset": 5,
   "rotateSpeed": 1.5,
   "legSplashDamage": 120,
   "legSplashRange": 65,
