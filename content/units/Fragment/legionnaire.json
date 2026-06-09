@@ -8,12 +8,6 @@
   "envDisabled": 0,
   "legBaseOffset": 3,
   "lockLegBase": true,
-
-  "legMoveSpace": 1,
-  "legMaxLength": 1.2,
-  "legMinLength": 0.2,
-  "legLengthScl": 0.8,
-
   "fogRadius": 25,
   "legContinuousMove": true,
   "hovering": false,
