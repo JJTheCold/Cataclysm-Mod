@@ -49,20 +49,6 @@
         "666666FF",
         "414141FF"
       ]
-    },
-    {
-      "type": "NoiseMesh",
-      "planet": "tronoe",
-      "divisions": 5,
-      "seed": 19,
-      "radius": 1.2,
-      "colors": [
-        "4E505FFF",
-        "232535FF",
-        "FFBA8CFF"
-      ],
-      "octaves": 4.5,
-      "persistence": 0.2
     }
   ],
   "generator": {
