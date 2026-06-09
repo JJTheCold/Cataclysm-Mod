@@ -85,7 +85,7 @@
         "trailInterval": 3,
 
         "pierce": false,
-        "buildingDamageMultiplier": 0.5,
+        "buildingDamageMultiplier": 1.3,
         "lifetime": 35,
         "damage": 20,
         "splashDamageRadius": 20,
@@ -173,10 +173,10 @@
       "ejectEffect": "none",
       "bullet": {
         "type": "SapBulletType",
-        "sapStrength": 2,
+        "sapStrength": 0.5,
         "length": 75,
         "color": "a5c9ff",
-        "buildingDamageMultiplier": 1.5,
+        "buildingDamageMultiplier": 1,
         "damage": 12,
         "despawnEffect": "none",
         "hitColor": "a5c9ff",
@@ -201,7 +201,7 @@
       "laserColor": "a5c9ff",
       "healColor": "a5c9ff",
       "bullet": {
-        "maxRange": 3,
+        "maxRange": 2,
         "speed": 3
       }
     }
