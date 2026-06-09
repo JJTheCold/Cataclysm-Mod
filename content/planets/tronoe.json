@@ -84,7 +84,7 @@
   "sectorSize": 2,
   "startSector": 1,
   "orbitSpacing": 6,
-  "radius": 1.1,
+  "radius": 1.2,
   "drawOrbit": true,
   "atmosphereRadIn": 0.2,
   "atmosphereRadOut": 0.4,
