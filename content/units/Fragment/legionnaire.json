@@ -91,6 +91,7 @@
         "damage": 20,
         "splashDamageRadius": 20,
         "splashDamage": 40,
+        "hitSound": "explosionCleroi",
         "despawnSound": "explosionCleroi",
         "hitEffect": {
           "type": "multiEffect",
