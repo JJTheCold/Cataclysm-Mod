@@ -8,9 +8,9 @@
       "type": "HexSkyMesh",
       "planet": "tronoe",
       "speed": 4,
-      "radius": 0.40,
+      "radius": 0.20,
       "divisions": 5,
-      "color": "82D6FF6B",
+      "color": "feb3806B",
       "octaves": 2,
       "persistence": 0.4,
       "scl": 0.3,
@@ -20,9 +20,9 @@
       "type": "HexSkyMesh",
       "planet": "tronoe",
       "speed": 1,
-      "radius": 0.45,
+      "radius": 0.25,
       "divisions": 5,
-      "color": "C2FFF89A",
+      "color": "ffd37f9A",
       "octaves": 2,
       "persistence": 0.2,
       "scl": 0.3,
@@ -40,7 +40,7 @@
       "color1": "4E505FFF",
       "color2": "232535",
       "octaves": 4.5,
-      "scl": 0.3,
+      "scl": 1,
       "thresh": 0.7,
       "persistence": 5
     },
@@ -56,7 +56,7 @@
       "octaves": 4.5,
       "scl": 0.8,
       "thresh": 0.7,
-      "persistence": -3
+      "persistence": 1
     }
   ],
   "generator": {
@@ -95,6 +95,7 @@
   "radius": 1.2,
   "drawOrbit": true,
   "atmosphereRadIn": 0.1,
+  "orbitOffset": 30,
   "atmosphereRadOut": 0.2,
   "accessible": true,
   "updateLighting": true,
