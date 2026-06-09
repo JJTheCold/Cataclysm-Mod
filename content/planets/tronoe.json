@@ -49,7 +49,7 @@
       "planet": "tronoe",
       "seed": 12,
       "divisions": 5,
-      "radius": 1.6,
+      "radius": 0.5,
       "octaves": 3,
       "persistence": 0.5,
       "scl": 2,
@@ -155,6 +155,8 @@
   "allowLegacyLaunchPads": false,
   "allowSectorInvasion": true,
   "allowSelfSectorLaunch": false,
+
+  "lighting": true,
 
   "sectorSize": 2,
   "startSector": 1,
