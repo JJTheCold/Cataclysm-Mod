@@ -8,7 +8,7 @@
       "type": "HexSkyMesh",
       "planet": "tronoe",
       "speed": 2,
-      "radius": 0.13,
+      "radius": 0.21,
       "divisions": 3,
       "color": "41414145",
       "octaves": 3,
@@ -20,7 +20,7 @@
       "type": "HexSkyMesh",
       "planet": "tronoe",
       "speed": 4,
-      "radius": 0.15,
+      "radius": 0.23,
       "divisions": 5,
       "color": "76767690",
       "octaves": 2,
@@ -32,7 +32,7 @@
       "type": "HexSkyMesh",
       "planet": "tronoe",
       "speed": 1,
-      "radius": 0.17,
+      "radius": 0.25,
       "divisions": 5,
       "color": "BABABA51",
       "octaves": 2,
@@ -49,7 +49,7 @@
       "planet": "tronoe",
       "seed": 12,
       "divisions": 5,
-      "radius": 0.5,
+      "radius": 1.2,
       "octaves": 3,
       "persistence": 0.5,
       "scl": 2,
@@ -57,9 +57,9 @@
       "mag": 3,
       "colorScale": 1,
       "colors": [
-        "353535",
-        "757575",
-        "232535FF"
+        "8A8A8A61",
+        "66666654",
+        "41414145"
       ]
     },
 
