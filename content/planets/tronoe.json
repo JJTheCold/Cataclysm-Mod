@@ -10,7 +10,7 @@
       "speed": 2,
       "radius": 0.13,
       "divisions": 3,
-      "color": "8080801B",
+      "color": "41414145",
       "octaves": 3,
       "persistence": 0.4,
       "scl": 0.9,
@@ -22,7 +22,7 @@
       "speed": 4,
       "radius": 0.15,
       "divisions": 5,
-      "color": "B5843A90",
+      "color": "76767690",
       "octaves": 2,
       "persistence": 0.4,
       "scl": 0.9,
@@ -34,7 +34,7 @@
       "speed": 1,
       "radius": 0.17,
       "divisions": 5,
-      "color": "FFE16890",
+      "color": "BABABA51",
       "octaves": 2,
       "persistence": 0.2,
       "scl": 0.4,
@@ -62,6 +62,8 @@
         "232535FF"
       ]
     },
+
+    
     {
       "type": "NoiseMesh",
       "planet": "tronoe",
@@ -86,6 +88,8 @@
       "octaves": 4.5,
       "persistence": 1.1
     },
+
+
     {
       "type": "NoiseMesh",
       "planet": "tronoe",
@@ -108,17 +112,21 @@
       "octaves": 5.7,
       "persistence": 0.9
     },
+
+
     {
       "type": "NoiseMesh",
       "planet": "tronoe",
-      "divisions": 5,
+      "divisions": 3,
       "seed": 7,
-      "radius": 1.13,
+      "radius": 1.23,
       "color1": "C3C3C3FF",
       "color2": "E6E6E6FF",
       "octaves": 3.7,
-      "persistence": 1.1
+      "persistence": 1.5
     }
+
+
   ],
   "generator": {
     "octaves": 3,
@@ -148,17 +156,17 @@
   "allowSectorInvasion": true,
   "allowSelfSectorLaunch": false,
 
-  "sectorSize": 3,
+  "sectorSize": 2,
   "startSector": 22,
   "orbitSpacing": 6,
-  "radius": 1.2,
+  "radius": 1.6,
   "drawOrbit": true,
   "atmosphereRadIn": 0,
   "atmosphereRadOut": 0.2,
   "accessible": true,
-  "updateLighting": false,
+  "updateLighting": true,
   "sectorSeed": 3711,
-  "bloom": false,
+  "bloom": true,
   "visible": true,
   "atmosphereColor": "F7E97EFF",
   "iconColor": "F7E97EFF",
