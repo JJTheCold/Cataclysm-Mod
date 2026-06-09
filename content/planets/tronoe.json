@@ -1,7 +1,8 @@
 {
   "localizedName": "Tronoe",
-  "description": "A strange planet.",
+  "description": "Barren Wasteland.",
   "alwaysUnlocked": true,
+  
   "mesh": [
     {
       "bloom": true,
@@ -25,19 +26,19 @@
     {
       "type": "HexSkyMesh",
       "planet": "tronoe",
-      "speed": 3,
-      "radius": 0.13,
-      "divisions": 5,
-      "color": "565656",
+      "speed": 2,
+      "radius": 0.9,
+      "divisions": 3,
+      "color": "8080801B",
       "octaves": 3,
       "persistence": 0.4,
       "scl": 0.9,
-      "thresh": 0.55
+      "thresh": 0.7
     },
     {
       "type": "HexSkyMesh",
       "planet": "tronoe",
-      "speed": 2,
+      "speed": 4,
       "radius": 0.12,
       "divisions": 5,
       "color": "ffc048",
@@ -49,7 +50,7 @@
     {
       "type": "HexSkyMesh",
       "planet": "tronoe",
-      "speed": 0.1,
+      "speed": 1,
       "radius": 0.11,
       "divisions": 5,
       "color": "b69268",
@@ -144,14 +145,14 @@
   "allowSectorInvasion": true,
   "allowSelfSectorLaunch": false,
 
-  "sectorSize": 2,
+  "sectorSize": 1,
   "startSector": 1,
   "orbitSpacing": 6,
   "radius": 1.2,
   "minZoom": 1,
   "drawOrbit": true,
   "atmosphereRadIn": 0,
-  "atmosphereRadOut": 0.2,
+  "atmosphereRadOut": 1,
   "accessible": true,
   "updateLighting": false,
   "sectorSeed": 3711,
