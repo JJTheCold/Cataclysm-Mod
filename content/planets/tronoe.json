@@ -27,12 +27,24 @@
       "planet": "tronoe",
       "speed": 3,
       "radius": 0.13,
-      "divisions": 5,
-      "color": "565656",
+      "divisions": 12,
+      "color": "80808052",
       "octaves": 3,
       "persistence": 0.4,
       "scl": 0.9,
-      "thresh": 0.55
+      "thresh": 0.7
+    },
+    {
+      "type": "HexSkyMesh",
+      "planet": "tronoe",
+      "speed": 8,
+      "radius": 0.2,
+      "divisions": 12,
+      "color": "8080801B",
+      "octaves": 3,
+      "persistence": 0.4,
+      "scl": 0.9,
+      "thresh": 0.7
     },
     {
       "type": "HexSkyMesh",
@@ -136,6 +148,7 @@
     "showSpawns": false,
     "rtsAI": true
   },
+
   "allowCampaignRules": true,
   "allowLaunchLoadout": true,
   "allowLaunchSchematics": false,
@@ -148,10 +161,10 @@
   "startSector": 1,
   "orbitSpacing": 6,
   "radius": 1.2,
-  "minZoom": 1,
+  "minZoom": 2,
   "drawOrbit": true,
   "atmosphereRadIn": 0,
-  "atmosphereRadOut": 0.2,
+  "atmosphereRadOut": 0.5,
   "accessible": true,
   "updateLighting": false,
   "sectorSeed": 3711,
