@@ -117,12 +117,12 @@
     {
       "type": "NoiseMesh",
       "planet": "tronoe",
-      "divisions": 3,
+      "divisions": 4,
       "seed": 7,
       "radius": 1.13,
       "color1": "C3C3C3FF",
       "color2": "E6E6E6FF",
-      "octaves": 3.7,
+      "octaves": 9,
       "persistence": 0.2
     }
 
