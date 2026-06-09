@@ -111,7 +111,7 @@
   "startSector": 1,
   "orbitSpacing": 6,
   "radius": 1,
-  "totalRadius": 2,
+  "totalRadius": 0.7,
   "drawOrbit": true,
   "atmosphereRadIn": 0.2,
   "atmosphereRadOut": -2,
