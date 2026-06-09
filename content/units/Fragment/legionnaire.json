@@ -21,7 +21,7 @@
   "faceTarget": true,
   "targetPriority": -1,
   "name": "legionnaire",
-  "description": "A Well rounded Core unit with solid speed, damage, and defense.",
+  "description": "Defender of the origin core. has offensive and defensive capabilities.",
   "details": ".",
   "health": 780,
   "armor": 9,
@@ -57,6 +57,89 @@
     }
   ],
   "weapons": [
+    {
+      "name": "ram-gun",
+      "x": 5,
+      "y": 3,
+      "rotateSpeed": 1.5,
+      "mirror": true,
+      "rotate": false,
+      "shootY": 4,
+      "cooldownTime": 120,
+      "inaccuracy": 2,
+      "layerOffset": -0.00001,
+      "reload": 6,
+      "alternate": false,
+      "shootSound": "shootCleroi",
+      "bullet": {
+        "type": "BasicBulletType",
+        "removeAfterPierce": false,
+        "ammoMultiplier": 2,
+        "height": 12,
+        "width": 10,
+        "trailEffect": "missileTrail",
+        "pierce": false,
+        "buildingDamageMultiplier": 0,
+        "lifetime": 30,
+        "damage": 20,
+        "splashDamageRadius": 20,
+        "splashDamage": 40,
+        "hitEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 25,
+              "length": 60,
+              "baseLength": 10,
+              "lifetime": 30,
+              "lightColor": "a5c9ff",
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "a5c9ff",
+              "colorTo": "6e91c7",
+              "sizeFrom": 6,
+              "sizeTo": 0
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 20,
+              "sizeFrom": 0,
+              "sizeTo": 20,
+              "strokeFrom": 12,
+              "strokeTo": 8,
+              "colorFrom": "80a6de",
+              "colorTo": "8B7E7E03"
+            },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "particles": 25,
+              "lifetime": 30,
+              "interp": "circleOut",
+              "offset": 30,
+              "length": 40,
+              "lightColor": "62A0FCFF",
+              "strokeFrom": 6,
+              "strokeTo": 0,
+              "lenFrom": 10,
+              "lenTo": 10,
+              "colorFrom": "5f71a0",
+              "colorTo": "8B7E7E03"
+            }
+          ]
+        },
+        "speed": 4,
+        "lightColor": "b9b9b9",
+        "lightOpacity": 0.7,
+        "lightRadius": 12,
+        "trailColor": "b9b9b9",
+        "frontColor": "ffffff",
+        "backColor": "dfdfdf",
+        "trailLength": 30,
+        "trailWidth": 1.25
+      }
+    },
     {
       "x": 8,
       "y": 1.5,
