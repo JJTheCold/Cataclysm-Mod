@@ -176,8 +176,7 @@
       "bullet": {
         "type": "SapBulletType",
         "sapStrength": 2,
-        "length": 100,
-        "width": 0.8,
+        "length": 75,
         "color": "a5c9ff",
         "damage": 12,
         "despawnEffect": "none",
