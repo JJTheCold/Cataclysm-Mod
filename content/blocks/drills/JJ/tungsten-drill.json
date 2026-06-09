@@ -26,8 +26,10 @@
      "tungsten/15",
      "Urbium/20"
   ],
+"researchCost": [
+  "tungsten/25",
+  "Urbium/5"
+],
    "category": "production",
-  "research": {
-    "parent": "origin"
-  }
+  "research": "origin"
 }
