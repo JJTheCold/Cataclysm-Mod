@@ -25,18 +25,6 @@
     {
       "type": "HexSkyMesh",
       "planet": "tronoe",
-      "speed": 3,
-      "radius": 0.13,
-      "divisions": 12,
-      "color": "80808052",
-      "octaves": 3,
-      "persistence": 0.4,
-      "scl": 0.9,
-      "thresh": 0.7
-    },
-    {
-      "type": "HexSkyMesh",
-      "planet": "tronoe",
       "speed": 8,
       "radius": 0.2,
       "divisions": 12,
