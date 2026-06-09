@@ -73,20 +73,21 @@
       "shootY": 4,
       "inaccuracy": 0,
       "layerOffset": -0.00001,
-      "reload": 70,
+      "reload": 50,
       "alternate": false,
       "shootSound": "shootCleroi",
       "bullet": {
         "type": "BasicBulletType",
         "height": 12,
         "width": 10,
+
         "trailEffect": "missileTrail",
         "trailParam": 1.6,
-        "trailInterval": 9,
+        "trailInterval": 3,
 
         "pierce": false,
         "buildingDamageMultiplier": 0.3,
-        "lifetime": 30,
+        "lifetime": 25,
         "damage": 20,
         "splashDamageRadius": 20,
         "splashDamage": 40,
@@ -151,7 +152,7 @@
             }
           ]
         },
-        "speed": 5,
+        "speed": 3,
         "lightColor": "a5c9ff",
         "lightOpacity": 0.7,
         "lightRadius": 26,
