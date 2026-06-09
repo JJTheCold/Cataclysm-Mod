@@ -1,13 +1,16 @@
 {
   "type": "legs",
   "legCount": 6,
-  "legLength": 16,
+  "legLength": 14,
   "legSpeed": 0.5,
   "legExtension": -7,
   "legForwardScl": 0.2,
-  "legLengthScl": 1.5,
   "envDisabled": 0,
-  "legBaseOffset": 3,
+  "legBaseOffset": 7,
+  "legMaxLength": 1.2,
+  "legMinLength": 0.8,
+  "legLengthScl": 0.8,
+  "lockLegBase": true,
   "legMoveSpace": 1.5,
   "fogRadius": 25,
   "legContinuousMove": true,
@@ -53,13 +56,13 @@
       "rotateSpeed": -5,
       "hitBuildings": true,
       "sectorRad": 0.1,
-      "effectRadius": 2,
+      "effectRadius": 3,
       "reload": 50
     }
   ],
   "weapons": [
     {
-      "x": 5,
+      "x": 8,
       "y": 1.5,
       "mirror": true,
       "alternate": true,
