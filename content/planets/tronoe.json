@@ -154,12 +154,23 @@
   "solarSystem": "sun",
   "launchCandidates": [],
   "itemWhitelist": [
-    "biotic-zlo-item-aluminum",
-    "biotic-zlo-item-infested-tissue",
-    "biotic-zlo-item-raw-iron",
-    "biotic-zlo-item-iron",
-    "biotic-zlo-item-crushed-bones",
-    "biotic-zlo-item-biochar",
-    "biotic-zlo-item-foritium"
+    "Harbinger-Remnants",
+    "Silikide",
+    "Thaxon-Steel",
+    "Thaxium",
+    "thorium",
+    "Thaxon",
+    "Silver",
+    "Urbium",
+    "MagmaCell",
+    "Magma-stone",
+    "Cataclyst",
+    "static-crystal",
+
+
+
+    "silicon",
+    "graphite",
+    "tungsten"
   ]
 }
