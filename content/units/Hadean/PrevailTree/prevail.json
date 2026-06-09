@@ -12,8 +12,8 @@
   "legSplashDamage": 120,
 
   "legMoveSpace": 1,
-  "legMaxLength": 1.1,
-  "legMinLength": 0.7,
+  "legMaxLength": 1.5,
+  "legMinLength": 0.2,
   "legLengthScl": 0.8,
 
   "legSplashRange": 65,
