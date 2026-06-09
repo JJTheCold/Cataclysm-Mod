@@ -14,6 +14,7 @@
   "fogRadius": 30,
   "legContinuousMove": true,
   "hovering": true,
+  "lockLegBase": true,
   "lightColor": "ff4f00",
   "lightRadius": 150,
   "faceTarget": true,
