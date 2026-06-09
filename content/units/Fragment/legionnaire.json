@@ -201,7 +201,7 @@
       "laserColor": "a5c9ff",
       "healColor": "a5c9ff",
       "bullet": {
-        "maxRange": 5,
+        "maxRange": 3,
         "speed": 3
       }
     }
