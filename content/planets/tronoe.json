@@ -44,8 +44,24 @@
       "pow": 2.2,
       "mag": 3,
       "colorScale": 1,
-      "color1": "787878FF",
-      "color2": "515151FF"
+      "colors": [
+        "8A8A8AFF",
+        "666666FF",
+        "414141FF"
+      ]
+    },
+    {
+      "type": "NoiseMesh",
+      "planet": "tronoe",
+      "divisions": 5,
+      "seed": 22,
+      "radius": 1.2,
+      "color1": "4E505FFF",
+      "color2": "FFBA8CFF",
+      "octaves": 4.5,
+      "scl": 0.3,
+      "thresh": 0.7,
+      "persistence": 5
     }
   ],
   "generator": {
