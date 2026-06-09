@@ -149,7 +149,7 @@
   "bloom": true,
   "clearSectorOnLose": true,
   "prebuildBase": false,
-  "defaultCore": "biotic-zlo-core-hazard",
+  "defaultCore": "origin",
   "parent": "sun",
   "solarSystem": "sun",
   "launchCandidates": [],
