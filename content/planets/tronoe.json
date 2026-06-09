@@ -8,7 +8,7 @@
       "type": "HexSkyMesh",
       "planet": "tronoe",
       "speed": 2,
-      "radius": 0.21,
+      "radius": 0.31,
       "divisions": 3,
       "color": "41414145",
       "octaves": 3,
@@ -20,7 +20,7 @@
       "type": "HexSkyMesh",
       "planet": "tronoe",
       "speed": 4,
-      "radius": 0.23,
+      "radius": 0.33,
       "divisions": 5,
       "color": "76767690",
       "octaves": 2,
@@ -32,7 +32,7 @@
       "type": "HexSkyMesh",
       "planet": "tronoe",
       "speed": 1,
-      "radius": 0.25,
+      "radius": 0.35,
       "divisions": 5,
       "color": "BABABA51",
       "octaves": 2,
@@ -49,7 +49,7 @@
       "planet": "tronoe",
       "seed": 12,
       "divisions": 5,
-      "radius": 1.2,
+      "radius": 1.6,
       "octaves": 3,
       "persistence": 0.5,
       "scl": 2,
@@ -93,7 +93,7 @@
     {
       "type": "NoiseMesh",
       "planet": "tronoe",
-      "divisions": 6,
+      "divisions": 5,
       "seed": 61,
       "radius": 1.148,
       "color1": "4E505FFF",
@@ -104,7 +104,7 @@
     {
       "type": "NoiseMesh",
       "planet": "tronoe",
-      "divisions": 6,
+      "divisions": 5,
       "seed": 17,
       "radius": 1.1514,
       "color1": "4E505FFF",
@@ -117,13 +117,13 @@
     {
       "type": "NoiseMesh",
       "planet": "tronoe",
-      "divisions": 4,
+      "divisions": 5,
       "seed": 7,
-      "radius": 1.13,
+      "radius": 1.23,
       "color1": "C3C3C3FF",
       "color2": "E6E6E6FF",
       "octaves": 9,
-      "persistence": 0.2
+      "persistence": -3
     }
 
 
