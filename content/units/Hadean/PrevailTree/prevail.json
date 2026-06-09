@@ -11,11 +11,6 @@
   "rotateSpeed": 1.5,
   "legSplashDamage": 120,
 
-  "legMoveSpace": 1,
-  "legMaxLength": 1.5,
-  "legMinLength": 0.2,
-  "legLengthScl": 0.8,
-
   "legSplashRange": 65,
   "fogRadius": 70,
   "legContinuousMove": true,
