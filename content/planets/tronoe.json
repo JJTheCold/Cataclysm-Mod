@@ -157,11 +157,10 @@
   "allowSelfSectorLaunch": false,
 
   "sectorSize": 2,
-  "startSector": 22,
+  "startSector": 1,
   "orbitSpacing": 6,
   "radius": 1,
   "drawOrbit": true,
-  "totalRadius": 3,
   "atmosphereRadIn": 0,
   "atmosphereRadOut": 0.2,
   "accessible": true,
