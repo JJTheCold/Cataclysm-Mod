@@ -9,7 +9,7 @@
       "planet": "tronoe",
       "speed": 2,
       "radius": 0.31,
-      "divisions": 3,
+      "divisions": 5,
       "color": "41414145",
       "octaves": 3,
       "persistence": 0.4,
@@ -47,19 +47,20 @@
       "bloom": true,
       "type": "SunMesh",
       "planet": "tronoe",
-      "seed": 12,
+      "seed": 13,
       "divisions": 5,
       "radius": 0.5,
       "octaves": 3,
       "persistence": 0.5,
-      "scl": 2,
-      "pow": 2.2,
-      "mag": 3,
-      "colorScale": 1,
+      "scl": 1,
+      "pow": 1.2,
+      "mag": 2,
+      "colorScale": 2,
       "colors": [
         "6B7FFFFF",
         "8DC1FFFF",
-        "BAE6FFFF"
+        "BAE6FFFF",
+        "F0FDFFFF"
       ]
     },
 
@@ -77,9 +78,9 @@
       "mag": 3,
       "colorScale": 1,
       "colors": [
-        "8A8A8A61",
-        "66666654",
-        "41414145"
+        "8A8A8AFF",
+        "666666FF",
+        "414141FF"
       ]
     },
 
@@ -90,7 +91,7 @@
       "divisions": 5,
       "color1": "4E505FFF",
       "color2": "232535FF",
-      "radius": 1.112,
+      "radius": 1.312,
       "octaves": 4,
       "persistence": 1,
       "scale": 1.2,
@@ -101,7 +102,7 @@
       "planet": "tronoe",
       "divisions": 5,
       "seed": 19,
-      "radius": 1.147,
+      "radius": 1.347,
       "color1": "4E505FFF",
       "color2": "232535FF",
       "octaves": 4.5,
