@@ -32,25 +32,6 @@
 
   "mesh": [
     {
-      "bloom": true,
-      "type": "SunMesh",
-      "planet": "tronoe",
-      "seed": 12,
-      "divisions": 5,
-      "radius": 0.7,
-      "octaves": 3,
-      "persistence": 0.5,
-      "scl": 2,
-      "pow": 2.2,
-      "mag": 3,
-      "colorScale": 1,
-      "colors": [
-        "8A8A8AFF",
-        "666666FF",
-        "414141FF"
-      ]
-    },
-    {
       "type": "NoiseMesh",
       "planet": "tronoe",
       "divisions": 6,
