@@ -16,7 +16,7 @@
 
   "fogRadius": 25,
   "legContinuousMove": true,
-  "hovering": false,
+  "hovering": true,
   "mineItems": [
     "Urbium",
     "tungsten"
@@ -28,7 +28,7 @@
   "name": "legionnaire",
   "description": "Defender of the origin core. has offensive and defensive capabilities. Each hit from the sapper heals the legionnaire.",
   "details": ".",
-  "health": 650,
+  "health": 850,
   "armor": 9,
   "speed": 1.25,
   "hitSize": 18,
