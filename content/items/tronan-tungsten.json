@@ -4,8 +4,7 @@
     "hardness": 2,
     "cost": 2,
     "alwaysUnlocked": true,
-    "explosiveness": 0.2,
     "color": "ffffff",
     "research": "origin",
-    "hiddenOnPlanets": ["serpulo", "erekir"]
+    "hiddenOnPlanets": ["serpulo"]
 }

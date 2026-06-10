@@ -7,13 +7,13 @@
   "consumes": {
     "power": 2,
     "items":[
-    "Silikide/125",
+    "silicon/125",
     "Thaxium/100",
     "graphite/150"
       ]
   },
   "requirements": [
-    "Silikide/50",
+    "silicon/50",
     "Harbinger-Remnants/750",
     "thorium/150",
     "Thaxium/100",

@@ -10,7 +10,7 @@
   "power", 1.5
 ],
 "requirements": [
-    "Silikide/300",
+    "silicon/300",
     "Harbinger-Remnants/250",
     "graphite/200"
   ],
@@ -23,7 +23,7 @@
           "amount": 25
         },
         {
-          "item": "Silikide",
+          "item": "silicon",
           "amount": 20
         }
       ],

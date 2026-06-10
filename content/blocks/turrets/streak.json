@@ -16,7 +16,7 @@
   "shootCone": 3,
   "requirements": [
     "Urbium/350",
-    "Silikide/250",
+    "silicon/250",
     "static-crystal/325"
   ],
   "size": 4,

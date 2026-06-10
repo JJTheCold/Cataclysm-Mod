@@ -5,6 +5,6 @@
     "cost": 1.5,
     "alwaysUnlocked": true,
     "color": "97a5b6",
-    "research": "none",
+    "research": "origin",
     "hiddenOnPlanets": ["serpulo", "erekir"]
 }

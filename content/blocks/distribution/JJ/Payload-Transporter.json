@@ -3,7 +3,7 @@
   "name": "Payload Transporter",
   "requirements": [
     "Harbinger-Remnants/20",
-    "Silikide/5"
+    "silicon/5"
   ],
   "moveTime": 45,
   "category": "units",

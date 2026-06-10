@@ -6,6 +6,6 @@
     "alwaysUnlocked": true,
     "color": "5c5d59",
     "charge": 2.5,
-    "research": "none",
+    "research": "origin",
     "hiddenOnPlanets": ["serpulo", "erekir"]
 }

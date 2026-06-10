@@ -8,13 +8,13 @@
   "consumes": {
     "power": 1.5,
     "items": [
-    "Silikide/60",
+    "silicon/60",
     "Harbinger-Remnants/100",
     "graphite/40"
       ]
   },
   "requirements": [
-    "Silikide/100",
+    "silicon/100",
     "Harbinger-Remnants/250",
     "Thaxon/150",
     "Silver/150",

@@ -79,6 +79,6 @@ research: Quartz-Generator
 requirements: [
 Harbinger-Remnants/100
 Thaxon/150
-Silikide/150
+silicon/150
 ]
 itemCapacity: 20

@@ -14,7 +14,7 @@
   "researchCostMultiplier": 0.1,
   "unitType": "ram",
   "requirements": [
-    "Silikide/1500",
+    "silicon/1500",
     "Harbinger-Remnants/750",
     "graphite/1500",
     "Thaxon/500",

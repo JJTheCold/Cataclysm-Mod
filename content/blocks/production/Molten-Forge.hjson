@@ -7,7 +7,7 @@ craftTime: 50
 consumes: {
   items: [
     Thaxium/2
-    Silikide/2
+    silicon/2
     thorium/2
     graphite/4
   ]
@@ -83,7 +83,7 @@ outputItems: [
 category: crafting
 research: Cell-Fuser
 requirements: [
-  Silikide/400
+  silicon/400
   Thaxium/200
   graphite/520
   thorium/120

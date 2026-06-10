@@ -1,12 +1,12 @@
 
 type: GenericCrafter
-name: Silikide Furnace
-description: Produces Silikide.
+name: silicon Furnace
+description: Produces silicon.
 size: 8
 craftTime: 1000
 consumes: {
   items: [
-Silikide/75
+silicon/75
 Thaxium/25
 thorium/20
 Geode-catalyst/10
@@ -40,7 +40,7 @@ outputItems: [
 category: crafting
 research: Quartz-Generator
 requirements: [
-Silikide/7500
+silicon/7500
 Thaxium/500
 thorium/2000
 Geode-catalyst/1000

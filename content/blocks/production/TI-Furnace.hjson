@@ -52,7 +52,7 @@ outputLiquids: [
   Thaxus/0.3
 ]
 category: crafting
-research: Silikide-smelter
+research: silicon-smelter
 requirements: [
   Thaxon/75
   Harbinger-Remnants/150

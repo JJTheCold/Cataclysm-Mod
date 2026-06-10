@@ -14,7 +14,7 @@
   "requiresCoreZone": true,
   "unitType": "shatter-point",
   "requirements": [
-    "Silikide/5000",
+    "silicon/5000",
     "graphite/8500",
     "Harbinger-Remnants/15700",
     "Geosium/4000",

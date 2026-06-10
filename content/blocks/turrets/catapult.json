@@ -110,7 +110,7 @@
   }
   },
   "requirements": [
-    "Silikide/125",
+    "silicon/125",
     "Urbium/100",
     "Harbinger-Remnants/200"
   ],
