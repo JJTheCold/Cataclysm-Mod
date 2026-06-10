@@ -1,0 +1,25 @@
+{
+  "localizedName": "Core: Origin",
+  "type": "CoreBlock",
+  "description": "A commonly build core in Korroda outposts.",
+  "details": "How did we get here?",
+  "health": 5850,
+  "squareSprite": false,
+  "thrusterLength": 20,
+  "size": 3,
+  "armor": 5,
+  "itemCapacity": 1200,
+  "layer": 32,
+  "alwaysUnlocked": true,
+  "buildCostMultiplier": 0.7,
+  "unitCapModifier": 5,
+  "requiresCoreZone": false,
+  "researchCostMultiplier": 0.1,
+  "unitType": "none",
+  "requirements": [
+    "silicon/500",
+    "tungsten/750",
+    "Urbium/500"
+  ],
+  "category": "effect"
+}
