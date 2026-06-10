@@ -86,7 +86,7 @@
   "category": "power",
   "research": "origin",
   "requirements": [
-    "tungsten/20",
+    "tronan-tungsten/20",
     "Urbium/60"
   ]
 }

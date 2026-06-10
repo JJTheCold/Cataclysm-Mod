@@ -19,7 +19,7 @@
   "unitType": "legionnaire",
   "requirements": [
     "silicon/500",
-    "tungsten/750",
+    "tronan-tungsten/750",
     "Urbium/500"
   ],
   "category": "effect",

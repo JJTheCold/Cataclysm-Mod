@@ -23,10 +23,6 @@
   "fogRadius": 25,
   "legContinuousMove": true,
   "hovering": true,
-  "mineItems": [
-    "Urbium",
-    "tungsten"
-  ],
   "lightColor": "a5c9ff",
   "blockedItem": "thorium",
   "lightRadius": 125,

@@ -84,7 +84,7 @@
   "research": "Quartz-Generator",
   "requirements": [
     "Urbium/50",
-    "tungsten/100"
+    "tronan-tungsten/100"
   ],
   "itemCapacity": 10
 }

@@ -22,7 +22,7 @@
   "category": "power",
   "research": "cable-node",
   "requirements": [
-    "tungsten/25",
+    "tronan-tungsten/25",
     "Urbium/20",
     "silicon/15",
     "Thaxon/10"

@@ -22,7 +22,7 @@
   "category": "power",
   "research": "incendiary-generator",
   "requirements": [
-    "tungsten/5",
+    "tronan-tungsten/5",
     "Urbium/3"
   ]
 }

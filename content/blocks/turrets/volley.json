@@ -19,7 +19,7 @@
   "requirements": [
     "Urbium/80",
     "graphite/50",
-    "tungsten/100"
+    "tronan-tungsten/100"
   ],
   "shoot": {
     "type": "ShootAlternate",
@@ -74,7 +74,7 @@
   },
   "shootSound": "shootSalvo",
   "ammoTypes": {
-    "tungsten": {
+    "tronan-tungsten": {
       "type": "BasicBulletType",
       "speed": 10,
       "lifetime": 28,

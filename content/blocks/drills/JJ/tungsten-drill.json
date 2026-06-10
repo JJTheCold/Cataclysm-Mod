@@ -1,7 +1,7 @@
 {
   "type": "Drill",
   "size": 2,
-  "name": "Tungsten Drill",
+  "name": "tronan-tungsten Drill",
   "description": "Basic drill for surface mining",
   "tier": 5,
   "drillTime": 300,
@@ -23,11 +23,11 @@
   "rotateSpeed": 4,
   "researchCostMultiplier": 5,
  "requirements": [
-     "tungsten/15",
+     "tronan-tungsten/15",
      "Urbium/20"
   ],
 "researchCost": [
-  "tungsten/25",
+  "tronan-tungsten/25",
   "Urbium/5"
 ],
    "category": "production",
