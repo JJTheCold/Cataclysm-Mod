@@ -4,7 +4,7 @@
   "legLength": 35,
   "legSpeed": 0.5,
   "legExtension": -5,
-  "legForwardScl": 1,
+  "legForwardScl": 1.2,
   "envDisabled": 0,
   "legBaseOffset": 1,
   "shadowElevation": 0.5,

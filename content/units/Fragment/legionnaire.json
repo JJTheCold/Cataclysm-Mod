@@ -4,7 +4,7 @@
   "legLength": 28,
   "legSpeed": 1.5,
   "legExtension": -5,
-  "legForwardScl": 0.6,
+  "legForwardScl": 1.2,
   "envDisabled": 0,
   "legBaseOffset": 3,
   "lockLegBase": true,
