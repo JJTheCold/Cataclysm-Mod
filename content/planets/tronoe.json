@@ -27,6 +27,18 @@
       "persistence": 0.2,
       "scl": 0.3,
       "thresh": 0.4
+    },
+    {
+      "type": "HexSkyMesh",
+      "planet": "tronoe",
+      "speed": 3,
+      "radius": 0.225,
+      "divisions": 5,
+      "color": "ffd37f9A",
+      "octaves": 2,
+      "persistence": 0.3,
+      "scl": 0.4,
+      "thresh": 0.4
     }
   ],
 
@@ -67,7 +79,7 @@
       "color1": "232535",
       "color2": "ffd37f",
       "octaves": 4.5,
-      "scl": 0.8,
+      "scl": 1,
       "thresh": 0.7,
       "persistence": 1
     }
@@ -105,13 +117,13 @@
   "sectorSize": 2,
   "startSector": 1,
   "orbitSpacing": 6,
-  "radius": 1.15,
+  "radius": 0.8,
   "drawOrbit": true,
   "atmosphereRadIn": 0,
   "atmosphereRadOut": 0.2,
   "orbitOffset": 30,
   "accessible": true,
-  "updateLighting": true,
+  "updateLighting": false,
   "sectorSeed": 3711,
   "bloom": true,
   "visible": true,
