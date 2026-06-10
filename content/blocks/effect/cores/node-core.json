@@ -15,7 +15,7 @@
   "unitCapModifier": 5,
   "requiresCoreZone": false,
   "researchCostMultiplier": 0.1,
-  "unitType": "none",
+  "unitType": "shock",
   "requirements": [
     "silicon/500",
     "tungsten/750",
