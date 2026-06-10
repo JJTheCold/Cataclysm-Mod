@@ -5,8 +5,13 @@
   "legSpeed": 1.5,
   "legExtension": -5,
   "legForwardScl": 1.2,
+  "defaultController": "BuilderAI",
   "envDisabled": 0,
   "legBaseOffset": 3,
+
+  "pickupUnits": false,
+  "payloadCapacity": 2,
+
   "lockLegBase": true,
 
   "legMoveSpace": 1.2,
@@ -33,10 +38,10 @@
   "speed": 1.25,
   "hitSize": 18,
   "isEnemy": true,
-  "mineSpeed": 3.5,
+  "mineSpeed": 8,
   "mineFloor": true,
   "mineWalls": true,
-  "mineTier": 5,
+  "mineTier": 3,
   "buildSpeed": 1.6,
   "groundLayer": 75,
   "drag": 0.4,
