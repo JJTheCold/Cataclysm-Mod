@@ -1,10 +1,10 @@
 {
-    "name": "Harbinger Remnants",
-    "description": "Scrap metal found in harbinger ruins. used to create most of the Harbinger's ancient tech.",
+    "name": "Thoriated Tungsten",
+    "description": "A weaker form of tungsten. It is only used for basic tech",
     "hardness": 2,
     "cost": 2,
     "alwaysUnlocked": true,
-    "color": "ffffff",
+    "color": "768a9a",
     "research": "origin",
     "hiddenOnPlanets": ["serpulo"]
 }

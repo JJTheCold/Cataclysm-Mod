@@ -1,8 +1,0 @@
-name: Argentium Silver
-description: Doesnt have many uses in this state, but good at holding large objects together.
-hardness: 2
-cost: 0.5
-alwaysUnlocked: false
-color: eefbfd
-research: item-SurgeQuartz
-hiddenOnPlanets: [serpulo]
