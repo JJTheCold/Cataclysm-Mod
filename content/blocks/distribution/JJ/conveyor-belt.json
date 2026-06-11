@@ -3,9 +3,16 @@
 "name": "Heavy Conveyor",
 "description": "Transports items.",
 "category": "distribution",
-"research": "origin",
+
+"research": {
+  "parent": "origin",
+  "objectives": [
+    "tungsten-drill"
+  ]
+},
+
 "bridgeReplacement": "heavy-bridge-conveyor",
-"alwaysUnlocked": true,
+
 "displayedSpeed": 9,
 "junctionReplacement": "heavy-junction",
 "speed": 0.065,

@@ -6,6 +6,5 @@
     "alwaysUnlocked": true,
     "color": "5c5d59",
     "research": "origin",
-    "hiddenOnPlanets": ["serpulo", "erekir"],
     "shownPlanets": ["tronoe"]
 }

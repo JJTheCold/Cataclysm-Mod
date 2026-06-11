@@ -7,6 +7,5 @@
     "color": "5c5d59",
     "charge": 2.5,
     "research": "origin",
-    "hiddenOnPlanets": ["serpulo", "erekir"],
     "shownPlanets": ["tronoe"]
 }

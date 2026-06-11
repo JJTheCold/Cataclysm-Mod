@@ -4,8 +4,8 @@
 "description": "Allows two conveyors to pass through each other",
 "category": "distribution",
 "alwaysUnlocked": true,
-"research": "Channel-bridge",
-"bridgeReplacement": "Channel-bridge",
+"research": "heavy-bridge-conveyor",
+"bridgeReplacement": "heavy-bridge-conveyor",
 "capacity": 10,
 "buildCostMultiplier": 3,
 "researchCost": [
