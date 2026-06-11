@@ -5,7 +5,7 @@
   "description": "Fires volleys of bullets at enemies.",
   "details": "You recognize these schematics, from wars you once fought. But that was a long time ago.",
   "ammoPerShot": 3,
-  "reload": 50,
+  "reload": 5,
   "range": 245,
   "outlineColor": "232535",
   "recoil": 1,
@@ -50,7 +50,7 @@
   "armor": 15,
   "drawer": {
     "type": "drawTurret",
-    "basePrefix": "tronoe-",
+    "basePrefix": "reinforced-",
     "parts": [
       {
         "type": "RegionPart",
@@ -104,6 +104,7 @@
         "type": "RegionPart",
         "suffix": "-cannon",
         "under": true,
+        "recoilIndex": 3,
         "alternate": true,
         "moveY": 15,
         "progress": {
@@ -118,9 +119,10 @@
         "type": "RegionPart",
         "suffix": "-cannon",
         "under": true,
-        "x": 10,
+        "x": 8,
+        "recoilIndex": 3,
         "alternate": true,
-        "moveY": 5,
+        "moveY": 10,
         "progress": {
           "type": "warmup",
           "op": "blend",
