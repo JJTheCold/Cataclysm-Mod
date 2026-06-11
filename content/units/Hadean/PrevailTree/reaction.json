@@ -1,0 +1,140 @@
+{
+  "type": "mech",
+  "envDisabled": 0,
+  "fogRadius": 20,
+  "lightColor": "ff4f00",
+  "range": 80,
+  "defaultController": "SuicideAI",
+  "targetAir": false,
+  "lightRadius": 25,
+  "faceTarget": true,
+  "name": "Combustion",
+  "description": "The Hadean Kamikaze Specialist. Releases a large explosion at will, annihilating itself and any nearby enemy units",
+  "health": 5000,
+  "armor": 30,
+  "speed": 0.8,
+  "hitSize": 30,
+  "isEnemy": true,
+  "drag": 0.5,
+  "itemCapacity": 90,
+  "alwaysUnlocked": true,
+  "outlineColor": "12131f",
+  "immunities": [
+    "burning",
+    "melting",
+    "sapped",
+    "cataclysm-incinerating",
+    "slow",
+    "wet",
+    "spore-slowed"
+  ],
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "shootOnDeath": true,
+      "reload": 30,
+      "ejectEffect": "none",
+      "targetUnderBlocks": false,
+      "shootSound": "explosionReactor2",
+      "shootCone": 200,
+      "mirror": false,
+      "bullet": {
+        "collidesTiles": false,
+        "collides": false,
+        "shootEffect": {
+          "type": "multiEffect",
+          "layer": 110,
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 38,
+              "sizeFrom": 20,
+              "sizeTo": 0,
+              "length": 350,
+              "lifetime": 250,
+              "interp": "circleOut",
+              "sizeInterp": "pow5In",
+              "lightColor": "FF5845FF",
+              "colorFrom": "FFDCD8FF",
+              "colorTo": "ff7862",
+              "cone": 360
+            },
+            {
+              "type": "ParticleEffect",
+              "particles": 38,
+              "sizeFrom": 12,
+              "sizeTo": 0,
+              "length": 280,
+              "lifetime": 250,
+              "interp": "fastSlow",
+              "lightColor": "FFB570FF",
+              "colorFrom": "FFB570FF",
+              "colorTo": "ff7862",
+              "cone": 360
+            },
+            {
+              "type": "ParticleEffect",
+              "particles": 8,
+              "sizeFrom": 12,
+              "sizeTo": 0,
+              "length": 280,
+              "lifetime": 250,
+              "interp": "fastSlow",
+              "lightColor": "FFB570FF",
+              "colorFrom": "FFB570FF",
+              "colorTo": "ff7862",
+              "cone": 360
+            }
+          ]
+        },
+        "smokeEffect": {
+          "type": "multiEffect",
+          "layer": 109,
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 52,
+              "sizeFrom": 12,
+              "sizeTo": 8,
+              "layer": 99,
+              "length": 350,
+              "lifetime": 400,
+              "lightOpacity": 0,
+              "interp": "fastSlow",
+              "colorFrom": "FFB570FF",
+              "colorTo": "8B7E7E03",
+              "cone": 360
+            },
+            {
+              "type": "ParticleEffect",
+              "particles": 56,
+              "sizeFrom": 12,
+              "sizeTo": 8,
+              "length": 350,
+              "layer": 99,
+              "lifetime": 400,
+              "lightOpacity": 0,
+              "interp": "circleOut",
+              "sizeInterp": "pow5In",
+              "colorFrom": "FFB570FF",
+              "colorTo": "8B7E7E03",
+              "cone": 360
+            }
+          ]
+        },
+        "rangeOverride": 20,
+        "hitEffect": "pulverize",
+        "speed": 0,
+        "splashDamageRadius": 280,
+        "splashDamage": 10000000,
+        "instantDisappear": true,
+        "buildingDamageMultiplier": 0.5,
+        "killShooter": true,
+        "hittable": false,
+
+        "collidesAir": false
+      }
+    }
+  ]
+}
