@@ -90,7 +90,7 @@
         "alternate": false,
         "moveRot": -17,
         "moveX": 10,
-        "moveY": -3,
+        "moveY": 7,
         "progress": {
           "type": "warmup",
           "op": "blend",
@@ -106,7 +106,7 @@
         "alternate": false,
         "moveRot": -17,
         "moveX": 0.75,
-        "moveY": -3,
+        "moveY": 7,
         "progress": {
           "type": "warmup",
           "op": "blend",
@@ -138,7 +138,7 @@
     "liquid": "water",
     "amount": 0.1
   },
-  "shootSound": "shootBig",
+  "shootSound": "shootSpectre",
   "ammoTypes": {
     "surge-alloy": {
       "type": "BasicBulletType",
