@@ -19,13 +19,13 @@
         "type": "ShootBarrel",
         "barrels": [
 
-            10, 9, 0,
+            10, 19, 0,
 
             4, 13, 0,
 
             -4, 13, 0,
 
-            -10, 9, 0
+            -10, 19, 0
 
         ]
     },
@@ -159,6 +159,11 @@
       "trailParam": 5,
       "trailEffect": "disperseTrail",
       "trailColor": "ff7862",
+      "hitColor": "ff7862",
+      "shootEffect": {
+        "type": "multiEffect",
+        "effects": ["colorSparkBig", "shootBig2"]
+    },
       "type": "BasicBulletType",
       "speed": 15,
       "lifetime": 28,
@@ -338,6 +343,11 @@
       "trailEffect": "disperseTrail",
       "trailColor": "f3e979",
       "type": "BasicBulletType",
+      "hitColor": "f3e979",
+      "shootEffect": {
+        "type": "multiEffect",
+        "effects": ["colorSparkBig", "shootBig2"]
+      },
       "speed": 15,
       "lifetime": 28,
       "height": 25,
@@ -353,7 +363,6 @@
       "lightningLength": 3,
       "lightningColor": "f3e979",
       "backColor": "f3e979",
-      "hitColor": "f3e979",
 
       "hitEffect": {
           "type": "multiEffect",
