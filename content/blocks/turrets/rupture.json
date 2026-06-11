@@ -1,0 +1,195 @@
+{
+  "type": "ItemTurret",
+  "coolantMultiplier": 10,
+  "name": "Rupture",
+  "description": "Fires volleys of bullets at enemies.",
+  "details": "You recognize these schematics, from wars you once fought. But that was a long time ago.",
+  "ammoPerShot": 3,
+  "reload": 50,
+  "range": 245,
+  "outlineColor": "232535",
+  "recoil": 1,
+  "shake": 1,
+  "inaccuracy": 5,
+  "category": "turret",
+  "ammoUseEffect": "casing2",
+  "shoot": {
+    "type": "ShootMulti",
+    "source": {
+        "type": "ShootBarrel",
+        "barrels": [
+
+            10, 9, 0,
+
+            4, 13, 0,
+
+            -4, 13, 0,
+
+            -10, 9, 0
+
+        ]
+    },
+    "dest": [
+        {
+            "type": "ShootPattern",
+            "shots": 2
+        }
+    ]
+},
+  "targetUnderBlocks": false,
+  "cooldownTime": 90,
+  "shootY": 6,
+  "shootCone": 20,
+  "requirements": [
+    "Urbium/80",
+    "graphite/50",
+    "tronan-tungsten/100"
+  ],
+  "size": 2,
+  "health": 6900,
+  "armor": 10,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "tronoe-",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-wing1",
+        "under": false,
+        "alternate": false,
+        "moveRot": -17,
+        "moveX": 0.75,
+        "moveY": 0.5,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-wing1",
+        "under": false,
+        "alternate": false,
+        "moveRot": -17,
+        "moveX": 0.75,
+        "moveY": 0.5,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-cannon",
+        "under": true,
+        "alternate": false,
+        "moveY": 5,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": -0.3
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-cannon",
+        "under": true,
+        "alternate": false,
+        "moveY": 5,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": -0.3
+        },
+        "mirror": true
+      }
+    ]
+  },
+  "coolant": {
+    "type": "ConsumeLiquid",
+    "liquid": "water",
+    "amount": 0.1
+  },
+  "shootSound": "shootSalvo",
+  "ammoTypes": {
+    "tronan-tungsten": {
+      "type": "BasicBulletType",
+      "speed": 10,
+      "lifetime": 28,
+      "height": 19,
+      "width": 6,
+      "hitSize": 7,
+      "pierce": false,
+      "damage": 45,
+      "smokeEffect": "shootBigSmoke",
+      "trailColor": "a0b0c8",
+      "backColor": "a0b0c8",
+      "hitColor": "a0b0c8",
+      "frontColor": "FFFFFF",
+      "trailWidth": 1,
+      "trailLength": 4,
+      "hitEffect": "hitBulletColor",
+      "despawnEffect": "hitBulletColor",
+      "buildingDamageMultiplier": 0.2
+    },
+    "Urbium": {
+      "type": "BasicBulletType",
+      "speed": 9,
+      "lifetime": 28,
+      "height": 17,
+      "width": 7,
+      "hitSize": 7,
+      "damage": 25,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "pierceCap": 3,
+      "pierce": true,
+      "pierceBuilding": false,
+      "trailColor": "444759",
+      "backColor": "5f6372",
+      "hitColor": "5f6372",
+      "frontColor": "FFFFFF",
+      "trailWidth": 1,
+      "trailLength": 5,
+      "hitEffect": "hitBulletColor",
+      "despawnEffect": "hitBulletColor",
+      "buildingDamageMultiplier": 0.5
+    },
+    "silicon": {
+      "type": "BasicBulletType",
+      "speed": 7,
+      "lifetime": 35,
+      "height": 15,
+      "width": 9,
+      "hitSize": 7,
+      "damage": 20,
+      "homingPower": 0.05,
+      "homingDelay": 10,
+      "homingRange": 100,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "pierce": false,
+      "trailColor": "444759",
+      "backColor": "5f6372",
+      "hitColor": "5f6372",
+      "frontColor": "FFFFFF",
+      "trailWidth": 1,
+      "trailLength": 5,
+      "hitEffect": "hitBulletColor",
+      "despawnEffect": "hitBulletColor",
+      "buildingDamageMultiplier": 0.5
+    }
+  },
+  "research": {
+    "parent": "origin"
+  }
+}
