@@ -48,7 +48,7 @@
           "effects": [
             {
               "type": "ParticleEffect",
-              "particles": 38,
+              "particles": 58,
               "sizeFrom": 20,
               "sizeTo": 0,
               "length": 350,
@@ -62,10 +62,10 @@
             },
             {
               "type": "ParticleEffect",
-              "particles": 38,
+              "particles": 58,
               "sizeFrom": 12,
               "sizeTo": 0,
-              "length": 280,
+              "length": 120,
               "lifetime": 250,
               "interp": "fastSlow",
               "lightColor": "FFB570FF",
@@ -75,7 +75,7 @@
             },
             {
               "type": "ParticleEffect",
-              "particles": 8,
+              "particles": 58,
               "sizeFrom": 12,
               "sizeTo": 0,
               "length": 280,
@@ -109,11 +109,11 @@
             {
               "type": "ParticleEffect",
               "particles": 56,
-              "sizeFrom": 12,
-              "sizeTo": 8,
-              "length": 350,
+              "sizeFrom": 18,
+              "sizeTo": 14,
+              "length": 250,
               "layer": 99,
-              "lifetime": 400,
+              "lifetime": 450,
               "lightOpacity": 0,
               "interp": "circleOut",
               "sizeInterp": "pow5In",
