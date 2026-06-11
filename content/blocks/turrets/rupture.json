@@ -7,7 +7,7 @@
   "ammoPerShot": 3,
   "reload": 5,
   "range": 245,
-  "outlineColor": "a5c9ff",
+  "outlineColor": "12131f",
   "recoil": 1,
   "shake": 1,
   "inaccuracy": 5,
@@ -138,7 +138,7 @@
     "liquid": "water",
     "amount": 0.1
   },
-  "shootSound": "shootSalvo",
+  "shootSound": "shootBig",
   "ammoTypes": {
     "surge-alloy": {
       "type": "BasicBulletType",
@@ -192,14 +192,14 @@
               "line": true,
               "length": 40,
               "baseLength": 5,
-              "particles": 25,
+              "particles": 5,
               "lifetime": 30,
               "interp": "circleOut",
               "cone": 30,
               "lightColor": "f3e979",
-              "strokeFrom": 3,
+              "strokeFrom": 9,
               "strokeTo": 0,
-              "lenFrom": 5,
+              "lenFrom": 15,
               "lenTo": 0,
               "colorFrom": "f3e979",
               "colorTo": "f3e979"
@@ -244,64 +244,64 @@
           "effects": [
             {
               "type": "ParticleEffect",
-              "particles": 8,
+              "particles": 4,
               "sizeFrom": 4,
               "sizeTo": 0,
-              "length": 40,
+              "length": 70,
               "lifetime": 40,
               "interp": "circleOut",
               "sizeInterp": "pow5In",
               "lightColor": "FF5845FF",
               "colorFrom": "FFDCD8FF",
               "colorTo": "ff7862",
-              "cone": 360
+              "cone": 30
             },
             {
               "type": "ParticleEffect",
-              "particles": 8,
+              "particles": 4,
               "sizeFrom": 4,
               "sizeTo": 0,
-              "length": 40,
+              "length": 70,
               "lifetime": 45,
               "interp": "fastSlow",
               "lightColor": "FFB570FF",
               "colorFrom": "FFB570FF",
               "colorTo": "ff7862",
-              "cone": 360
+              "cone": 35
             },
             {
               "type": "ParticleEffect",
-              "particles": 8,
+              "particles": 4,
               "sizeFrom": 4,
               "sizeTo": 0,
-              "length": 40,
+              "length": 70,
               "lifetime": 50,
               "interp": "fastSlow",
               "lightColor": "FFB570FF",
               "colorFrom": "FFB570FF",
               "colorTo": "ff7862",
-              "cone": 360
+              "cone": 35
             },
             {
               "type": "ParticleEffect",
-              "particles": 22,
+              "particles": 8,
               "sizeFrom": 3,
               "sizeTo": 2,
               "layer": 99,
-              "length": 50,
+              "length": 120,
               "lifetime": 48,
               "lightOpacity": 0,
               "interp": "fastSlow",
               "colorFrom": "FFB570FF",
               "colorTo": "8B7E7E03",
-              "cone": 360
+              "cone": 55
             },
             {
               "type": "ParticleEffect",
-              "particles": 16,
+              "particles": 4,
               "sizeFrom": 3,
               "sizeTo": 2,
-              "length": 55,
+              "length": 80,
               "layer": 99,
               "lifetime": 59,
               "lightOpacity": 0,
@@ -309,7 +309,7 @@
               "sizeInterp": "pow5In",
               "colorFrom": "FFB570FF",
               "colorTo": "8B7E7E03",
-              "cone": 360
+              "cone": 35
             }
           ]
         },
@@ -329,7 +329,7 @@
               "lightColor": "FF5845FF",
               "colorFrom": "FFDCD8FF",
               "colorTo": "ff7862",
-              "cone": 360
+              "cone": 30
             },
             {
               "type": "ParticleEffect",
@@ -342,7 +342,7 @@
               "lightColor": "FFB570FF",
               "colorFrom": "FFB570FF",
               "colorTo": "ff7862",
-              "cone": 360
+              "cone": 35
             },
             {
               "type": "ParticleEffect",
@@ -355,7 +355,7 @@
               "lightColor": "FFB570FF",
               "colorFrom": "FFB570FF",
               "colorTo": "ff7862",
-              "cone": 360
+              "cone": 35
             },
             {
               "type": "ParticleEffect",
@@ -369,7 +369,7 @@
               "interp": "fastSlow",
               "colorFrom": "FFB570FF",
               "colorTo": "8B7E7E03",
-              "cone": 360
+              "cone": 55
             },
             {
               "type": "ParticleEffect",
@@ -384,7 +384,7 @@
               "sizeInterp": "pow5In",
               "colorFrom": "FFB570FF",
               "colorTo": "8B7E7E03",
-              "cone": 360
+              "cone": 35
             }
           ]
         },
@@ -396,7 +396,7 @@
       "buildingDamageMultiplier": 0.4,
       "splashDamagePierce": true,
       "splashDamageRadius": 26,
-      "splashDamage": 40,
+      "splashDamage": 80,
       "incendAmount": 1
   }
 },
