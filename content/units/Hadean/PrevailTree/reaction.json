@@ -86,10 +86,7 @@
       "shootCone": 200,
       "shake": 20,
       "mirror": false,
-      "shootStatus": [
-        "slow",
-        "burning"
-    ],
+      "shootStatus": "burning",
       "shootStatusDuration": 160,
       "shoot": {
         "firstShotDelay": 50
