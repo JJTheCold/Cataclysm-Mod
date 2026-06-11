@@ -8,7 +8,7 @@
   "targetAir": false,
   "lightRadius": 150,
   "faceTarget": true,
-  "name": "Combustion",
+  "name": "Reaction",
   "description": "The Hadean Kamikaze Specialist. Releases a large explosion at will, annihilating itself and any nearby enemy units",
   "health": 5000,
   "armor": 30,
@@ -43,13 +43,43 @@
               },
               "outline": false,
               "mirror": false
+            },
+            {
+              "type": "RegionPart",
+              "suffix": "-glow",
+              "blending": "additive",
+              "color": "8B7E7E03",
+              "colorTo": "ff7862",
+              "progress": {
+                "type": "warmup",
+                "op": "blend",
+                "other": "heat",
+                "amount": 0.5
+              },
+              "outline": false,
+              "mirror": false
+            },
+            {
+              "type": "RegionPart",
+              "suffix": "-glow",
+              "blending": "additive",
+              "color": "8B7E7E03",
+              "colorTo": "ff7862",
+              "progress": {
+                "type": "warmup",
+                "op": "blend",
+                "other": "heat",
+                "amount": 0.5
+              },
+              "outline": false,
+              "mirror": false
             }
     ],
   "weapons": [
     {
       "x": 0,
       "y": 0,
-      "shootOnDeath": true,
+      "shootOnDeath": false,
       "reload": 30,
       "ejectEffect": "none",
       "targetUnderBlocks": false,
@@ -60,7 +90,7 @@
       "shootStatus": "slow",
       "shootStatusDuration": 160,
       "shoot": {
-        "firstShotDelay": 160
+        "firstShotDelay": 50
       },
       "bullet": {
         "collidesTiles": false,
@@ -75,7 +105,7 @@
             "length": 0,
             "sizeFrom": 150,
             "sizeTo": 600,
-            "spin": 12,
+            "spin": 4,
             "particles": 1,
             "region": "cataclysm-exo-gas1",
             "colorFrom": "FFB570FF",
@@ -87,7 +117,7 @@
             "length": 0,
             "sizeFrom": 50,
             "sizeTo": 500,
-            "spin": 14,
+            "spin": 6,
             "particles": 1,
             "region": "cataclysm-exo-gas1",
             "colorFrom": "FFB570FF",
@@ -99,7 +129,7 @@
             "length": 0,
             "sizeFrom": 0,
             "sizeTo": 400,
-            "spin": 16,
+            "spin": 8,
             "particles": 1,
             "region": "cataclysm-exo-gas1",
             "colorFrom": "FFB570FF",
