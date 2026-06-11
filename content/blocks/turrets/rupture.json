@@ -45,13 +45,29 @@
     "graphite/50",
     "tronan-tungsten/100"
   ],
-  "size": 2,
+  "size": 4,
   "health": 6900,
-  "armor": 10,
+  "armor": 15,
   "drawer": {
     "type": "drawTurret",
     "basePrefix": "tronoe-",
     "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-cells",
+        "under": false,
+        "alternate": false,
+        "moveRot": -17,
+        "moveX": 2,
+        "moveY": 0.5,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.2
+        },
+        "mirror": true
+      },
       {
         "type": "RegionPart",
         "suffix": "-wing1",
@@ -70,12 +86,12 @@
       },
       {
         "type": "RegionPart",
-        "suffix": "-wing1",
+        "suffix": "-wing2",
         "under": false,
         "alternate": false,
         "moveRot": -17,
         "moveX": 0.75,
-        "moveY": 0.5,
+        "moveY": -0.5,
         "progress": {
           "type": "warmup",
           "op": "blend",
