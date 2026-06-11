@@ -56,8 +56,6 @@
         "type": "RegionPart",
         "suffix": "-cannon",
         "under": true,
-        "alternate": true,
-        "x": -2,
         "moveY": 14,
         "progress": {
           "type": "warmup",
@@ -72,7 +70,6 @@
         "suffix": "-cannon",
         "under": true,
         "x": 6,
-        "alternate": true,
         "moveY": 19,
         "progress": {
           "type": "warmup",
@@ -150,150 +147,29 @@
   },
   "coolant": {
     "type": "ConsumeLiquid",
-    "liquid": "water",
+    "liquid": "slag",
     "amount": 0.1
   },
   "shootSound": "shootSpectre",
   "ammoTypes": {
-    "surge-alloy": {
-        "trailChance": 3,
-        "trailParam": 5,
-        "trailEffect": [
-        {
-          "type": "ParticleEffect",
-          "particles": 3,
-          "length": 2,
-          "baseLength": 5,
-          "lifetime": 75,
-          "interp": "fastSlow",
-          "cone": 360,
-          "offset": 3,
-          "lightColor": "f3e979",
-          "colorFrom": "f3e979",
-          "colorTo": "f3e979",
-          "sizeFrom": 8,
-          "sizeTo": 0
-        }
-      ],
-      "type": "BasicBulletType",
-      "speed": 15,
-      "lifetime": 28,
-      "height": 25,
-      "width": 15,
-      "hitSize": 7,
-      "pierce": false,
-      "damage": 45,
-      "smokeEffect": "shootBigSmoke",
-
-      "lightningDamage": 20,
-      "lightningCone": 360,
-      "lightningLengthRand": 6,
-      "lightningLength": 3,
-      "lightningColor": "f3e979",
-      "backColor": "f3e979",
-      "trailColor": "f3e979",
-      "hitColor": "f3e979",
-
-      "hitEffect": {
-          "type": "multiEffect",
-          "effects": [
-            {
-              "type": "WaveEffect",
-              "lifetime": 30,
-              "sizeFrom": 0,
-              "sizeTo": 10,
-              "sides": 4,
-              "rotateSpeed": 3,
-              "strokeFrom": 2,
-              "strokeTo": 0,
-              "colorFrom": "f3e979",
-              "colorTo": "f3e979"
-            },
-            {
-              "type": "WaveEffect",
-              "lifetime": 30,
-              "sizeFrom": 0,
-              "sizeTo": 15,
-              "sides": 4,
-              "rotateSpeed": -3,
-              "strokeFrom": 2,
-              "strokeTo": 0,
-              "colorFrom": "f3e979",
-              "colorTo": "f3e979"
-            },
-            {
-              "type": "ParticleEffect",
-              "line": true,
-              "length": 40,
-              "baseLength": 5,
-              "particles": 5,
-              "lifetime": 30,
-              "interp": "circleOut",
-              "cone": 30,
-              "lightColor": "f3e979",
-              "strokeFrom": 9,
-              "strokeTo": 0,
-              "lenFrom": 15,
-              "lenTo": 0,
-              "colorFrom": "f3e979",
-              "colorTo": "f3e979"
-            },
-            {
-              "type": "ParticleEffect",
-              "line": true,
-              "length": 120,
-              "baseLength": 20,
-              "particles": 5,
-              "lifetime": 30,
-              "interp": "circleOut",
-              "cone": 30,
-              "lightColor": "f3e979",
-              "strokeFrom": 9,
-              "strokeTo": 0,
-              "lenFrom": 15,
-              "lenTo": 0,
-              "colorFrom": "f3e979",
-              "colorTo": "f3e979"
-            }
-          ]
-        },
-
-      "frontColor": "FFFFFF",
-      "trailWidth": 2,
-      "status": "shocked",
-      "statusDuration": 100,
-      "trailLength": 4,
-      "buildingDamageMultiplier": 0.4,
-
-      "intervalBullets": 2,
-      "bulletInterval": 2,
-      "intervalBullet": {
-        "type": "LightningBulletType",
-        "lightningColor": "f3e979",
-        "damage": 32,
-        "collidesTiles": true,
-        "lightningLengthRand": 4,
-        "lightningLength": 2
-    }
-    },
     "scorch-alloy": {
-        "trailChance": 3,
+        "trailChance": 1,
         "trailParam": 5,
         "trailEffect": [
         {
-          "type": "ParticleEffect",
-          "particles": 3,
-          "length": 2,
-          "baseLength": 5,
-          "lifetime": 75,
-          "interp": "fastSlow",
-          "cone": 360,
-          "offset": 3,
-          "lightColor": "FF5845FF",
-          "colorFrom": "FF5845FF",
-          "colorTo": "ff7862",
-          "sizeFrom": 8,
-          "sizeTo": 0
+            "type": "ParticleEffect",
+            "particles": 3,
+            "length": 2,
+            "baseLength": 5,
+            "lifetime": 75,
+            "interp": "fastSlow",
+            "cone": 360,
+            "offset": 3,
+            "lightColor": "FF5845FF",
+            "colorFrom": "FF5845FF",
+            "colorTo": "ff7862",
+            "sizeFrom": 3,
+            "sizeTo": 0
         }
       ],
       "type": "BasicBulletType",
@@ -467,7 +343,128 @@
       "splashDamageRadius": 26,
       "splashDamage": 80,
       "incendAmount": 1
-  }
+  },
+    "surge-alloy": {
+        "trailChance": 1,
+        "trailParam": 5,
+        "trailEffect": [
+        {
+            "type": "ParticleEffect",
+            "particles": 3,
+            "length": 2,
+            "baseLength": 5,
+            "lifetime": 75,
+            "interp": "fastSlow",
+            "cone": 360,
+            "offset": 3,
+            "lightColor": "f3e979",
+            "colorFrom": "f3e979",
+            "colorTo": "f3e979",
+            "sizeFrom": 3,
+            "sizeTo": 0
+        }
+      ],
+      "type": "BasicBulletType",
+      "speed": 15,
+      "lifetime": 28,
+      "height": 25,
+      "width": 15,
+      "hitSize": 7,
+      "pierce": false,
+      "damage": 45,
+      "smokeEffect": "shootBigSmoke",
+
+      "lightningDamage": 20,
+      "lightningCone": 360,
+      "lightningLengthRand": 6,
+      "lightningLength": 3,
+      "lightningColor": "f3e979",
+      "backColor": "f3e979",
+      "trailColor": "f3e979",
+      "hitColor": "f3e979",
+
+      "hitEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "WaveEffect",
+              "lifetime": 30,
+              "sizeFrom": 0,
+              "sizeTo": 10,
+              "sides": 4,
+              "rotateSpeed": 3,
+              "strokeFrom": 2,
+              "strokeTo": 0,
+              "colorFrom": "f3e979",
+              "colorTo": "f3e979"
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 30,
+              "sizeFrom": 0,
+              "sizeTo": 15,
+              "sides": 4,
+              "rotateSpeed": -3,
+              "strokeFrom": 2,
+              "strokeTo": 0,
+              "colorFrom": "f3e979",
+              "colorTo": "f3e979"
+            },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "length": 40,
+              "baseLength": 5,
+              "particles": 5,
+              "lifetime": 30,
+              "interp": "circleOut",
+              "cone": 30,
+              "lightColor": "f3e979",
+              "strokeFrom": 9,
+              "strokeTo": 0,
+              "lenFrom": 15,
+              "lenTo": 0,
+              "colorFrom": "f3e979",
+              "colorTo": "f3e979"
+            },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "length": 120,
+              "baseLength": 20,
+              "particles": 5,
+              "lifetime": 30,
+              "interp": "circleOut",
+              "cone": 30,
+              "lightColor": "f3e979",
+              "strokeFrom": 9,
+              "strokeTo": 0,
+              "lenFrom": 15,
+              "lenTo": 0,
+              "colorFrom": "f3e979",
+              "colorTo": "f3e979"
+            }
+          ]
+        },
+
+      "frontColor": "FFFFFF",
+      "trailWidth": 2,
+      "status": "shocked",
+      "statusDuration": 100,
+      "trailLength": 4,
+      "buildingDamageMultiplier": 0.4,
+
+      "intervalBullets": 2,
+      "bulletInterval": 2,
+      "intervalBullet": {
+        "type": "LightningBulletType",
+        "lightningColor": "f3e979",
+        "damage": 32,
+        "collidesTiles": true,
+        "lightningLengthRand": 4,
+        "lightningLength": 2
+    }
+    }
 },
   "research": {
     "parent": "origin"
