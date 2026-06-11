@@ -32,17 +32,17 @@
             {
               "type": "RegionPart",
               "suffix": "-glow",
-              "layer": -1,
-              "mirror": true,
               "blending": "additive",
               "color": "FFDCD8FF",
               "colorTo": "ff7862",
-              "outline": false,
               "progress": {
                 "type": "charge",
-                "op": "delay",
-                "amount": 0.65
-              }
+                "op": "blend",
+                "other": "heat",
+                "amount": 0.2
+              },
+              "outline": false,
+              "mirror": true
             }
     ],
   "weapons": [
