@@ -33,13 +33,13 @@
               "type": "RegionPart",
               "suffix": "-glow",
               "blending": "additive",
-              "color": "FFDCD8FF",
+              "color": "8B7E7E03",
               "colorTo": "ff7862",
               "progress": {
                 "type": "warmup",
                 "op": "blend",
                 "other": "heat",
-                "amount": 0
+                "amount": 0.5
               },
               "outline": false,
               "mirror": false
@@ -71,10 +71,10 @@
           "effects": [
           {
             "type": "ParticleEffect",
-            "lifetime": 300,
+            "lifetime": 150,
             "length": 0,
-            "sizeFrom": 100,
-            "sizeTo": 500,
+            "sizeFrom": 150,
+            "sizeTo": 600,
             "spin": 12,
             "particles": 1,
             "region": "cataclysm-exo-gas1",
@@ -83,10 +83,10 @@
           },
           {
             "type": "ParticleEffect",
-            "lifetime": 250,
+            "lifetime": 200,
             "length": 0,
             "sizeFrom": 50,
-            "sizeTo": 450,
+            "sizeTo": 500,
             "spin": 14,
             "particles": 1,
             "region": "cataclysm-exo-gas1",
@@ -95,7 +95,7 @@
           },
           {
             "type": "ParticleEffect",
-            "lifetime": 200,
+            "lifetime": 250,
             "length": 0,
             "sizeFrom": 0,
             "sizeTo": 400,
