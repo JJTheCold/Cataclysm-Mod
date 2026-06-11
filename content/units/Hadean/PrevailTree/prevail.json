@@ -68,7 +68,6 @@
     "sapped",
     "cataclysm-incinerating",
     "slow",
-    "wet",
     "spore-slowed"
   ],
     "parts": [
@@ -120,7 +119,7 @@
           "type": "warmup",
           "op": "blend",
           "other": "heat",
-          "amount": 2
+          "amount": 0
         },
         "mirror": true
       }

@@ -12,14 +12,14 @@
   "description": "The Hadean Kamikaze Specialist. Releases a large explosion at will, annihilating itself and any nearby enemy units",
   "health": 5000,
   "armor": 30,
-  "speed": 0.8,
+  "speed": 1.2,
   "hitSize": 30,
   "isEnemy": true,
   "drag": 0.5,
   "itemCapacity": 90,
   "alwaysUnlocked": true,
   "outlineColor": "12131f",
-  "rotateSpeed": 0.5,
+  "rotateSpeed": 1.5,
   "immunities": [
     "burning",
     "melting",
@@ -36,13 +36,13 @@
               "color": "FFDCD8FF",
               "colorTo": "ff7862",
               "progress": {
-                "type": "charge",
+                "type": "warmup",
                 "op": "blend",
                 "other": "heat",
-                "amount": 0.8
+                "amount": 0
               },
               "outline": false,
-              "mirror": true
+              "mirror": false
             }
     ],
   "weapons": [
@@ -71,9 +71,9 @@
           "effects": [
           {
             "type": "ParticleEffect",
-            "lifetime": 315,
+            "lifetime": 300,
             "length": 0,
-            "sizeFrom": 0,
+            "sizeFrom": 100,
             "sizeTo": 500,
             "spin": 12,
             "particles": 1,
@@ -83,10 +83,10 @@
           },
           {
             "type": "ParticleEffect",
-            "lifetime": 315,
+            "lifetime": 250,
             "length": 0,
-            "sizeFrom": 0,
-            "sizeTo": 480,
+            "sizeFrom": 50,
+            "sizeTo": 450,
             "spin": 14,
             "particles": 1,
             "region": "cataclysm-exo-gas1",
@@ -95,10 +95,10 @@
           },
           {
             "type": "ParticleEffect",
-            "lifetime": 315,
+            "lifetime": 200,
             "length": 0,
             "sizeFrom": 0,
-            "sizeTo": 460,
+            "sizeTo": 400,
             "spin": 16,
             "particles": 1,
             "region": "cataclysm-exo-gas1",
