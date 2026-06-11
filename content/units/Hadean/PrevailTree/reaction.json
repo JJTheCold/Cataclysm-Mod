@@ -6,28 +6,41 @@
   "range": 80,
   "defaultController": "SuicideAI",
   "targetAir": false,
-  "lightRadius": 25,
+  "lightRadius": 150,
   "faceTarget": true,
   "name": "Combustion",
   "description": "The Hadean Kamikaze Specialist. Releases a large explosion at will, annihilating itself and any nearby enemy units",
   "health": 5000,
   "armor": 30,
-  "speed": 0.8,
+  "speed": 0.25,
   "hitSize": 30,
   "isEnemy": true,
   "drag": 0.5,
   "itemCapacity": 90,
   "alwaysUnlocked": true,
   "outlineColor": "12131f",
+  "rotateSpeed": 0.25,
   "immunities": [
     "burning",
     "melting",
     "sapped",
     "cataclysm-incinerating",
-    "slow",
     "wet",
     "spore-slowed"
   ],
+      "parts": [
+            {
+              "type": "RegionPart",
+              "suffix": "-glow",
+              "layer": -1,
+              "mirror": true,
+              "blending": "additive",
+              "color": "FFDCD8FF",
+              "colorTo": "ff7862",
+              "outline": false,
+              "progress": "charge"
+            }
+    ],
   "weapons": [
     {
       "x": 0,
@@ -38,7 +51,13 @@
       "targetUnderBlocks": false,
       "shootSound": "explosionReactor2",
       "shootCone": 200,
+      "shake": 20,
       "mirror": false,
+      "shootStatus": "slow",
+      "shootStatusDuration": 160,
+      "shoot": {
+        "firstShotDelay": 160
+      },
       "bullet": {
         "collidesTiles": false,
         "collides": false,
