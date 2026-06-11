@@ -39,7 +39,7 @@
                 "type": "charge",
                 "op": "blend",
                 "other": "heat",
-                "amount": 0.2
+                "amount": 0.8
               },
               "outline": false,
               "mirror": true
