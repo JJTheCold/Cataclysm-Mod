@@ -55,7 +55,7 @@
       {
         "type": "RegionPart",
         "suffix": "-cells",
-        "under": false,
+        "under": true,
         "alternate": false,
         "moveRot": -17,
         "moveX": 10,
@@ -87,7 +87,7 @@
       {
         "type": "RegionPart",
         "suffix": "-wing2",
-        "under": false,
+        "under": true,
         "alternate": false,
         "moveRot": -10,
         "moveX": 0.75,
@@ -106,7 +106,7 @@
         "under": true,
         "recoilIndex": 3,
         "alternate": true,
-        "moveY": 15,
+        "moveY": 12,
         "progress": {
           "type": "warmup",
           "op": "blend",
@@ -119,7 +119,7 @@
         "type": "RegionPart",
         "suffix": "-cannon",
         "under": true,
-        "x": 8,
+        "x": 7,
         "recoilIndex": 3,
         "alternate": true,
         "moveY": 10,
@@ -140,27 +140,104 @@
   },
   "shootSound": "shootSalvo",
   "ammoTypes": {
-    "tronan-tungsten": {
+    "surge-alloy": {
       "type": "BasicBulletType",
-      "speed": 10,
+      "speed": 15,
       "lifetime": 28,
-      "height": 19,
-      "width": 6,
+      "height": 25,
+      "width": 15,
       "hitSize": 7,
       "pierce": false,
       "damage": 45,
       "smokeEffect": "shootBigSmoke",
-      "trailColor": "a0b0c8",
-      "backColor": "a0b0c8",
-      "hitColor": "a0b0c8",
+
+      "lightningDamage": 20,
+      "lightningCone": 360,
+      "lightningLengthRand": 6,
+      "lightningLength": 3,
+      "lightningColor": "f3e979",
+      "backColor": "f3e979",
+      "trailColor": "f3e979",
+      "hitColor": "f3e979",
+
+      "hitEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "particles": 8,
+              "length": 40,
+              "baseLength": 5,
+              "lifetime": 30,
+              "lightColor": "a5c9ff",
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "a5c9ff",
+              "colorTo": "6e91c7",
+              "sizeFrom": 8,
+              "sizeTo": 0
+            },
+            {
+              "type": "ParticleEffect",
+              "particles": 12,
+              "length": 20,
+              "baseLength": 5,
+              "lifetime": 60,
+              "lightColor": "FFB570FF",
+              "interp": "circleOut",
+              "cone": 360,
+              "colorFrom": "FFB570FF",
+              "colorTo": "8B7E7E03",
+              "sizeFrom": 8,
+              "sizeTo": 4
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 20,
+              "sizeFrom": 0,
+              "sizeTo": 40,
+              "strokeFrom": 2,
+              "strokeTo": 0,
+              "colorFrom": "a5c9ff",
+              "colorTo": "6e91c7"
+            },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "length": 40,
+              "baseLength": 5,
+              "particles": 25,
+              "lifetime": 30,
+              "interp": "circleOut",
+              "offset": 30,
+              "lightColor": "a5c9ff",
+              "strokeFrom": 3,
+              "strokeTo": 0,
+              "lenFrom": 5,
+              "lenTo": 0,
+              "colorFrom": "a5c9ff",
+              "colorTo": "6e91c7"
+            }
+          ]
+        },
+
       "frontColor": "FFFFFF",
-      "trailWidth": 1,
+      "trailWidth": 2,
       "trailLength": 4,
-      "hitEffect": "hitBulletColor",
-      "despawnEffect": "hitBulletColor",
-      "buildingDamageMultiplier": 0.2
+      "buildingDamageMultiplier": 0.4,
+
+      "intervalBullets": 2,
+      "bulletInterval": 2,
+      "intervalBullet": {
+        "type": "LightningBulletType",
+        "lightningColor": "f3e979",
+        "damage": 32,
+        "collidesTiles": true,
+        "lightningLengthRand": 4,
+        "lightningLength": 2
+    }
     },
-    "Urbium": {
+    "scorch-alloy": {
       "type": "BasicBulletType",
       "speed": 9,
       "lifetime": 28,
