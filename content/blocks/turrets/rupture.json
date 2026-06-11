@@ -425,6 +425,69 @@
             }
           ]
         },
+    "despawnEffect": {
+          "type": "multiEffect",
+          "effects": [
+            {
+              "type": "WaveEffect",
+              "lifetime": 30,
+              "sizeFrom": 0,
+              "sizeTo": 10,
+              "sides": 4,
+              "rotateSpeed": 3,
+              "strokeFrom": 2,
+              "strokeTo": 0,
+              "colorFrom": "f3e979",
+              "colorTo": "f3e979"
+            },
+            {
+              "type": "WaveEffect",
+              "lifetime": 30,
+              "sizeFrom": 0,
+              "sizeTo": 15,
+              "sides": 4,
+              "rotateSpeed": -3,
+              "strokeFrom": 2,
+              "strokeTo": 0,
+              "colorFrom": "f3e979",
+              "colorTo": "f3e979"
+            },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "length": 40,
+              "baseLength": 5,
+              "particles": 5,
+              "lifetime": 30,
+              "interp": "circleOut",
+              "cone": 30,
+              "lightColor": "f3e979",
+              "strokeFrom": 9,
+              "strokeTo": 0,
+              "lenFrom": 15,
+              "lenTo": 0,
+              "colorFrom": "f3e979",
+              "colorTo": "f3e979"
+            },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "length": 120,
+              "baseLength": 20,
+              "particles": 5,
+              "lifetime": 30,
+              "interp": "circleOut",
+              "cone": 30,
+              "lightColor": "f3e979",
+              "strokeFrom": 9,
+              "strokeTo": 0,
+              "lenFrom": 15,
+              "lenTo": 0,
+              "colorFrom": "f3e979",
+              "colorTo": "f3e979"
+            }
+          ]
+        },
 
       "frontColor": "FFFFFF",
       "trailWidth": 2,
