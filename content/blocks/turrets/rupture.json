@@ -82,7 +82,7 @@
       {
         "type": "RegionPart",
         "suffix": "-wing1",
-        "under": false,
+        "under": true,
         "alternate": false,
         "moveRot": -37,
         "moveX": 4,
