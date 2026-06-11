@@ -103,7 +103,7 @@
         "suffix": "-wing1",
         "under": false,
         "alternate": false,
-        "moveRot": -37,
+        "moveRot": -57,
         "moveX": 2,
         "moveY": -2,
         "progress": {
@@ -156,23 +156,25 @@
   "shootSound": "shootSpectre",
   "ammoTypes": {
     "surge-alloy": {
+        "trailChance": 3,
+        "trailParam": 5,
         "trailEffect": [
         {
           "type": "ParticleEffect",
-          "particles": 1,
+          "particles": 3,
           "length": 2,
           "baseLength": 5,
           "lifetime": 75,
-          "interp": "circleOut",
+          "interp": "fastSlow",
           "cone": 360,
-          "offset": 5,
-          "lightColor": "e3e3e3",
-          "colorFrom": "e3e3e3",
-          "colorTo": "505050FF",
-          "sizeFrom": 3,
+          "offset": 3,
+          "lightColor": "f3e979",
+          "colorFrom": "f3e979",
+          "colorTo": "f3e979",
+          "sizeFrom": 8,
           "sizeTo": 0
         }
-    ],
+      ],
       "type": "BasicBulletType",
       "speed": 15,
       "lifetime": 28,
@@ -275,6 +277,25 @@
     }
     },
     "scorch-alloy": {
+        "trailChance": 3,
+        "trailParam": 5,
+        "trailEffect": [
+        {
+          "type": "ParticleEffect",
+          "particles": 3,
+          "length": 2,
+          "baseLength": 5,
+          "lifetime": 75,
+          "interp": "fastSlow",
+          "cone": 360,
+          "offset": 3,
+          "lightColor": "FF5845FF",
+          "colorFrom": "FF5845FF",
+          "colorTo": "ff7862",
+          "sizeFrom": 8,
+          "sizeTo": 0
+        }
+      ],
       "type": "BasicBulletType",
       "speed": 15,
       "lifetime": 28,
