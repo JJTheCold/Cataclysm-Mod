@@ -81,12 +81,12 @@
       },
       {
         "type": "RegionPart",
-        "suffix": "-cells",
-        "under": true,
+        "suffix": "-wing1",
+        "under": false,
         "alternate": false,
-        "moveRot": -17,
-        "moveX": 10,
-        "moveY": 7,
+        "moveRot": -37,
+        "moveX": 4,
+        "moveY": -2,
         "progress": {
           "type": "warmup",
           "op": "blend",
@@ -97,12 +97,12 @@
       },
       {
         "type": "RegionPart",
-        "suffix": "-wing1",
-        "under": false,
+        "suffix": "-cells",
+        "under": true,
         "alternate": false,
-        "moveRot": -57,
-        "moveX": 2,
-        "moveY": -2,
+        "moveRot": -17,
+        "moveX": 10,
+        "moveY": 7,
         "progress": {
           "type": "warmup",
           "op": "blend",
@@ -153,29 +153,12 @@
   "shootSound": "shootSpectre",
   "ammoTypes": {
     "scorch-alloy": {
-        "trailRotation": true,
-        "trailChance": 1,
-        "trailParam": 5,
-        "rotationOffset": 90,
-        "trailEffect": [
-            {
-              "type": "ParticleEffect",
-              "line": true,
-              "length": 120,
-              "baseLength": 20,
-              "particles": 5,
-              "lifetime": 30,
-              "interp": "circleOut",
-              "cone": 20,
-              "lightColor": "FF5845FF",
-              "strokeFrom": 9,
-              "strokeTo": 0,
-              "lenFrom": 15,
-              "lenTo": 0,
-              "colorFrom": "FFDCD8FF",
-              "colorTo": "ff7862"
-            }
-      ],
+      "trailRotation": true,
+      "trailChance": 1,
+      "rotationOffset": 90,
+      "trailParam": 5,
+      "trailEffect": "disperseTrail",
+      "trailColor": "ff7862",
       "type": "BasicBulletType",
       "speed": 15,
       "lifetime": 28,
@@ -186,7 +169,6 @@
       "damage": 75,
 
       "backColor": "ff7862",
-      "trailColor": "ff7862",
       "hitEffect": {
           "type": "multiEffect",
           "layer": 110,
@@ -349,29 +331,12 @@
       "incendAmount": 1
   },
     "surge-alloy": {
-        "trailRotation": true,
-        "trailChance": 1,
-        "trailParam": 5,
-        "rotationOffset": 90,
-        "trailEffect": [
-            {
-              "type": "ParticleEffect",
-              "line": true,
-              "length": 120,
-              "baseLength": 20,
-              "particles": 5,
-              "lifetime": 30,
-              "interp": "circleOut",
-              "cone": 20,
-              "lightColor": "f3e979",
-              "strokeFrom": 9,
-              "strokeTo": 0,
-              "lenFrom": 15,
-              "lenTo": 0,
-              "colorFrom": "f3e979",
-              "colorTo": "f3e979"
-            }
-      ],
+      "trailRotation": true,
+      "trailChance": 1,
+      "rotationOffset": 90,
+      "trailParam": 5,
+      "trailEffect": "disperseTrail",
+      "trailColor": "f3e979",
       "type": "BasicBulletType",
       "speed": 15,
       "lifetime": 28,
@@ -388,7 +353,6 @@
       "lightningLength": 3,
       "lightningColor": "f3e979",
       "backColor": "f3e979",
-      "trailColor": "f3e979",
       "hitColor": "f3e979",
 
       "hitEffect": {
