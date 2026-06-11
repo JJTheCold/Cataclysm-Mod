@@ -120,7 +120,7 @@
           "type": "warmup",
           "op": "blend",
           "other": "heat",
-          "amount": 0
+          "amount": 2
         },
         "mirror": true
       }

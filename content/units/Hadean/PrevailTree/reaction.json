@@ -12,14 +12,14 @@
   "description": "The Hadean Kamikaze Specialist. Releases a large explosion at will, annihilating itself and any nearby enemy units",
   "health": 5000,
   "armor": 30,
-  "speed": 0.25,
+  "speed": 0.8,
   "hitSize": 30,
   "isEnemy": true,
   "drag": 0.5,
   "itemCapacity": 90,
   "alwaysUnlocked": true,
   "outlineColor": "12131f",
-  "rotateSpeed": 0.25,
+  "rotateSpeed": 0.5,
   "immunities": [
     "burning",
     "melting",
@@ -38,7 +38,11 @@
               "color": "FFDCD8FF",
               "colorTo": "ff7862",
               "outline": false,
-              "progress": "charge"
+              "progress": {
+                "type": "charge",
+                "op": "delay",
+                "amount": 0.65
+              }
             }
     ],
   "weapons": [
@@ -67,7 +71,7 @@
           "effects": [
             {
               "type": "ParticleEffect",
-              "particles": 58,
+              "particles": 158,
               "sizeFrom": 20,
               "sizeTo": 0,
               "length": 350,
@@ -81,7 +85,7 @@
             },
             {
               "type": "ParticleEffect",
-              "particles": 58,
+              "particles": 158,
               "sizeFrom": 12,
               "sizeTo": 0,
               "length": 120,
@@ -94,7 +98,7 @@
             },
             {
               "type": "ParticleEffect",
-              "particles": 58,
+              "particles": 158,
               "sizeFrom": 12,
               "sizeTo": 0,
               "length": 280,
@@ -113,11 +117,11 @@
           "effects": [
             {
               "type": "ParticleEffect",
-              "particles": 52,
+              "particles": 152,
               "sizeFrom": 12,
               "sizeTo": 8,
               "layer": 99,
-              "length": 350,
+              "length": 500,
               "lifetime": 400,
               "lightOpacity": 0,
               "interp": "fastSlow",
@@ -127,7 +131,7 @@
             },
             {
               "type": "ParticleEffect",
-              "particles": 56,
+              "particles": 156,
               "sizeFrom": 18,
               "sizeTo": 14,
               "length": 250,
