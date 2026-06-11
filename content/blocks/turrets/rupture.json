@@ -155,7 +155,6 @@
     "scorch-alloy": {
       "trailRotation": true,
       "trailChance": 1,
-      "rotationOffset": 90,
       "trailParam": 5,
       "trailEffect": "disperseTrail",
       "trailColor": "ff7862",
@@ -338,7 +337,6 @@
     "surge-alloy": {
       "trailRotation": true,
       "trailChance": 1,
-      "rotationOffset": 90,
       "trailParam": 5,
       "trailEffect": "disperseTrail",
       "trailColor": "f3e979",
