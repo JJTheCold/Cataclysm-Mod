@@ -58,12 +58,12 @@
         "under": true,
         "recoilIndex": 3,
         "alternate": true,
-        "moveY": 12,
+        "moveY": 14,
         "progress": {
           "type": "warmup",
           "op": "blend",
           "other": "heat",
-          "amount": 0.3
+          "amount": -3
         },
         "mirror": true
       },
@@ -74,12 +74,12 @@
         "x": 7,
         "recoilIndex": 3,
         "alternate": true,
-        "moveY": 10,
+        "moveY": 13,
         "progress": {
           "type": "warmup",
           "op": "blend",
           "other": "heat",
-          "amount": 0.3
+          "amount": -3
         },
         "mirror": true
       },
@@ -203,6 +203,23 @@
               "lenTo": 0,
               "colorFrom": "f3e979",
               "colorTo": "f3e979"
+            },
+            {
+              "type": "ParticleEffect",
+              "line": true,
+              "length": 120,
+              "baseLength": 20,
+              "particles": 5,
+              "lifetime": 30,
+              "interp": "circleOut",
+              "cone": 30,
+              "lightColor": "f3e979",
+              "strokeFrom": 9,
+              "strokeTo": 0,
+              "lenFrom": 15,
+              "lenTo": 0,
+              "colorFrom": "f3e979",
+              "colorTo": "f3e979"
             }
           ]
         },
@@ -233,11 +250,10 @@
       "width": 15,
       "hitSize": 7,
       "pierce": false,
-      "damage": 45,
+      "damage": 75,
 
-      "backColor": "feb380",
-      "trailColor": "feb380",
-      "hitColor": "feb380",
+      "backColor": "ff7862",
+      "trailColor": "ff7862",
       "hitEffect": {
           "type": "multiEffect",
           "layer": 110,
@@ -247,7 +263,7 @@
               "particles": 4,
               "sizeFrom": 4,
               "sizeTo": 0,
-              "length": 70,
+              "length": 120,
               "lifetime": 40,
               "interp": "circleOut",
               "sizeInterp": "pow5In",
@@ -274,7 +290,7 @@
               "particles": 4,
               "sizeFrom": 4,
               "sizeTo": 0,
-              "length": 70,
+              "length": 120,
               "lifetime": 50,
               "interp": "fastSlow",
               "lightColor": "FFB570FF",
