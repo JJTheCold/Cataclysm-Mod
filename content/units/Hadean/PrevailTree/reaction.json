@@ -21,7 +21,6 @@
   "outlineColor": "12131f",
   "rotateSpeed": 1.5,
   "immunities": [
-    "burning",
     "melting",
     "sapped",
     "cataclysm-incinerating",
@@ -87,7 +86,10 @@
       "shootCone": 200,
       "shake": 20,
       "mirror": false,
-      "shootStatus": "slow",
+      "shootStatus": [
+        "slow",
+        "burning"
+    ],
       "shootStatusDuration": 160,
       "shoot": {
         "firstShotDelay": 50
