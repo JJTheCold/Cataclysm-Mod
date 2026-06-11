@@ -7,5 +7,7 @@
     "explosiveness": 0.2,
     "flammability": 1,
     "color": "c64b4b",
-    "research": "origin"
+    "research": "origin",
+    "hiddenOnPlanets": ["serpulo"],
+    "shownPlanets": ["tronoe", "erekir"]
 }

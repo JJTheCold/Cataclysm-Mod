@@ -140,6 +140,7 @@
   "launchCandidates": [],
   "itemWhitelist": [
     "Harbinger-Remnants",
+    "tronan-tungsten",
     "silicon",
     "Thaxon-Steel",
     "Thaxium",
@@ -151,9 +152,7 @@
     "Magma-stone",
     "Cataclyst",
     "static-crystal",
-
-
-
+    
     "silicon",
     "graphite",
     "tungsten"

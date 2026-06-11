@@ -8,5 +8,6 @@
     "charge": 1,
     "color": "d2eadd",
     "research": "item-SurgeQuartz",
-    "hiddenOnPlanets": ["serpulo", "erekir"]
+    "hiddenOnPlanets": ["serpulo", "erekir"],
+    "shownPlanets": ["tronoe"]
 }

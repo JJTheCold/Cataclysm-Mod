@@ -1,10 +1,11 @@
 {
-    "name": "Thoriated Tungsten",
+    "name": "Friable Tungsten",
     "description": "A weaker form of tronan-tungsten. It is only used for basic tech",
     "hardness": 2,
     "cost": 2,
     "alwaysUnlocked": true,
     "color": "768a9a",
     "research": "origin",
-    "hiddenOnPlanets": ["serpulo"]
+    "hiddenOnPlanets": ["serpulo"],
+    "shownPlanets": ["tronoe", "erekir"]
 }

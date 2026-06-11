@@ -147,13 +147,15 @@
 "tungsten/100"
 ],
 "category": "crafting",
-"research": {
-"parent": "kiloton-forge",
-"objectives": [
-"carbide-crucible"
-]
-},
 "outputItems": ["scorch-alloy/2"],
 "envEnabled": -1,
-"envDisabled": 4
+"envDisabled": 4,
+
+"research": {
+  "parent": "origin",
+  "objectives": [
+    "origin"
+  ]
+}
+
 }
