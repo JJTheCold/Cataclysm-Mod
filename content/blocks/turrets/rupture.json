@@ -56,8 +56,8 @@
         "type": "RegionPart",
         "suffix": "-cannon",
         "under": true,
-        "recoilIndex": 3,
         "alternate": true,
+        "x": -2,
         "moveY": 14,
         "progress": {
           "type": "warmup",
@@ -71,8 +71,7 @@
         "type": "RegionPart",
         "suffix": "-cannon",
         "under": true,
-        "x": 7,
-        "recoilIndex": 3,
+        "x": 6,
         "alternate": true,
         "moveY": 19,
         "progress": {
@@ -91,6 +90,22 @@
         "moveRot": -17,
         "moveX": 10,
         "moveY": 7,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.5
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-wing1",
+        "under": false,
+        "alternate": false,
+        "moveRot": -37,
+        "moveX": 2,
+        "moveY": -2,
         "progress": {
           "type": "warmup",
           "op": "blend",
@@ -141,6 +156,23 @@
   "shootSound": "shootSpectre",
   "ammoTypes": {
     "surge-alloy": {
+        "trailEffect": [
+        {
+          "type": "ParticleEffect",
+          "particles": 1,
+          "length": 2,
+          "baseLength": 5,
+          "lifetime": 75,
+          "interp": "circleOut",
+          "cone": 360,
+          "offset": 5,
+          "lightColor": "e3e3e3",
+          "colorFrom": "e3e3e3",
+          "colorTo": "505050FF",
+          "sizeFrom": 3,
+          "sizeTo": 0
+        }
+    ],
       "type": "BasicBulletType",
       "speed": 15,
       "lifetime": 28,
