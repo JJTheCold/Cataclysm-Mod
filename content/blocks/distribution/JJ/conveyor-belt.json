@@ -4,12 +4,7 @@
 "description": "Transports items.",
 "category": "distribution",
 
-"research": {
-  "parent": "origin",
-  "objectives": [
-    "tungsten-drill"
-  ]
-},
+"research": "origin",
 
 "bridgeReplacement": "heavy-bridge-conveyor",
 
