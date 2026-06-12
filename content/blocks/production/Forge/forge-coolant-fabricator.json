@@ -23,7 +23,7 @@
 }
 ]
 },
-"size": 4,
+"size": 2,
 "hasPower": true,
 "hasItems": true,
 "itemCapacity": 40,
@@ -45,7 +45,7 @@
 "thorium/100"
 ],
 "category": "crafting",
-"outputLiquid": "forge-coolant/200",
+"outputLiquid": "forge-coolant/10.05",
 "envEnabled": -1,
 "envDisabled": 4,
 

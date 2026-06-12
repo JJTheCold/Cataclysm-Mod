@@ -20,7 +20,7 @@
 "hasItems": true,
 "itemCapacity": 40,
 "hasLiquids": true,
-"liquidCapacity": 200,
+"liquidCapacity": 20,
 "craftTime": 60,
 "updateEffect": "none",
 "consumes": {
