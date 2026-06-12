@@ -1,12 +1,13 @@
 {
 "name": "Forge",
-"description": "A large crucible, and the heart of the forge.",
+"description": "A large crucible, and the heart of the forge. Will explode if byproduct is not removed via a forge disposal cell.",
 "details": "All roads lead to allure.",
-"type": "HeaterGenerator",
+"type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopSmelter",
 "ambientSoundVolume": "3",
 "liquidOutputDirections": [4],
+"explodeOnFull": true,
 "drawer": {
 "type": "DrawMulti",
 "drawers": [

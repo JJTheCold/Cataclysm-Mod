@@ -6,6 +6,7 @@
   "capPuddles": true,
   "explosiveness": 2,
   "effect": "burning",
+  "incinerable": false,
   "hidden": true,
   "color": "ffe635",
   "viscosity": 0.5
