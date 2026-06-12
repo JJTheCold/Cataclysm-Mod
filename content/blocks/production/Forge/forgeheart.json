@@ -7,6 +7,7 @@
 "ambientSound": "loopSmelter",
 "ambientSoundVolume": "3",
 "liquidOutputDirections": [4],
+"conductivePower": true,
 "drawer": {
 "type": "DrawMulti",
 "iconOverride": [
@@ -24,6 +25,7 @@
 {
 "type": "DrawLiquidTile",
 "drawLiquid": "forge-synthesizer",
+"padding": 3,
 "suffix": "-liquid"
 },
 {

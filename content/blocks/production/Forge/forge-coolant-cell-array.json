@@ -5,6 +5,7 @@
 "squareSprite": false,
 "ambientSound": "loopSmelter",
 "liquidOutputDirections": [3],
+"conductivePower": true,
 "ambientSoundVolume": "3",
 "drawer": {
 "type": "DrawMulti",

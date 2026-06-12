@@ -4,6 +4,7 @@
 "type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopElectricHum",
+"conductivePower": true,
 "ambientSoundVolume": "2",
 "drawer": {
 "type": "DrawMulti",
@@ -15,6 +16,7 @@
 {
 "type": "DrawLiquidTile",
 "drawLiquid": "cryofluid",
+"padding": 1.5,
 "suffix": "-liquid"
 },
 {

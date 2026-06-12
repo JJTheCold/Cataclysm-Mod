@@ -5,6 +5,7 @@
 "squareSprite": false,
 "ambientSound": "loopElectricHum",
 "liquidOutputDirections": [2],
+"conductivePower": true,
 "ambientSoundVolume": "2",
 "drawer": {
 "type": "DrawMulti",
@@ -16,6 +17,7 @@
 {
 "type": "DrawLiquidTile",
 "drawLiquid": "cryofluid",
+"padding": 1.5,
 "suffix": "-liquid"
 },
 {
