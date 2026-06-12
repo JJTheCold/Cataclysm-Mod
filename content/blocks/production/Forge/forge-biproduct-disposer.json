@@ -10,15 +10,6 @@
 "type": "DrawMulti",
 "drawers": [
 {
-"type": "DrawRegion",
-"suffix": "-bottom"
-},
-{
-"type": "DrawLiquidRegion",
-"drawLiquid": "forge-biproduct-disposer",
-"suffix": "-liquid"
-},
-{
 "type": "DrawDefualt"
 }
 ]
