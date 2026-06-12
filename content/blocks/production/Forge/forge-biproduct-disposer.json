@@ -41,7 +41,7 @@
 "power": 9,
 "liquids": [
 "arkycite/0.2",
-"cryofluid/0.2"
+"oil/0.2"
 ]
 },
 "requirements": [
