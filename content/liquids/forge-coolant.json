@@ -3,8 +3,10 @@
   "description": "Special coolant used for the Forge. Useless anywhere else",
   "temperature": 1,
   "flammability": 0,
-  "capPuddles": true,
   "explosiveness": 0,
+  "capPuddles": true,
   "effect": "fast",
+  "hidden": true,
+  "color": "63b8ff",
   "viscosity": 0.5
 }

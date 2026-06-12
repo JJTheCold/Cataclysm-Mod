@@ -6,5 +6,7 @@
   "explosiveness": 4,
   "capPuddles": true,
   "effect": "corroded",
+  "hidden": true,
+  "color": "488a41",
   "viscosity": 0.9
 }

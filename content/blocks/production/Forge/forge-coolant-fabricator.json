@@ -5,7 +5,6 @@
 "type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopElectricHum",
-"liquidOutputDirections": [2],
 "ambientSoundVolume": "2",
 "drawer": {
 "type": "DrawMulti",
@@ -46,7 +45,7 @@
 "thorium/100"
 ],
 "category": "crafting",
-"outputLiquid": "forge-coolant/2000",
+"outputLiquid": "forge-coolant/200",
 "envEnabled": -1,
 "envDisabled": 4,
 

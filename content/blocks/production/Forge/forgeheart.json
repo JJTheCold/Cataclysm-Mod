@@ -5,11 +5,15 @@
 "type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopSmelter",
+"liquidOutputDirections": [3],
 "ambientSoundVolume": "3",
-"liquidOutputDirections": [1],
 "drawer": {
 "type": "DrawMulti",
 "drawers": [
+{
+"type": "DrawRegion",
+"suffix": "-prebuilt"
+},
 {
 "type": "DrawRegion",
 "suffix": "-bottom"
@@ -21,10 +25,6 @@
 },
 {
 "type": "DrawDefualt"
-},
-{
-"type": "DrawRegion",
-"suffix": "-prebuilt"
 }
 ]
 },
@@ -49,7 +49,7 @@
 ],
 "category": "crafting",
 "outputItems": ["sand/2"],
-"outputLiquid": "forge-byproduct/4000",
+"outputLiquid": "forge-byproduct/400",
 "envEnabled": -1,
 "envDisabled": 4,
 

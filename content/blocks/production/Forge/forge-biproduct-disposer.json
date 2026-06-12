@@ -1,10 +1,11 @@
 {
-"name": "Forge Coolant Synthesizer",
+"name": "Forge Byproduct Vaporizer",
 "description": "A large crucible, and the heart of the forge.",
 "details": "All roads lead to allure.",
 "type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopElectricHum",
+"conductivePower": true,
 "ambientSoundVolume": "2",
 "drawer": {
 "type": "DrawMulti",
@@ -14,7 +15,7 @@
 }
 ]
 },
-"size": 4,
+"size": 2,
 "hasPower": true,
 "hasItems": true,
 "itemCapacity": 40,
@@ -23,10 +24,9 @@
 "craftTime": 60,
 "updateEffect": "none",
 "consumes": {
-"power": 9,
+"power": 2,
 "liquids": [
-"arkycite/0.2",
-"cryofluid/0.2"
+"forge-byproduct/400"
 ]
 },
 "requirements": [
@@ -36,7 +36,6 @@
 "thorium/100"
 ],
 "category": "crafting",
-"outputLiquid": "forge-coolant/4000",
 "envEnabled": -1,
 "envDisabled": 4,
 

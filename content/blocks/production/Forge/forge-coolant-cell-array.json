@@ -5,7 +5,7 @@
 "type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopSmelter",
-"liquidOutputDirections": [1],
+"liquidOutputDirections": [3],
 "ambientSoundVolume": "3",
 "drawer": {
 "type": "DrawMulti",
@@ -21,24 +21,23 @@
 },
 {
 "type": "DrawDefualt"
-},
-{
-"type": "DrawRegion",
-"suffix": "-prebuilt"
 }
 ]
 },
 "size": 4,
 "hasPower": true,
 "hasLiquids": true,
-"liquidCapacity": 20000,
+"liquidCapacity": 2000,
 "craftTime": 60,
 "updateEffect": "none",
 "consumes": {
 "power": 9,
 "liquids": [
-"forge-coolant/2000",
-"forge-synthesizer/2000"
+"slag/0.5"
+  ],
+"items": [
+"Urbium/2",
+"tungsten/4"
 ]
 },
 "requirements": [
@@ -48,7 +47,7 @@
 "thorium/100"
 ],
 "category": "crafting",
-"outputLiquid": "forge-byproduct/4000",
+"outputLiquid": "forge-synthesizer/200",
 "envEnabled": -1,
 "envDisabled": 4,
 
