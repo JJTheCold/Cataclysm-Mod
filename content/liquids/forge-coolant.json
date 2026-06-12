@@ -1,0 +1,10 @@
+{
+  "localizedName": "Forge Coolant",
+  "description": "Special coolant used for the Forge. Useless anywhere else",
+  "temperature": 1,
+  "flammability": 0,
+  "capPuddles": true,
+  "explosiveness": 0,
+  "effect": "fast",
+  "viscosity": 0.5
+}

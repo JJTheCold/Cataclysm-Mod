@@ -1,0 +1,10 @@
+{
+  "localizedName": "Forge Coolant",
+  "description": "Byproduct of the Forge. attach a byproduct disposer to remove this liquid.",
+  "temperature": 4,
+  "flammability": 4,
+  "explosiveness": 4,
+  "capPuddles": true,
+  "effect": "corroded",
+  "viscosity": 0.9
+}

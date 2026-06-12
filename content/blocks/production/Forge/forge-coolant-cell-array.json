@@ -1,0 +1,63 @@
+{
+"name": "Forge Synthesizer",
+"description": "A large crucible, and the heart of the forge.",
+"details": "All roads lead to allure.",
+"type": "GenericCrafter",
+"squareSprite": false,
+"ambientSound": "loopSmelter",
+"liquidOutputDirections": [1],
+"ambientSoundVolume": "3",
+"drawer": {
+"type": "DrawMulti",
+"drawers": [
+{
+"type": "DrawRegion",
+"suffix": "-bottom"
+},
+{
+"type": "DrawRegion",
+"drawLiquid": "forge-synthesizer",
+"suffix": "-liquid"
+},
+{
+"type": "DrawDefualt"
+},
+{
+"type": "DrawRegion",
+"suffix": "-prebuilt"
+}
+]
+},
+"size": 4,
+"hasPower": true,
+"hasLiquids": true,
+"liquidCapacity": 20000,
+"craftTime": 60,
+"updateEffect": "none",
+"consumes": {
+"power": 9,
+"liquids": [
+"forge-coolant/2000",
+"forge-synthesizer/2000"
+]
+},
+"requirements": [
+"tungsten/100",
+"Urbium/100",
+"silicon/100",
+"thorium/100"
+],
+"category": "crafting",
+"outputItems": "sand/2",
+"outputLiquid": "forge-byproduct/4000",
+"envEnabled": -1,
+"envDisabled": 4,
+
+"research": {
+  "parent": "origin",
+  "objectives": [
+    "origin"
+  ]
+}
+
+}

@@ -1,0 +1,10 @@
+{
+  "localizedName": "Forge Synthesizer Liquid",
+  "description": "Specialt liquid used by the forge to synthisize it's special alloy. Useless anywhere else",
+  "temperature": 1,
+  "flammability": 2,
+  "capPuddles": true,
+  "explosiveness": 2,
+  "effect": "burning",
+  "viscosity": 0.5
+}

@@ -1,0 +1,60 @@
+{
+"name": "Forge Coolant Synthesizer",
+"description": "A large fuser. Superheats items into a liquid state for the forge to refabricate into forged alloy.",
+"details": "All roads lead to allure.",
+"type": "GenericCrafter",
+"squareSprite": false,
+"ambientSound": "loopElectricHum",
+"liquidOutputDirections": [2],
+"ambientSoundVolume": "2",
+"drawer": {
+"type": "DrawMulti",
+"drawers": [
+{
+"type": "DrawRegion",
+"suffix": "-bottom"
+},
+{
+"type": "DrawLiquidRegion",
+"drawLiquid": "forge-coolant",
+"suffix": "-liquid"
+},
+{
+"type": "DrawDefualt"
+}
+]
+},
+"size": 4,
+"hasPower": true,
+"hasItems": true,
+"itemCapacity": 40,
+"hasLiquids": true,
+"liquidCapacity": 200,
+"craftTime": 60,
+"updateEffect": "none",
+"consumes": {
+"power": 9,
+"liquids": [
+"arkycite/0.2",
+"cryofluid/0.2"
+]
+},
+"requirements": [
+"tungsten/100",
+"Urbium/100",
+"silicon/100",
+"thorium/100"
+],
+"category": "crafting",
+"outputLiquid": "forge-coolant/2000",
+"envEnabled": -1,
+"envDisabled": 4,
+
+"research": {
+  "parent": "origin",
+  "objectives": [
+    "origin"
+  ]
+}
+
+}
