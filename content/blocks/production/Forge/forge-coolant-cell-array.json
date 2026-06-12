@@ -48,7 +48,6 @@
 "thorium/100"
 ],
 "category": "crafting",
-"outputItems": "sand/2",
 "outputLiquid": "forge-byproduct/4000",
 "envEnabled": -1,
 "envDisabled": 4,
