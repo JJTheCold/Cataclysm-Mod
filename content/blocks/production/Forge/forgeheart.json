@@ -1,13 +1,12 @@
 {
-"name": "Forge",
+"name": "Forge Core",
 "description": "A large crucible, and the heart of the forge. Will explode if byproduct is not removed via a forge disposal cell.",
-"details": "All roads lead to allure.",
+"details": "Using gathered knoladge on this planet's materials, you create a schematic for a large structure to produce a powerful alloy. It will be useful later.",
 "type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopSmelter",
 "ambientSoundVolume": "3",
 "liquidOutputDirections": [4],
-"explodeOnFull": true,
 "drawer": {
 "type": "DrawMulti",
 "iconOverride": [
@@ -23,9 +22,16 @@
 "suffix": "-bottom"
 },
 {
-"type": "DrawLiquidRegion",
+"type": "DrawLiquidTile",
 "drawLiquid": "forge-synthesizer",
 "suffix": "-liquid"
+},
+{
+"type": "DrawGlowRegion",
+"color": "ffbfa9",
+"glowScale": 17,
+"glowIntensity": 0.25,
+"suffix": "-chamberglow"
 },
 {
 "type": "DrawDefualt"
@@ -34,19 +40,17 @@
 },
 "size": 4,
 "hasPower": true,
-"explodeEffect": {
-"type": "multiEffect",
-"effects": ["bigShockwave", "impactReactorExplosion"]
-},
 "hasLiquids": true,
-"liquidCapacity": 20000,
+"liquidCapacity": 2000,
+
 "craftTime": 60,
 "updateEffect": "none",
 "consumes": {
 "power": 9,
 "liquids": [
-"forge-coolant/10",
-"forge-synthesizer/10"
+"forge-coolant/1",
+"forge-stabalizer/1",
+"forge-synthesizer/1"
 ]
 },
 "requirements": [
@@ -57,7 +61,6 @@
 ],
 "category": "crafting",
 "outputItems": ["sand/2"],
-"outputLiquid": "forge-byproduct/40",
 "envEnabled": -1,
 "envDisabled": 4,
 

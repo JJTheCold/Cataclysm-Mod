@@ -1,18 +1,29 @@
 {
-"name": "Forge Byproduct Vaporizer",
-"description": "A large crucible, and the heart of the forge.",
-"details": "All roads lead to allure.",
+"name": "Forge Stabalizer Synthesizer",
+"description": "A large fuser. Superheats items into a liquid state for the forge to refabricate into forged alloy.",
 "type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopElectricHum",
-"conductivePower": true,
+"liquidOutputDirections": [2],
 "ambientSoundVolume": "2",
-"liquidOutputDirections": [4],
 "drawer": {
 "type": "DrawMulti",
 "drawers": [
 {
+"type": "DrawRegion",
+"suffix": "-bottom"
+},
+{
+"type": "DrawLiquidTile",
+"drawLiquid": "cryofluid",
+"suffix": "-liquid"
+},
+{
 "type": "DrawDefualt"
+},
+{
+"type": "DrawRegion",
+"suffix": "-top"
 }
 ]
 },
@@ -21,13 +32,14 @@
 "hasItems": true,
 "itemCapacity": 40,
 "hasLiquids": true,
-"liquidCapacity": 20,
+"liquidCapacity": 200,
 "craftTime": 60,
 "updateEffect": "none",
 "consumes": {
-"power": 2,
+"power": 9,
 "liquids": [
-"forge-byproduct/40.05"
+"arkycite/0.2",
+"cryofluid/0.2"
 ]
 },
 "requirements": [
@@ -37,6 +49,7 @@
 "thorium/100"
 ],
 "category": "crafting",
+"outputLiquid": "forge-stabalizer/5",
 "envEnabled": -1,
 "envDisabled": 4,
 

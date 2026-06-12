@@ -1,7 +1,6 @@
 {
 "name": "Forge Coolant Synthesizer",
-"description": "A large fuser. Superheats items into a liquid state for the forge to refabricate into forged alloy.",
-"details": "All roads lead to allure.",
+"description": "A small Synthesizer. Fuses cryofluid and hydrogen into a powerful coolant for the forge.",
 "type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopElectricHum",
@@ -14,12 +13,23 @@
 "suffix": "-bottom"
 },
 {
-"type": "DrawLiquidRegion",
+"type": "DrawLiquidTile",
 "drawLiquid": "cryofluid",
 "suffix": "-liquid"
 },
 {
 "type": "DrawDefualt"
+},
+{
+"type": "DrawRegion",
+"suffix": "-top"
+},
+{
+"type": "DrawGlowRegion",
+"color": "ffbfa9",
+"glowScale": 17,
+"glowIntensity": 0.25,
+"suffix": "-heat"
 }
 ]
 },
@@ -45,7 +55,7 @@
 "thorium/100"
 ],
 "category": "crafting",
-"outputLiquid": "forge-coolant/10.05",
+"outputLiquid": "forge-coolant/5",
 "envEnabled": -1,
 "envDisabled": 4,
 

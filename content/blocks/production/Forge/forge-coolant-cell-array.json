@@ -1,7 +1,6 @@
 {
 "name": "Forge Synthesizer",
 "description": "A large crucible, and the heart of the forge.",
-"details": "All roads lead to allure.",
 "type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopSmelter",
@@ -18,12 +17,23 @@
 "suffix": "-bottom"
 },
 {
-"type": "DrawLiquidRegion",
+"type": "DrawLiquidTile",
 "drawLiquid": "slag",
 "suffix": "-liquid"
 },
 {
 "type": "DrawDefualt"
+},
+{
+"type": "DrawRegion",
+"suffix": "-top"
+},
+{
+"type": "DrawGlowRegion",
+"color": "ffbfa9",
+"glowScale": 17,
+"glowIntensity": 0.25,
+"suffix": "-heat"
 }
 ]
 },
@@ -50,7 +60,7 @@
 "thorium/100"
 ],
 "category": "crafting",
-"outputLiquid": "forge-synthesizer/10.05",
+"outputLiquid": "forge-synthesizer/5",
 "envEnabled": -1,
 "envDisabled": 4,
 

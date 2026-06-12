@@ -1,6 +1,6 @@
 {
-  "localizedName": "Forge Coolant",
-  "description": "Byproduct of the Forge. attach a byproduct disposer to remove this liquid.",
+  "localizedName": "Forge Stabalizing Liquid",
+  "description": "Stabalizer of the Forge. Makes sure the alloys are arranged properly. Highly explosive and flammable.",
   "temperature": 40,
   "flammability": 40,
   "explosiveness": 40,
