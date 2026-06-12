@@ -9,13 +9,16 @@
 "ambientSoundVolume": "3",
 "drawer": {
 "type": "DrawMulti",
+"iconOverride": [
+    "-icon"
+],
 "drawers": [
 {
 "type": "DrawRegion",
 "suffix": "-bottom"
 },
 {
-"type": "DrawRegion",
+"type": "DrawLiquidRegion",
 "drawLiquid": "slag",
 "suffix": "-liquid"
 },

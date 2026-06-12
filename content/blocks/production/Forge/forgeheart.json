@@ -10,6 +10,9 @@
 "explodeOnFull": true,
 "drawer": {
 "type": "DrawMulti",
+"iconOverride": [
+    "-icon"
+],
 "drawers": [
 {
 "type": "DrawRegion",
@@ -20,7 +23,7 @@
 "suffix": "-bottom"
 },
 {
-"type": "DrawRegion",
+"type": "DrawLiquidRegion",
 "drawLiquid": "forge-synthesizer",
 "suffix": "-liquid"
 },
