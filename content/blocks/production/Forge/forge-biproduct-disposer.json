@@ -1,6 +1,6 @@
 {
 "name": "Forge Stabalizer Synthesizer",
-"description": "A large fuser. Superheats items into a liquid state for the forge to refabricate into forged alloy.",
+"description": "A small Synthesizer. Fuses oil and arkycite into a stabalizer for the forge.",
 "type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopElectricHum",
@@ -26,6 +26,13 @@
 {
 "type": "DrawRegion",
 "suffix": "-top"
+},
+{
+"type": "DrawGlowRegion",
+"color": "ffbfa9",
+"glowScale": 17,
+"glowIntensity": 0.25,
+"suffix": "-heat"
 }
 ]
 },

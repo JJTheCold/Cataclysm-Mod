@@ -1,0 +1,52 @@
+{
+    "name": "Large Slag Heater",
+    "description": "Applies a large amount of heat to structures. Requires more slag.",
+    "type": "HeatProducer",
+    "ambientSound": "loopHum",
+    "ambientSoundVolume": 1.2,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawRegion",
+                "suffix": "-bottom"
+            },
+            {
+                "type": "DrawLiquidTile",
+                "liquid": "slag"
+            },
+            {
+                "type": "DrawDefualt"
+            },
+            {
+                "type": "DrawHeatOutput"
+            }
+        ]
+    },
+    "size": 4,
+    "hasLiquids": true,
+    "regionRotated1": 1,
+    "liquidCapacity": 280,
+    "itemCapacity": 0,
+    "heatOutput": 15,
+    "consumes": {
+        "liquids": [
+            "slag/1"
+        ]
+    },
+    "requirements": [
+        "tungsten/80",
+        "oxide/50",
+        "silicon/80",
+        "thorium/60"
+    ],
+    "researchCostMultiplier": "4",
+    "category": "crafting",
+    "research": {
+        "parent": "slag-heater",
+        "objectives": [
+            "slag-heater",
+            "thorium"
+        ]
+    }
+}
