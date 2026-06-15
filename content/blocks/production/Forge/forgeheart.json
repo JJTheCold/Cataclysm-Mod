@@ -25,8 +25,7 @@
 {
 "type": "DrawLiquidTile",
 "drawLiquid": "forge-synthesizer",
-"padding": 3,
-"suffix": "-liquid"
+"padding": 3
 },
 {
 "type": "DrawGlowRegion",

@@ -13,7 +13,7 @@
             },
             {
                 "type": "DrawLiquidTile",
-                "liquid": "slag"
+                "drawLiquid": "slag"
             },
             {
                 "type": "DrawDefualt"
