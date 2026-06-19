@@ -17,9 +17,9 @@
   "shootY": 6,
   "shootCone": 20,
   "requirements": [
-    "Urbium/80",
+    "nickle/80",
     "graphite/50",
-    "tronan-tungsten/100"
+    "iron/100"
   ],
   "shoot": {
     "type": "ShootAlternate",
@@ -74,7 +74,7 @@
   },
   "shootSound": "shootSalvo",
   "ammoTypes": {
-    "tronan-tungsten": {
+    "iron": {
       "type": "BasicBulletType",
       "speed": 10,
       "lifetime": 28,
@@ -94,7 +94,7 @@
       "despawnEffect": "hitBulletColor",
       "buildingDamageMultiplier": 0.2
     },
-    "Urbium": {
+    "nickle": {
       "type": "BasicBulletType",
       "speed": 9,
       "lifetime": 28,

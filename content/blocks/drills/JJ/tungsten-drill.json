@@ -1,7 +1,7 @@
 {
   "type": "Drill",
   "size": 2,
-  "name": "tronan-tungsten Drill",
+  "name": "iron Drill",
   "description": "Basic drill for surface mining",
   "tier": 5,
   "drillTime": 300,
@@ -23,12 +23,12 @@
   "rotateSpeed": 4,
   "researchCostMultiplier": 5,
  "requirements": [
-     "tronan-tungsten/15",
-     "Urbium/20"
+     "iron/15",
+     "nickle/20"
   ],
 "researchCost": [
-  "tronan-tungsten/25",
-  "Urbium/5"
+  "iron/25",
+  "nickle/5"
 ],
    "category": "production",
   "research": "origin"

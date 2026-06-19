@@ -12,10 +12,10 @@
 "junctionReplacement": "heavy-junction",
 "speed": 0.065,
 "researchCost": [
-  "Urbium/10"
+  "nickle/10"
 ],
 "health": 150,
 "requirements": [
-  "Urbium/1"
+  "nickle/1"
 ]
 }

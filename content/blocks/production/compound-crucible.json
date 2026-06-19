@@ -1,6 +1,6 @@
 {
 "name": "Scorch Crucible",
-"description": "A large crucible that fuses Sparking Pyrus, Tungesten, and Urbium into Pyral Compound",
+"description": "A large crucible that fuses Sparking Pyrus, Tungesten, and nickle into Pyral Compound",
 "type": "GenericCrafter",
 "squareSprite": false,
 "ambientSound": "loopSmelter",
@@ -136,13 +136,13 @@
 "burning-pyrus/0.2"
 ],
 "items": [
-"Urbium/2",
+"nickle/2",
 "tungsten/4"
 ]
 },
 "requirements": [
 "tungsten/100",
-"Urbium/100",
+"nickle/100",
 "silicon/100",
 "thorium/100"
 ],

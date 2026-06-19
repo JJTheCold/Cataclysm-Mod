@@ -6,7 +6,7 @@ size: 4
 craftTime: 150
 consumes: {
   items: [
-    Urbium/1
+    nickle/1
     Thaxon/1
   ]
 power: 4
@@ -63,7 +63,7 @@ research: Quartz-Generator
 requirements: [
 Thaxon/200
 Harbinger-Remnants/150
-Urbium/50
+nickle/50
 silicon/50
 ]
 itemCapacity: 20

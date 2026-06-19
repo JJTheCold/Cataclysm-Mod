@@ -1,12 +1,12 @@
 {
   "type": "GenericCrafter",
   "name": "Graphite Smelter",
-  "description": "Produces Graphite from pulverizing and rebuilding Urbium, expelling the excess out via side vents.",
+  "description": "Produces Graphite from pulverizing and rebuilding nickle, expelling the excess out via side vents.",
   "size": 3,
   "craftTime": 80,
   "consumes": {
     "items": [
-      "Urbium/4"
+      "nickle/4"
     ],
     "power": 2
   },
@@ -83,8 +83,8 @@
   "category": "crafting",
   "research": "Quartz-Generator",
   "requirements": [
-    "Urbium/50",
-    "tronan-tungsten/100"
+    "nickle/50",
+    "iron/100"
   ],
   "itemCapacity": 10
 }

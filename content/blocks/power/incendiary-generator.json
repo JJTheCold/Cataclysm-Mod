@@ -78,7 +78,7 @@
 },
 "consumes": {
 "items": [
-"Urbium/1"
+"nickle/1"
 ]
 },
 "itemDuration": 50,
@@ -86,7 +86,7 @@
   "category": "power",
   "research": "origin",
   "requirements": [
-    "tronan-tungsten/20",
-    "Urbium/60"
+    "iron/20",
+    "nickle/60"
   ]
 }

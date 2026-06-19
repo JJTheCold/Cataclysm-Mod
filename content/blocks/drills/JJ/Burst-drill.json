@@ -15,7 +15,7 @@
   "expanded": true,
  "requirements": [
      "Harbinger-Remnants/15",
-     "Urbium/25"
+     "nickle/25"
   ],
    "category": "production",
   "research": "origin"

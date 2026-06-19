@@ -1,6 +1,6 @@
 {
   "type": "Wall",
-  "name": "Huge Urbium Quartz wall",
+  "name": "Huge nickle Quartz wall",
   "description": "Protects structures from incoming fire",
   "size": 3,
   "health": 10800,
@@ -8,7 +8,7 @@
   "requirements": [
     "Harbinger-Remnants/72"
   ],
-  "research": "Large-Urbium-wall",
+  "research": "Large-nickle-wall",
   "category": "defense",
   "researchCostMultiplier": 2.5
 }

@@ -30,7 +30,7 @@
  "requirements": [
      "tungsten/125",
      "thorium/60",
-     "Urbium/75",
+     "nickle/75",
      "silicon/50"
   ],
   "category": "production",

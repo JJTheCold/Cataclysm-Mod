@@ -7,13 +7,13 @@ squareSprite: false
 research: armored-conveyor
 solid: false
 researchCost: [
-  Urbium/25
+  nickle/25
   Harbinger-Remnants/50
 ]
 speed: 6
 health: 150
 requirements: [
-  Urbium/5
+  nickle/5
   Harbinger-Remnants/10
 ]
   

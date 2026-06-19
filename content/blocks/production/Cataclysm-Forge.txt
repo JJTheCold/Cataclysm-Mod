@@ -44,6 +44,6 @@ silicon/7500
 Thaxium/500
 thorium/2000
 Geode-catalyst/1000
-Urbium/8500
+nickle/8500
 ]
 itemCapacity: 80

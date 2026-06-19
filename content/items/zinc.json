@@ -1,0 +1,11 @@
+{
+    "name": "Zinc",
+    "description": "Used in basic construction as well as electrical structures.",
+    "hardness": 1,
+    "cost": 1,
+    "alwaysUnlocked": false,
+    "color": "5d9088",
+    "research": "nickle",
+    "hiddenOnPlanets": ["erekir", "serpulo"],
+    "shownPlanets": ["tronoe"]
+}

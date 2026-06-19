@@ -15,7 +15,7 @@
   "shootY": 3,
   "shootCone": 3,
   "requirements": [
-    "Urbium/350",
+    "nickle/350",
     "silicon/250",
     "static-crystal/325"
   ],

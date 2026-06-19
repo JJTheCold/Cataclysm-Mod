@@ -16,7 +16,7 @@
   "researchCostMultiplier": 5,
  "requirements": [
      "Thaxium/75",
-     "Urbium/100",
+     "nickle/100",
      "Silver/150",
      "Thaxon/100"
   ],

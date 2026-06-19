@@ -1,0 +1,11 @@
+{
+    "name": "Nickle",
+    "description": "Abnormally common metal used in most types of construction.",
+    "hardness": 1,
+    "cost": 2,
+    "alwaysUnlocked": false,
+    "color": "879c8c",
+    "research": "origin",
+    "hiddenOnPlanets": ["erekir", "serpulo"],
+    "shownPlanets": ["tronoe"]
+}

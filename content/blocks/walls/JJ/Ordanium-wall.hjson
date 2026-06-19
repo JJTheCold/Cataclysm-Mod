@@ -1,11 +1,11 @@
 type: Wall
-name: Urbium Wall
+name: nickle Wall
 description: Stronger than a Quartz wall, but takes longer to make.
 size: 1
 health: 1200
 squareSprite: false
 requirements: [
-  Urbium/8
+  nickle/8
 ]
 research: T-quartz-wall
 category: defense

@@ -1,0 +1,11 @@
+{
+    "name": "Iron",
+    "description": "Basic industrial material.",
+    "hardness": 2,
+    "cost": 2,
+    "alwaysUnlocked": false,
+    "color": "cfd3d7",
+    "research": "origin",
+    "hiddenOnPlanets": ["erekir", "serpulo"],
+    "shownPlanets": ["tronoe"]
+}

@@ -1,12 +1,12 @@
 type: Wall
-name: Large Urbium Wall
+name: Large nickle Wall
 description: Protects structures from incoming fire.
 size: 2
 health: 4800
 squareSprite: false
 requirements: [
-  Urbium/32
+  nickle/32
 ]
-research: Urbium-wall
+research: nickle-wall
 category: defense
 researchCostMultiplier: 2.5

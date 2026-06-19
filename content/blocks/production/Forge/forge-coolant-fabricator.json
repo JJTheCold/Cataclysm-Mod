@@ -52,7 +52,7 @@
 },
 "requirements": [
 "tungsten/100",
-"Urbium/100",
+"nickle/100",
 "silicon/100",
 "thorium/100"
 ],

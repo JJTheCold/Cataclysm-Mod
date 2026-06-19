@@ -14,12 +14,12 @@
 "arrowSpacing": 4,
 "buildCostMultiplier": 2,
 "researchCost": [
-  "Urbium/120",
+  "nickle/120",
   "graphite/100"
 ],
 "health": 100,
 "requirements": [
-  "Urbium/20",
+  "nickle/20",
   "graphite/15"
 ]
 }

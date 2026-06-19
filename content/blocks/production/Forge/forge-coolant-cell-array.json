@@ -43,13 +43,13 @@
 "slag/0.5"
   ],
 "items": [
-"Urbium/2",
+"nickle/2",
 "tungsten/4"
 ]
 },
 "requirements": [
 "tungsten/100",
-"Urbium/100",
+"nickle/100",
 "silicon/100",
 "thorium/100"
 ],

@@ -13,7 +13,7 @@
 ],
 "health": 150,
 "requirements": [
-  "Urbium/1",
+  "nickle/1",
   "Thaxon/1"
 ]
 }

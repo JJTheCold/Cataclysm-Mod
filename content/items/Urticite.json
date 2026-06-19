@@ -7,5 +7,6 @@
     "color": "6fab93",
     "radioactivity": 0.5,
     "research": "origin",
+    "hiddenOnPlanets": ["erekir", "serpulo"],
     "shownPlanets": ["tronoe"]
 }

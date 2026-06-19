@@ -18,8 +18,8 @@
   "unitType": "shock",
   "requirements": [
     "silicon/500",
-    "tronan-tungsten/750",
-    "Urbium/500"
+    "iron/750",
+    "nickle/500"
   ],
   "category": "effect"
 }

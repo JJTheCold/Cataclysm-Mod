@@ -56,7 +56,7 @@
         "colorTo": "E5E5E5FF"
       }
     },
-    "Urbium": {
+    "nickle": {
       "damage": 180,
       "width": 25,
       "ammoMultiplier": 2,
@@ -111,7 +111,7 @@
   },
   "requirements": [
     "silicon/125",
-    "Urbium/100",
+    "nickle/100",
     "Harbinger-Remnants/200"
   ],
   "category": "turret",

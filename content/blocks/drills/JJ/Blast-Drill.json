@@ -16,7 +16,7 @@
   "researchCostMultiplier": 5,
  "requirements": [
      "Harbinger-Remnants/125",
-     "Urbium/50",
+     "nickle/50",
      "silicon/50"
   ],
    "category": "production",

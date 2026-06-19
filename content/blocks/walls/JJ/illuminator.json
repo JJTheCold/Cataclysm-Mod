@@ -14,7 +14,7 @@
         "power": 0.5
     },
     "requirements": [
-        "Urbium/10",
+        "nickle/10",
         "Harbinger-Remnants/10",
         "graphite/5"
     ]

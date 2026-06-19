@@ -17,5 +17,5 @@ type: BeamDrill
   }
   requirements: [
   Harbinger-Remnants/100
-  Urbium/75
+  nickle/75
   ]
