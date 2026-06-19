@@ -10,7 +10,7 @@
   "armor": 20,
   "lightColor": "a5c9ff",
   "itemCapacity": 3500,
-  "layer": 33,
+  "layer": 34,
   "alwaysUnlocked": true,
   "buildCostMultiplier": 0.7,
   "unitCapModifier": 10,
