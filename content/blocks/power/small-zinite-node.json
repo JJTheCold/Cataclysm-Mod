@@ -1,0 +1,28 @@
+{
+  "type": "PowerNode",
+  "name": "Small Zinite Node",
+  "description": "Provides power to nearby structures. Can be placed over liquids. Stores a small amount of power.",
+  "size": 1,
+  "health": 120,
+  "laserRange": 6,
+  "underBullets": true,
+  "crushFragile": true,
+  "maxNodes": 5,
+  "drawDisabled": false,
+  "placeableLiquid": true,
+  "canOverdrive": false,
+  "outputsPower": true,
+  "consumesPower": true,
+  "consumes": {
+      "power": {
+          "buffered": true,
+          "capacity": 1000
+      }
+  },
+  "category": "power",
+  "research": "incendiary-generator",
+  "requirements": [
+    "iron/5",
+    "zinite/3"
+  ]
+}

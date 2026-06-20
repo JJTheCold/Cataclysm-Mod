@@ -1,6 +1,6 @@
 {
-    "name": "Zinc",
-    "description": "Used in basic construction as well as electrical structures.",
+    "name": "Zinite",
+    "description": "A common reflective crystal. Used for transferring and storing energy.",
     "hardness": 1,
     "cost": 1,
     "alwaysUnlocked": false,

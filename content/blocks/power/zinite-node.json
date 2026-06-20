@@ -1,13 +1,13 @@
 {
   "type": "PowerNode",
-  "name": "Cable Node",
-  "description": "Provides power to nearby structures. Can be placed over liquids. Stores a small amount of power.",
-  "size": 1,
-  "health": 120,
-  "laserRange": 3,
+  "name": "Zinite Node",
+  "description": "Provides power to nearby structures. Can be placed over liquids. Stores a moderate amount of power.",
+  "size": 2,
+  "health": 400,
+  "laserRange": 20,
   "underBullets": true,
   "crushFragile": true,
-  "maxNodes": 4,
+  "maxNodes": 10,
   "drawDisabled": false,
   "placeableLiquid": true,
   "canOverdrive": false,
@@ -16,13 +16,14 @@
   "consumes": {
       "power": {
           "buffered": true,
-          "capacity": 100
+          "capacity": 5000
       }
   },
   "category": "power",
-  "research": "incendiary-generator",
+  "research": "small-zinite-node",
   "requirements": [
     "iron/5",
-    "nickle/3"
+    "zinite/10",
+    "silicon/5"
   ]
 }

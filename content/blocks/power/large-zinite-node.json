@@ -1,0 +1,29 @@
+{
+  "type": "PowerNode",
+  "name": "Large Zinite Node",
+  "description": "Provides power to nearby structures. Can be placed over liquids. Stores a large amount of power.",
+  "size": 2,
+  "health": 1200,
+  "laserRange": 40,
+  "underBullets": true,
+  "crushFragile": true,
+  "maxNodes": 20,
+  "drawDisabled": false,
+  "placeableLiquid": true,
+  "canOverdrive": false,
+  "outputsPower": true,
+  "consumesPower": true,
+  "consumes": {
+      "power": {
+          "buffered": true,
+          "capacity": 25000
+      }
+  },
+  "category": "power",
+  "research": "small-zinite-node",
+  "requirements": [
+    "zinite/15",
+    "tungsten/15",
+    "silicon/10"
+  ]
+}
