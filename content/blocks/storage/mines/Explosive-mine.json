@@ -1,6 +1,6 @@
 {
   "type": "ShockMine",
-  "research": "Caver-core",
+  "research": "lustre",
   "name": "Explosive mine",
   "description": "Explodes upon enemy contact.",
   "underBullets": true,
@@ -20,8 +20,8 @@
   "health": 100,
   "destroySound": "boom-mine",
   "requirements": [
-    "nickle/5",
-    "Magma-stone/5"
+    "tungsten/5",
+    "scorch-alloy/2"
   ],
   "bullet": {
     "collidesTiles": false,

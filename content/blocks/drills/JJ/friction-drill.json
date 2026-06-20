@@ -2,21 +2,21 @@
   "type": "Drill",
   "size": 4,
   "name": "Friction Drill",
-  "description": "Used for moderatly advanced surface.",
-  "tier": 6,
-  "drillTime": 260,
-  "liquidBoostIntensity": 1.5,
+  "description": "An advanced drill for surface mining.",
+  "tier": 8,
+  "drillTime": 180,
+  "liquidBoostIntensity": 2.5,
   "drawRim": false,
   "itemCapacity": 40,
   "liquidCapacity": 50,
-  "updateEffectChance": 0.04,
+  "updateEffectChance": 0.06,
   "updateEffect": "pulverizeRed",
   "drillEffect": "mineHuge",
   "consumes": {
-    "power": 4,
+    "power": 6,
     "liquid": {
       "liquid": "hydrogen",
-      "amount": 0.5,
+      "amount": 0.1,
       "booster": true,
       "optional": true
     }
@@ -25,13 +25,14 @@
   "hasLiquids": true,
   "hardnessDrillMultiplier": 14,
   "warmupSpeed": 0.0075,
-  "rotateSpeed": 8,
+  "rotateSpeed": 12,
   "researchCostMultiplier": 5,
  "requirements": [
      "tungsten/125",
-     "thorium/60",
-     "nickle/75",
-     "silicon/50"
+     "thorium/80",
+     "carbide/60",
+     "oxide/120",
+     "silicon/160"
   ],
   "category": "production",
   "research": "origin"

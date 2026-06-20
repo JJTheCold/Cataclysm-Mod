@@ -133,7 +133,7 @@
 "consumes": {
 "power": 9,
 "liquids": [
-"burning-pyrus/0.2"
+"slag/0.2"
 ],
 "items": [
 "nickle/2",
@@ -141,10 +141,10 @@
 ]
 },
 "requirements": [
-"tungsten/100",
-"nickle/100",
-"silicon/100",
-"thorium/100"
+"tungsten/280",
+"carbide/150",
+"silicon/220",
+"thorium/220"
 ],
 "category": "crafting",
 "outputItems": ["scorch-alloy/2"],
@@ -152,9 +152,10 @@
 "envDisabled": 4,
 
 "research": {
-  "parent": "origin",
+  "parent": "surge-crucible",
   "objectives": [
-    "origin"
+    "carbide-crucible",
+    "cyanogen-synthesizer"
   ]
 }
 

@@ -1,17 +1,17 @@
 {
   "type": "PayloadConveyor",
   "name": "Payload Hauler",
+  "description": "Hauls larger payloads.",
   "requirements": [
-    "Harbinger-Remnants/50",
-    "Thaxon/20",
-    "silicon/50"
+    "thorium/40",
+    "tungsten/80"
   ],
   "moveTime": 80,
   "category": "units",
   "payloadLimit": 7,
   "size": 7,
-  "canOverdrive": true,
-  "research": "Payload-Transporter",
+  "canOverdrive": false,
+  "research": "reinforced-payload-conveyor",
   "health": 1500,
   "researchCostMultiplier": 4,
   "underBullets": true
