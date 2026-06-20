@@ -147,12 +147,16 @@
     "thorium",
     "Thaxon",
     "Silver",
-    "nickle",
+    
+
     "MagmaCell",
     "Magma-stone",
     "Cataclyst",
     "static-crystal",
     
+    "nickle",
+    "zinite",
+    "iron",
     "silicon",
     "graphite",
     "tungsten"

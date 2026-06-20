@@ -3,11 +3,8 @@
 "name": "Heavy Conveyor",
 "description": "Transports items.",
 "category": "distribution",
-
 "research": "origin",
-
 "bridgeReplacement": "heavy-bridge-conveyor",
-
 "displayedSpeed": 9,
 "junctionReplacement": "heavy-junction",
 "speed": 0.065,

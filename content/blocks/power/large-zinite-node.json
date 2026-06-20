@@ -2,7 +2,7 @@
   "type": "PowerNode",
   "name": "Large Zinite Node",
   "description": "Provides power to nearby structures. Can be placed over liquids. Stores a large amount of power.",
-  "size": 2,
+  "size": 3,
   "health": 1200,
   "laserRange": 40,
   "underBullets": true,

@@ -1,6 +1,6 @@
 {
   "type": "Router",
-  "name": "Channel Router",
+  "name": "Heavy Router",
   "description": "distributes items in equal directions.",
   "category": "distribution",
   "alwaysUnlocked": false,
@@ -9,12 +9,12 @@
   "solid": false,
   "researchCost": [
     "nickle/25",
-    "Harbinger-Remnants/50"
+    "iron/10"
   ],
   "speed": 6,
   "health": 150,
   "requirements": [
-    "nickle/5",
-    "Harbinger-Remnants/10"
+    "nickle/5", 
+    "iron/10"
   ]
 }
