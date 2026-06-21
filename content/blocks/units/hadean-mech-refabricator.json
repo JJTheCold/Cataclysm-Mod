@@ -9,7 +9,7 @@
 "consumes": {
     "power": 1.5,
     "liquids": [
-        "hydrogen/0.025"
+        "hydrogen/0.5"
     ],
     "items":[
         "tungsten/40",
@@ -18,9 +18,9 @@
     ]
 },
 "requirements": [
-    "tungsten/40",
-    "silicon/50",
-    "oxide/10"
+    "tungsten/150",
+    "silicon/200",
+    "oxide/20"
 ],
 "constructTime": 1800,
 "researchCostMultiplier": 0.75,

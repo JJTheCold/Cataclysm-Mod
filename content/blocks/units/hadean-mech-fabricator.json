@@ -14,11 +14,15 @@
         "unit": "combustion",
         "requirements": [
             "beryllium/50",
-            "silicon/20",
-            "oxide/5"
+            "silicon/30"
         ],
         "time": 900
     }
+],
+"requirements": [
+    "beryllium/150",
+    "silicon/200",
+    "oxide/10"
 ],
   "research": {
   "parent": "tank-fabricator",
