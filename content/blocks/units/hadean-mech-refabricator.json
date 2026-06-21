@@ -9,7 +9,7 @@
 "consumes": {
     "power": 1.5,
     "liquids": [
-        "hydrogen/0.5"
+        "hydrogen/0.05"
     ],
     "items":[
         "tungsten/40",
