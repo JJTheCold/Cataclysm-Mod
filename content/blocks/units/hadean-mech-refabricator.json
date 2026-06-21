@@ -6,11 +6,6 @@
 "regionSuffix": "-extraDark",
 "type": "Reconstructor",
 "size": 3,
-"researchCost": [
-  "silicon/25",
-  "nickle/5",
-  "nickle/5"
-],
 "consumes": {
     "power": 1.5,
     "liquids": [
