@@ -24,7 +24,7 @@
   "immunities": [
     "melting",
     "sapped",
-    "cataclysM-incinerating",
+    "cataclysm-incinerating",
     "wet",
     "spore-slowed"
   ],
@@ -107,7 +107,7 @@
             "sizeTo": 600,
             "spin": 4,
             "particles": 1,
-            "region": "cataclysM-exo-gas1",
+            "region": "cataclysm-exo-gas1",
             "colorFrom": "FFB570FF",
             "colorTo": "8B7E7E03"
           },
@@ -119,7 +119,7 @@
             "sizeTo": 500,
             "spin": 6,
             "particles": 1,
-            "region": "cataclysM-exo-gas1",
+            "region": "cataclysm-exo-gas1",
             "colorFrom": "FFB570FF",
             "colorTo": "8B7E7E03"
           },
@@ -131,7 +131,7 @@
             "sizeTo": 400,
             "spin": 8,
             "particles": 1,
-            "region": "cataclysM-exo-gas1",
+            "region": "cataclysm-exo-gas1",
             "colorFrom": "FFB570FF",
             "colorTo": "8B7E7E03"
           },

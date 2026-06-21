@@ -67,7 +67,7 @@
     "freezing",
     "corroded",
     "sapped",
-    "cataclysM-incinerating",
+    "cataclysm-incinerating",
     "slow",
     "spore-slowed"
   ],
@@ -149,7 +149,7 @@
       "bullet": {
         "type": "BasicBulletType",
         "collidesAir": true,
-        "status": "cataclysM-incinerating",
+        "status": "cataclysm-incinerating",
         "statusDuration": 500,
         "speed": 8,
         "damage": 42,

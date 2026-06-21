@@ -22,10 +22,10 @@
       "type": "AssemblerUnitPlan",
       "unit": "gash",
       "requirements": [
-        "cataclysM-Large-nickle-wall/25",
-        "cataclysM-blast/12",
-        "cataclysM-thorn/8",
-        "cataclysM-spear/4"
+        "cataclysm-Large-nickle-wall/25",
+        "cataclysm-blast/12",
+        "cataclysm-thorn/8",
+        "cataclysm-spear/4"
       ],
       "time": 21000
     }
