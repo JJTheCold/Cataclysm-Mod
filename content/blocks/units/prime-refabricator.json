@@ -1,9 +1,19 @@
 {
   "upgrades": [
     [
-      "precept",
-      "anthicus",
-      "obviate",
+      "locus",
+      "precept"
+    ],
+    [
+      "cleroi",
+      "anthicus"
+    ],
+    [
+      "avert",
+      "obviate"
+    ],
+    [
+      "scorch",
       "hearth"
     ]
   ]
