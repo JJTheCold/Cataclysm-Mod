@@ -1,7 +1,7 @@
 {
   "localizedName": "Core: Origin",
   "type": "CoreBlock",
-  "description": "A basic core for a basic factory. Defend it at all costs.",
+  "description": "A basic Legion core. It's unit has a wide variety of offensive and defensive capabilities.",
   "details": "How did we get here?",
   "health": 21000,
   "squareSprite": false,
@@ -11,7 +11,6 @@
   "lightColor": "a5c9ff",
   "itemCapacity": 3500,
   "layer": 34,
-  "alwaysUnlocked": true,
   "buildCostMultiplier": 0.7,
   "unitCapModifier": 10,
   "requiresCoreZone": true,

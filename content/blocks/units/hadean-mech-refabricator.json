@@ -3,6 +3,7 @@
 "description": "Upgrades inputted Combustion units to the second tier.",
 "configurable": false,
 "category": "units",
+"regionSuffix": "-dark",
 "type": "Reconstructor",
 "size": 3,
 "researchCost": [
