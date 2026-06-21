@@ -1,0 +1,46 @@
+{
+  "researchCostMultiplier": 0.5,
+  "type": "UnitAssembler",
+  "name": "Hadean Assembler",
+  "description": "Assembles large [#ff826e]Hadean[] mech units from payloads. Output tier may be increased by adding upgrade modules.",
+  "size": 5,
+  "category": "units",
+  "droneType": "assembly-drone",
+  "dronesCreated": 4,
+  "droneConstructTime": 80,
+  "research": "mech-assembler",
+  "requirements": [
+    "thorium/500",
+    "silicon/1000",
+    "tungsten/200",
+    "oxide/1500",
+    "carbide/150",
+    "scorch-alloy/250"
+  ],
+  "plans": [
+    {
+      "unit": "hearth",
+      "requirements": [
+        "tungsten-wall-large/16",
+        "combustion/2"
+      ],
+      "time": 3600
+    },
+    {
+      "unit": "prevail",
+      "requirements": [
+        "carbide-wall-large/20",
+        "shielded-wall/5",
+        "heat/5"
+      ],
+      "time": 10800
+    }
+  ],
+  "consumes": {
+    "power": 2.5,
+    "liquids": [
+      "cyanogen/0.2"
+    ]
+  },
+  "areaSize": 13
+}
