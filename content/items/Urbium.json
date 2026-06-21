@@ -1,11 +1,11 @@
 {
     "name": "nickle",
-    "description": "A common, natual metal found within tronoe. Contains carbon.",
+    "description": "A common, natual metal found within . Contains carbon.",
     "hardness": 1,
     "cost": 1.5,
     "alwaysUnlocked": true,
     "color": "5c5d59",
     "research": "origin",
     "hiddenOnPlanets": ["erekir", "serpulo"],
-    "shownPlanets": ["tronoe"]
+    "shownPlanets": [""]
 }

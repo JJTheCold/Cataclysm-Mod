@@ -18,15 +18,11 @@
   "researchCostMultiplier": 0.1,
   "unitType": "legionnaire",
   "requirements": [
-    "silicon/500",
-    "tungsten/750",
-    "iron/500"
+    "silicon/350",
+    "tungsten/4750",
+    "oxide/3500",
+    "thorium/2500"
   ],
   "category": "effect",
-  "research": {
-    "root": true,
-    "planet": "tronoe",
-    "name": "[#ffc500]Tronoe",
-    "requiresUnlock": false
-  }
+  "research": "core-citadel"
 }
