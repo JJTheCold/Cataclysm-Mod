@@ -1,9 +1,9 @@
 {
-"localizedName": "Hadean Mech Refabricator",
+"name": "Hadean Mech Refabricator",
 "description": "Upgrades inputted Combustion units to the second tier.",
 "configurable": false,
 "category": "units",
-"regionSuffix": "-dark",
+"regionSuffix": "-extraDark",
 "type": "Reconstructor",
 "size": 3,
 "researchCost": [

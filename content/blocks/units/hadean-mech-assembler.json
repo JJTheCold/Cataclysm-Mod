@@ -5,7 +5,7 @@
   "description": "Assembles large [#ff826e]Hadean[] mech units from payloads. Output tier may be increased by adding upgrade modules.",
   "size": 5,
   "category": "units",
-  "regionSuffix": "-dark",
+  "regionSuffix": "-extraDark",
   "droneType": "assembly-drone",
   "dronesCreated": 4,
   "droneConstructTime": 80,
@@ -45,7 +45,7 @@
   },
   "areaSize": 13,
   "research": {
-  "parent": "hadean-mech-fabricator",
+  "parent": "hadean-mech-refabricator",
   "objectives": [
     "tank-assembler",
     "ship-assembler",
