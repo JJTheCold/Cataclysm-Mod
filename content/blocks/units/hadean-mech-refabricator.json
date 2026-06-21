@@ -29,11 +29,12 @@
 ],
 "constructTime": 1800,
 "researchCostMultiplier": 0.75,
-"plans": [
-    {
-        "unit": "combustion"
-    }
-],
+  "upgrades": [
+    [
+      "combustion",
+      "heat"
+    ]
+  ],
   "research": {
   "parent": "hadean-mech-fabricator",
   "objectives": [
