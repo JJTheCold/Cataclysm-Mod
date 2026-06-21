@@ -22,10 +22,10 @@
       "type": "AssemblerUnitPlan",
       "unit": "annihilate",
       "requirements": [
-        "cataclysm-Large-nickle-wall/95",
-        "cataclysm-large-quartz-wall/95",
-        "cataclysm-spear/12",
-        "cataclysm-lance/8"
+        "cataclysM-Large-nickle-wall/95",
+        "cataclysM-large-quartz-wall/95",
+        "cataclysM-spear/12",
+        "cataclysM-lance/8"
       ],
       "time": 61000
     }

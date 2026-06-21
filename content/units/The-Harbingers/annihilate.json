@@ -41,8 +41,8 @@
     "disarmed",
     "shocked",
     "electrified",
-    "cataclysm-ShellShocked",
-    "cataclysm-incinerating",
+    "cataclysM-ShellShocked",
+    "cataclysM-incinerating",
     "spore-slowed"
   ],
 "weapons": [
@@ -422,7 +422,7 @@
   },
       "bullet": {
         "type": "BasicBulletType",
-        "status": "cataclysm-ShellShocked",
+        "status": "cataclysM-ShellShocked",
         "statusDuration": 200,
         "sprite": "missile-large",
         "removeAfterPierce": false,

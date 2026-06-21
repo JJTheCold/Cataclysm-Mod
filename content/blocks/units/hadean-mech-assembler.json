@@ -22,8 +22,8 @@
       "unit": "hearth",
       "requirements": [
         "tungsten-wall-large/16",
-        "cataclysm-reinforced-scorch-wall-large/4",
-        "cataclysm-combustion/2"
+        "cataclysM-reinforced-scorch-wall-large/4",
+        "cataclysM-combustion/2"
       ],
       "time": 3600
     },
@@ -31,8 +31,8 @@
       "unit": "prevail",
       "requirements": [
         "carbide-wall-large/20",
-        "cataclysm-reinforced-scorch-wall-large/12",
-        "cataclysm-heat/5"
+        "cataclysM-reinforced-scorch-wall-large/12",
+        "cataclysM-heat/5"
       ],
       "time": 10800
     }
