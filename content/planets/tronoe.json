@@ -2,7 +2,6 @@
   "localizedName": "Tronoe",
   "description": "Barren Wasteland.",
   "alwaysUnlocked": true,
-
   "cloudMesh": [
     {
       "type": "HexSkyMesh",

@@ -8,5 +8,5 @@
     "radioactivity": 0.5,
     "research": "origin",
     "hiddenOnPlanets": ["erekir", "serpulo"],
-    "shownPlanets": [""]
+    "shownPlanets": ["tronoe"]
 }
