@@ -1,0 +1,44 @@
+{
+"localizedName": "Hadean Mech Refabricator",
+"description": "Upgrades inputted Combustion units to the second tier.",
+"configurable": false,
+"category": "units",
+"type": "Reconstructor",
+"size": 3,
+"researchCost": [
+  "silicon/25",
+  "nickle/5",
+  "nickle/5"
+],
+"consumes": {
+    "power": 1.5,
+    "liquids": [
+        "hydrogen/0.025"
+    ],
+    "items":[
+        "tungsten/40",
+        "silicon/50",
+        "oxide/10"
+    ]
+},
+"requirements": [
+    "tungsten/40",
+    "silicon/50",
+    "oxide/10"
+],
+"constructTime": 1800,
+"researchCostMultiplier": 0.75,
+"plans": [
+    {
+        "unit": "combustion"
+    }
+],
+  "research": {
+  "parent": "hadean-mech-fabricator",
+  "objectives": [
+    "mech-refabricator",
+    "tank-refabricator",
+    "ship-refabricator"
+  ]
+}
+}

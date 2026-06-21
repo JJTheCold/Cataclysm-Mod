@@ -1,5 +1,6 @@
 {
   "type": "legs",
+  "template": "ErekirUnitType",
   "legCount": 4,
   "legLength": 15,
   "legExtension": -5,

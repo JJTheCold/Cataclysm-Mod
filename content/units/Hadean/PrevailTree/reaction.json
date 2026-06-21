@@ -1,5 +1,6 @@
 {
   "type": "mech",
+  "template": "ErekirUnitType",
   "envDisabled": 0,
   "fogRadius": 20,
   "lightColor": "ff4f00",

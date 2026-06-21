@@ -1,0 +1,37 @@
+{
+"localizedName": "Hadean Mech Fabricator",
+"description": "Constructs Combustion units. Outputted units cannot be used directly, or moved into refabricators for upgrading.",
+"configurable": false,
+"category": "units",
+"type": "UnitFactory",
+"size": 3,
+"researchCost": [
+  "silicon/25",
+  "nickle/5",
+  "nickle/5"
+],
+"consumes": {
+    "power": 1.5
+},
+"researchCostMultiplier": 0.5,
+"plans": [
+    {
+        "unit": "combustion",
+        "requirements": [
+            "beryllium/50",
+            "silicon/20",
+            "oxide/5"
+        ],
+        "time": 1200
+    }
+],
+  "research": {
+  "parent": "tank-fabricator",
+  "objectives": [
+    "mech-fabricator",
+    "tank-fabricator",
+    "ship-fabricator",
+    "oxidation-chamber"
+  ]
+}
+}

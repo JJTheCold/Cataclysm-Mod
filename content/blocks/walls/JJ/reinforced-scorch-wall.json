@@ -1,0 +1,15 @@
+{
+  "type": "Wall",
+  "name": "Reinforced Scorch Wall",
+  "description": "Protects structures from incoming fire. Extremely Tough",
+  "size": 1,
+  "health": 1125,
+  "squareSprite": true,
+  "requirements": [
+    "tungsten/3",
+    "scorch-alloy/6"
+  ],
+  "research": "reinforced-surge-wall",
+  "category": "defense",
+  "researchCostMultiplier": 2.5
+}

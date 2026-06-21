@@ -1,0 +1,15 @@
+{
+  "type": "Wall",
+  "name": "Large Reinforced Scorch Wall",
+  "description": "Protects structures from incoming fire. Extremely Tough",
+  "size": 2,
+  "health": 6000,
+  "squareSprite": true,
+  "requirements": [
+    "tungsten/12",
+    "scorch-alloy/24"
+  ],
+  "research": "reinforced-scorch-wall",
+  "category": "defense",
+  "researchCostMultiplier": 2.5
+}
