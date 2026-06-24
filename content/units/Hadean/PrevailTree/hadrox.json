@@ -114,12 +114,25 @@
     "parts": [
       {
         "type": "FlarePart",
-        "sides": 4,
+        "sides": 2,
         "followRotation": false,
         "color1": "ffffff",
         "color2": "FF5845FF",
         "radius": 48,
         "stroke": 5,
+        "strokeTo": 5,
+        "progress": "life",
+        "layer": 100,
+        "weaponIndex": 0
+      },
+      {
+        "type": "FlarePart",
+        "sides": 2,
+        "followRotation": false,
+        "color1": "ffffff",
+        "color2": "FF5845FF",
+        "radius": 15,
+        "stroke": 15,
         "strokeTo": 5,
         "progress": "life",
         "layer": 100,
