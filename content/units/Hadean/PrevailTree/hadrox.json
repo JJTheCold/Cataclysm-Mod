@@ -102,7 +102,6 @@
       "mirror": true,
       "rotate": false,
       "shootY": 25,
-      "layerOffset": -0.00001,
       "shootStatus": "unmoving",
       "shootStatusDuration": 150,
       "shootCone": 50,
