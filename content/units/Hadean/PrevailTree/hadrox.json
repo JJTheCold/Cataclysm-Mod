@@ -119,7 +119,7 @@
         "color1": "ffffff",
         "color2": "FF5845FF",
         "radius": 48,
-        "stroke": 0,
+        "stroke": 2,
         "progress": "life",
         "layer": 100,
         "weaponIndex": 0
