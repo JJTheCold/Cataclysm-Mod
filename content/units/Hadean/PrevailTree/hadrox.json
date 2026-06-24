@@ -80,6 +80,21 @@
     "parts": [
       {
         "type": "RegionPart",
+        "suffix": "-mandible",
+        "layerOffset": -0.00001,
+        "under": true,
+        "moveX": 8,
+        "moveY": -8,
+        "progress": {
+          "type": "recoil",
+          "op": "blend",
+          "other": "heat",
+          "amount": -0.2
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
         "suffix": "-largeCellCap",
         "under": false,
         "moveX": 2,
@@ -137,21 +152,6 @@
         "progress": "life",
         "layer": 100,
         "weaponIndex": 0
-      },
-      {
-        "type": "RegionPart",
-        "suffix": "-mandible",
-        "layerOffset": -0.00001,
-        "under": true,
-        "moveX": 8,
-        "moveY": -8,
-        "progress": {
-          "type": "recoil",
-          "op": "blend",
-          "other": "heat",
-          "amount": -0.2
-        },
-        "mirror": true
       }
     ],
       "inaccuracy": 0,
