@@ -61,7 +61,7 @@
       "sectors": 4,
       "rotateSpeed": 2,
       "hitBuildings": false,
-      "sectorRad": 0.2,
+      "sectorRad": 0.8,
       "effectRadius": 5,
       "reload": 75
     }
