@@ -97,7 +97,7 @@
     {
       "name": "Hadrox",
       "x": 0,
-      "y": 0,
+      "y": -2,
       "rotateSpeed": 1.5,
       "mirror": true,
       "rotate": false,
@@ -114,12 +114,12 @@
     "parts": [
       {
         "type": "FlarePart",
-        "sides": 1,
-        "followRotation": false,
+        "sides": 2,
+        "followRotation": true,
         "color1": "ffffff",
         "color2": "FF5845FF",
         "radius": 48,
-        "stroke": 48,
+        "stroke": 0,
         "progress": "life",
         "layer": 100,
         "weaponIndex": 0
