@@ -111,40 +111,8 @@
       "alternate": false,
       "rotationLimit": 30,
       "shake": 2,
-      "shootSound": "sounds_jupiterImpact",
+      "shootSound": "sounds_jupiterShoot",
     "parts": [
-      
-        {
-          "type": "shapePart",
-          "progress": {
-            "type": "warmup",
-            "op": "blend",
-            "other": "heat",
-            "amount": 0.2
-          },
-          "y": 50,
-          "circle": true,
-          "bloom": true,
-          "layer": 114,
-          "color": "ffecc6",
-          "radiusTo": 34,
-          "radius": 15
-        },
-        {
-          "type": "shapePart",
-          "progress": {
-            "type": "warmup",
-            "op": "blend",
-            "other": "heat",
-            "amount": 0.2
-          },
-          "y": 50,
-          "circle": true,
-          "layer": 114,
-          "color": "ffecc6",
-          "radiusTo": 34,
-          "radius": 15
-        },
       {
         "type": "FlarePart",
         "y": 50,
@@ -160,7 +128,38 @@
         "layer": 100,
         "weaponIndex": 0
       },
-
+        {
+          "type": "shapePart",
+          "progress": {
+            "type": "warmup",
+            "op": "blend",
+            "other": "heat",
+            "amount": 0.2
+          },
+          "y": 50,
+          "circle": true,
+          "bloom": true,
+          "layer": 114,
+          "color": "ffffff",
+          "radiusTo": 10,
+          "radius": 5
+        },
+        {
+          "type": "shapePart",
+          "progress": {
+            "type": "warmup",
+            "op": "blend",
+            "other": "heat",
+            "amount": 0.2
+          },
+          "y": 50,
+          "circle": true,
+          "bloom": true,
+          "layer": 114,
+          "color": "ffecc6",
+          "radiusTo": 10,
+          "radius": 5
+        },
 
       {
         "type": "RegionPart",
