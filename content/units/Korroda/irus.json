@@ -124,7 +124,7 @@
         "trailColor": "77bfc0",
         "trailLength": 10,
         "trailWidth": 1.25,
-      "fragOnHit": false,
+        "fragOnHit": false,
         "fragBullet": {
           "type": "BasicBulletType",
           "fragBullets": 3,
