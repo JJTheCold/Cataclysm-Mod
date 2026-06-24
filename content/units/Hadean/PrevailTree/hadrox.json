@@ -14,9 +14,9 @@
   "shadowElevation": 2.35,
 
   "legMoveSpace": 1,
-  "legMaxLength": 1.2,
+  "legMaxLength": 1.8,
   "legMinLength": 0.2,
-  "legLengthScl": 0.2,
+  "legLengthScl": 0.95,
 
   "legSplashRange": 85,
   "legSplashDamage": 320,
@@ -80,11 +80,25 @@
     "parts": [
       {
         "type": "RegionPart",
+        "suffix": "-mandible",
+        "layerOffset": -0.00001,
+        "under": true,
+        "moveX": 4,
+        "moveY": -4,
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": -0.2
+        },
+        "mirror": true
+      },
+      {
+        "type": "RegionPart",
         "suffix": "-largeCellCap",
         "under": false,
         "moveX": 2,
         "moveY": -2,
-        "moveRot": 37,
         "progress": {
           "type": "warmup",
           "op": "blend",
@@ -109,24 +123,6 @@
       "alternate": false,
       "rotationLimit": 30,
       "shake": 2,
-    "parts": [
-      {
-        "type": "RegionPart",
-        "suffix": "-mandible",
-        "layerOffset": -0.00001,
-        "under": true,
-        "moveX": 4,
-        "moveY": -4,
-        "moveRot": 37,
-        "progress": {
-          "type": "warmup",
-          "op": "blend",
-          "other": "heat",
-          "amount": -0.2
-        },
-        "mirror": true
-      }
-    ],
       "shoot": {
         "shots": 5
       },
