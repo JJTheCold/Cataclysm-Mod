@@ -54,7 +54,7 @@
       "maxTargets": 15,
       "damage": 75,
       "healPercent": 1.25,
-      "y": 5,
+      "y": 0,
       "range": 160,
       "under": true,
       "status": "burning",
