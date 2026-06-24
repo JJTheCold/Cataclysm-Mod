@@ -102,7 +102,7 @@
       "mirror": true,
       "rotate": false,
       "outline": false,
-      "shootY": 25,
+      "shootY": 50,
       "shootCone": 360,
       "inaccuracy": 360,
       "recoil": 0,
@@ -112,8 +112,8 @@
       "rotationLimit": 30,
       "shake": 2,
       "shootSound": "sounds_jupiterShoot",
-    "parts": [
-      {
+      "parts": [
+        {
         "type": "FlarePart",
         "y": 50,
         "sides": 2,
@@ -127,7 +127,7 @@
         "progress": "warmup",
         "layer": 100,
         "weaponIndex": 0
-      },
+        },
         {
           "type": "shapePart",
           "progress": {
@@ -174,7 +174,24 @@
           "other": "heat",
           "amount": -0.2
         },
-        "mirror": true
+        "mirror": true,
+        "children": [
+            {
+          "type": "RegionPart",
+          "suffix": "-cells",
+          "layerOffset": -0.00001,
+          "under": true,
+          "moveX": 2,
+          "moveY": 2,
+          "progress": {
+            "type": "warmup",
+            "op": "blend",
+            "other": "heat",
+            "amount": -0.2
+          },
+          "mirror": true
+          }
+        ]
       },
       {
         "type": "FlarePart",
@@ -222,27 +239,17 @@
         "type": "missile-large",
         "collidesAir": true,
         "status": "cataclysm-incinerating",
-        "statusDuration": 1750,
+        "statusDuration": 800,
         "speed": 5,
         "damage": 42,
-        "width": 1,
-        "height": 1,
-        "lifetime": 450,
+        "width": 10,
+        "height": 20,
+        "pierce": false,
+        "lifetime": 60,
         "despawnEffect": "none",
         "hittable": false,
         "lightOpacity": 0,
         "reflectable": false,
-        "bulletInterval": 5,
-        "intervalRandomSpread": 360,
-        "intervalSpread": 300,
-        "intervalBullet": {
-          "type": "LightningBulletType",
-          "lightningColor": "62a0fc",
-          "lightningLength": 13,
-          "lightningDamage": 120,
-          "hitSound": "spark",
-          "lifetime": 1
-        },
         "hitEffect": {
           "type": "ParticleEffect",
           "line": true,
@@ -259,13 +266,14 @@
           "colorFrom": "FFB570FF",
           "colorTo": "FFB570FF"
         },
-        "pierce": true,
-        "pierceBuilding": true,
-        "incendAmount": 15,
         "fragBullet": {
         "type": "LaserBulletType",
         "length": 120,
         "width": 35,
+        "pierce": true,
+        "pierceBuilding": true,
+        "pierceCap": 2,
+        "lifetime": 15,
         "damage": 160,
         "hitEffect": {
           "type": "WaveEffect",
@@ -299,6 +307,8 @@
         "sideWidth": 3.4
         },
         "fragBullets": 1,
+        "fragSpread": 0,
+        "fragRandomSpread": 0,
         "fragVelocityMin": 0.5,
         "homingPower": 0.075,
         "homingRange": 370,
