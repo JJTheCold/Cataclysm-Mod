@@ -114,39 +114,13 @@
     "parts": [
       {
         "type": "FlarePart",
-        "sides": 2,
+        "sides": 4,
         "followRotation": false,
         "color1": "ffffff",
         "color2": "FF5845FF",
         "radius": 48,
-        "stroke": 3,
-        "strokeTo": 3,
-        "progress": "life",
-        "layer": 100,
-        "weaponIndex": 0
-      },
-      {
-        "type": "FlarePart",
-        "sides": 2,
-        "followRotation": false,
-        "color1": "ffffff",
-        "color2": "FF5845FF",
-        "radius": 20,
-        "stroke": 2,
-        "rotation": 10,
-        "progress": "life",
-        "layer": 100,
-        "weaponIndex": 0
-      },
-      {
-        "type": "FlarePart",
-        "sides": 2,
-        "followRotation": false,
-        "color1": "ffffff",
-        "color2": "FF5845FF",
-        "radius": 20,
-        "stroke": 2,
-        "rotation": -10,
+        "stroke": 5,
+        "strokeTo": 5,
         "progress": "life",
         "layer": 100,
         "weaponIndex": 0
@@ -159,7 +133,7 @@
         "moveX": 8,
         "moveY": -8,
         "progress": {
-          "type": "charge",
+          "type": "recoil",
           "op": "blend",
           "other": "heat",
           "amount": -0.2
