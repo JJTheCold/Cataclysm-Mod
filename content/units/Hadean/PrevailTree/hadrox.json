@@ -101,26 +101,30 @@
       "rotateSpeed": 1.5,
       "mirror": true,
       "rotate": false,
+      "outline": false,
       "shootY": 25,
-      "shootCone": 50,
-      "reload": 100,
+      "shootCone": 360,
+      "inaccuracy": 360,
+      "recoil": 0,
+      "drawOutline": false,
+      "reload": 10,
       "alternate": false,
       "rotationLimit": 30,
       "shake": 2,
-      "chargeSound": "lasercharge",
       "shootSound": "sounds_jupiterImpact",
     "parts": [
       
         {
           "type": "shapePart",
           "progress": {
-            "type": "charge",
+            "type": "warmup",
             "op": "blend",
             "other": "heat",
             "amount": 0.2
           },
-          "y": 25,
+          "y": 50,
           "circle": true,
+          "bloom": true,
           "layer": 114,
           "color": "ffecc6",
           "radiusTo": 34,
@@ -129,18 +133,33 @@
         {
           "type": "shapePart",
           "progress": {
-            "type": "charge",
+            "type": "warmup",
             "op": "blend",
             "other": "heat",
             "amount": 0.2
           },
-          "y": 25,
+          "y": 50,
           "circle": true,
           "layer": 114,
           "color": "ffecc6",
           "radiusTo": 34,
           "radius": 15
         },
+      {
+        "type": "FlarePart",
+        "y": 50,
+        "sides": 2,
+        "followRotation": false,
+        "color1": "ffecc6",
+        "color2": "FF5845FF",
+        "radius": 40,
+        "radiusTo": 120,
+        "stroke": 3,
+        "strokeTo": 5,
+        "progress": "warmup",
+        "layer": 100,
+        "weaponIndex": 0
+      },
 
 
       {
@@ -151,7 +170,7 @@
         "moveX": 8,
         "moveY": -8,
         "progress": {
-          "type": "recoil",
+          "type": "warmup",
           "op": "blend",
           "other": "heat",
           "amount": -0.2
@@ -164,10 +183,11 @@
         "followRotation": false,
         "color1": "ffecc6",
         "color2": "FF5845FF",
-        "radius": 48,
-        "stroke": 5,
+        "radius": 40,
+        "radiusTo": 120,
+        "stroke": 3,
         "strokeTo": 5,
-        "progress": "life",
+        "progress": "warmup",
         "layer": 100,
         "weaponIndex": 0
       },
@@ -179,14 +199,26 @@
         "color2": "FF5845FF",
         "radius": 15,
         "stroke": 15,
+        "progress": "warmup",
+        "layer": 100,
+        "weaponIndex": 0
+      },
+      {
+        "type": "FlarePart",
+        "sides": 2,
+        "followRotation": false,
+        "color1": "ffecc6",
+        "color2": "FF5845FF",
+        "radius": 15,
+        "radiusTo": 40,
+        "stroke": 3,
+        "rotation": 90,
         "strokeTo": 5,
-        "progress": "life",
+        "progress": "warmup",
         "layer": 100,
         "weaponIndex": 0
       }
     ],
-      "inaccuracy": 0,
-      "cooldownTime": 70,
       "bullet": {
         "type": "missile-large",
         "collidesAir": true,
