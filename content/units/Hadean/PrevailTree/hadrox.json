@@ -108,7 +108,6 @@
       "reload": 100,
       "alternate": false,
       "rotationLimit": 30,
-      "soundPitch": "0.3",
       "shake": 2,
       "chargeSound": "lasercharge",
       "shootSound": "cataclysm-sounds_jupiterImpact",
