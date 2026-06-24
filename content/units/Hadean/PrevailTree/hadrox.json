@@ -16,7 +16,7 @@
   "legMoveSpace": 1,
   "legMaxLength": 1.8,
   "legMinLength": 0.2,
-  "legLengthScl": 1.2,
+  "legLengthScl": 0.9,
 
   "legSplashRange": 85,
   "legSplashDamage": 320,
@@ -114,6 +114,18 @@
       "shootSound": "cataclysm-sounds_jupiterImpact",
     "parts": [
       {
+        "type": "FlarePart",
+        "sides": 1,
+        "followRotation": false,
+        "color1": "ffffff",
+        "color2": "FF5845FF",
+        "radius": 48,
+        "stroke": 48,
+        "progress": "life",
+        "layer": 100,
+        "weaponIndex": 0
+      },
+      {
         "type": "RegionPart",
         "suffix": "-mandible",
         "layerOffset": -0.00001,
@@ -140,20 +152,6 @@
         "damage": 42,
         "width": 0.1,
         "height": 0.1,
-        "parts": [
-              {
-                "type": "FlarePart",
-                "sides": 1,
-                "followRotation": true,
-                "color1": "ffffff",
-                "color2": "FF5845FF",
-                "radius": 48,
-                "stroke": 48,
-                "progress": "life",
-                "layer": 100,
-                "weaponIndex": 0
-              }
-        ],
         "shootEffect": {
           "type": "multiEffect",
           "layer": 110,
