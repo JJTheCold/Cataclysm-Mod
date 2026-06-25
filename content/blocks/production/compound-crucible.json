@@ -152,11 +152,7 @@
 "envDisabled": 4,
 
 "research": {
-  "parent": "surge-crucible",
-  "objectives": [
-    "carbide-crucible",
-    "cyanogen-synthesizer"
-  ]
+  "parent": "surge-crucible"
 }
 
 }
