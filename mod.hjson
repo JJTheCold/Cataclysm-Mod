@@ -2,13 +2,13 @@ name: "cataclysm"
 displayName: "[[]#ffc100]Cataclysm[[]]"
 author: "[[]#ffb33a]JJ[[]]"
 description: '''
-We're moving to erekir.
+Work on this mod has been discontinued.
 
-Do be aware, I am just one guy. I also have a life, so this mod will most likely not be finished for quite a while, unless I lock in tomorrow.
+We are moving to java.
 '''
-version: "[#ffc100]0.1[]"
+version: "0"
 minGameVersion: "154"
 hideBrowser: false
 hidden: false
-subtitle: "Beta release." 
+subtitle: "see ya cataclysm." 
 repo: "JJTheCold/Cataclysm-Mod"
